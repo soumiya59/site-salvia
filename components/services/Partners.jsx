@@ -1,6 +1,6 @@
 const Partners = () => {
   const partners = [
-    { name: "Google", className: "br-name" },
+    { name: "MIZA", className: "br-name" },
     { name: ".", className: "br-name" },
     { name: "Facebook", className: "br-name font-recoleta" },
     { name: ".", className: "br-name" },

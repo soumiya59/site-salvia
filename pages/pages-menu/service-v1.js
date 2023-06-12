@@ -147,12 +147,12 @@ const ServiceV1 = () => {
 				Feature Section Thirty Eight
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtyEight mt-180 lg-mt-120">
+      <div className="fancy-feature-thirtyEight lg-mt-120">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
               <div className="block-style-seven" data-aos="fade-right">
-                <div className="title-style-six">
+                <div className="title-style-six pt-3">
                   <div className="sc-title-two text-uppercase">SOLUTION</div>
                   <h2 className="main-title fw-500 tx-dark">
                     Digital solutions for businss.
