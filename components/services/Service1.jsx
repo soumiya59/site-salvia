@@ -3,12 +3,12 @@ import Link from "next/link";
 const services = [
   {
     iconSrc: "/images/icon/icon_104.svg",
-    title: "Application web",
+    title: "web Application ",
     delay: "100",
   },
   {
     iconSrc: "/images/icon/icon_105.svg",
-    title: "Application mobile",
+    title: "mobile Application ",
     delay: "200",
   },
   {
@@ -38,7 +38,7 @@ const services = [
   },
   {
     iconSrc: "/images/icon/icon_141.svg",
-    title: "Intelligence Artificielle",
+    title: "Artificial intelligence",
     delay: "200",
   },
   {
