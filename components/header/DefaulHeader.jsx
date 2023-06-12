@@ -3,6 +3,7 @@ import MainMenu from "./MainMenu";
 import Link from "next/link";
 import Image from "next/image";
 import { Dropdown } from 'react-bootstrap';
+import useLocalStorage from '../../utils/useLocalstorage';
 
 const DefaulHeader = () => {
   const [navbar, setNavbar] = useState(false);
@@ -29,10 +30,15 @@ const DefaulHeader = () => {
     
   };
   // console.log("DefaulHeader.jsx:27 ~ DefaulHeader ~ currentLanguage:", currentLanguage)
-  const [activeItem, setActiveItem] = useState('');
 
+  const [activeItem, setActiveItem] = useLocalStorage('navItem', 'Home');
   const handleItemClick = (item) => {
     setActiveItem(item);
+  };
+  const name = 'Home';
+  const handleClick = () => {
+    onItemClick(name);
+    localStorage.setItem('navItem', name);
   };
 
   return (
@@ -44,7 +50,7 @@ const DefaulHeader = () => {
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
-            <Link href="/" className="d-block">
+            <Link href='/' className='d-block' onClick={handleClick}>
               <Image
                 src="/images/logo/salvia1.svg"
                 alt="logo"
@@ -52,6 +58,14 @@ const DefaulHeader = () => {
                 height={35}
               />
             </Link>
+            {/* <Link href="/" className="d-block" onClick={()=>localStorage.setItem('navItem', 'Home');}>
+              <Image
+                src="/images/logo/salvia1.svg"
+                alt="logo"
+                width={120}
+                height={35}
+              />
+            </Link> */}
           </div>
           <div className="ight-widget ms-auto d-flex align-items-center order-lg-3">
             {/* <select className="login-btn-three rounded-circle tran3s me-3" >
