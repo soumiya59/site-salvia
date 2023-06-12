@@ -50,7 +50,7 @@ const AboutUsV1 = () => {
                   More About us.
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  We’r the top rated agency.
+                  We’re the top rated agency.
                 </h2>
               </div>
             </div>
@@ -93,7 +93,7 @@ const AboutUsV1 = () => {
 				Feature Section Fifty Two
 			============================================== 
 			--> */}
-      <VideoBlock />
+      {/* <VideoBlock /> */}
 
       {/* <!-- /.fancy-feature-fiftyTwo --> */}
 
@@ -112,15 +112,15 @@ const AboutUsV1 = () => {
               >
                 <div className="title-style-six">
                   <div className="sc-title-two text-uppercase">WHY US</div>
-                  <h2 className="main-title fw-500 tx-dark">
+                  <h2 className="main-title fw-500 tx-dark pb-30">
                     Everything with Marketing.
                   </h2>
                 </div>
                 {/* /.title-style-ten */}
-                <p className="fs-20 pt-20 pb-30 lg-pt-10 lg-pb-20">
+                {/* <p className="fs-20 pt-20 pb-30 lg-pt-10 lg-pb-20">
                   Turn your business into a sales machine today with lorem
                   Things go wrong have questions.
-                </p>
+                </p> */}
                 <ul className="style-none list-item">
                   {features.map((feature, index) => (
                     <li key={index}>{feature.text}</li>

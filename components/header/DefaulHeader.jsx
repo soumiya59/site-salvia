@@ -29,6 +29,11 @@ const DefaulHeader = () => {
     
   };
   // console.log("DefaulHeader.jsx:27 ~ DefaulHeader ~ currentLanguage:", currentLanguage)
+  const [activeItem, setActiveItem] = useState('');
+
+  const handleItemClick = (item) => {
+    setActiveItem(item);
+  };
 
   return (
     <header

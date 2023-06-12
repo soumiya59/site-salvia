@@ -3,3 +3,14 @@
 @import "../node_modules/react-modal-video/scss/modal-video.scss";
 @import "~bootstrap/scss/bootstrap";
 @import "public/main.scss";
+
+.text-pink{
+    color:#FF3294;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+     color: white;
+}
+.navbar a:hover {
+    color:#FF3294;
+}

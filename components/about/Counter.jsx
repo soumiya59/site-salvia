@@ -3,14 +3,14 @@ import { useInView } from "react-intersection-observer";
 
 const data = [
   {
-    count: 20,
+    count: 6,
     label: "Country Impacted",
-    unit: "billion",
+    unit: "K",
     colClass: "col-sm-6",
     delay: "100",
   },
   {
-    count: 30,
+    count: 12,
     label: "Volunteer",
     unit: "k+",
     colClass: "col-lg-4 col-sm-6",

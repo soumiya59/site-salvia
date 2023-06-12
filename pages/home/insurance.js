@@ -193,7 +193,7 @@ const Insurance = () => {
                       />
                       <div className="title-style-one">
                         <h2 className="main-title fw-500 tx-dark m0">
-                          Let’s talk with expereince advisors.
+                          Talk to experienced advisors.
                         </h2>
                       </div>
                       <p className="fs-20 tx-dark pt-20 m0">

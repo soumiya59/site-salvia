@@ -13,12 +13,12 @@ const services = [
   },
   {
     icon: "images/icon/icon_105.svg",
-    title: "Advice and strategy",
+    title: "E-commerce",
     delayAnim: 200,
   },
   {
     icon: "images/icon/icon_107.svg",
-    title: "Study and diagnosis",
+    title: "Email Marketing",
     delayAnim: 300,
   },
 ];
