@@ -7,7 +7,7 @@ import CallToAction from "../../components/team/CallToAction";
 const TeamV1 = () => {
   return (
     <>
-      <Seo pageTitle="Team V1" />
+      <Seo pageTitle="Team " />
       {/* <!-- 
       =============================================
       Theme Default Menu

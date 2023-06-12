@@ -25,7 +25,7 @@ const ServiceV1 = () => {
 
   return (
     <>
-      <Seo pageTitle="Service V1" />
+      <Seo pageTitle="Services" />
       {/* <!-- 
       =============================================
       Theme Default Menu
