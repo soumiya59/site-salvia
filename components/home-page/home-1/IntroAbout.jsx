@@ -68,14 +68,14 @@ const IntroAbout = () => {
               alt="shape"
               className="lazy-img"
             />
-            <Image
+            {/* <Image
               width={900}
               height={800}
               layout="intrinsic"
               src="/images/media/undraw3.svg"
               className="lazy-img avatar-img mb-50"
               alt="man"
-            />
+            /> */}
 
             {cardsData.map((item) => (
               <div
