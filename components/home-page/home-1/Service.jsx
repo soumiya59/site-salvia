@@ -1,29 +1,34 @@
 import Link from "next/link";
+import { useTranslation } from 'next-i18next';
 
-const services = [
+const Service = () => {
+  const { t } = useTranslation();
+  const services = [
   {
-    icon: "images/icon/icon_104.svg",
-    title: "Web development",
+    // icon: "images/icon/icon_104.svg",
+    icon: "images/service/web.png",
+    title: t("Web development"),
     delayAnim: 0,
   },
   {
-    icon: "images/icon/icon_141.svg",
-    title: "Hosting",
+    // icon: "images/icon/icon_141.svg",
+    icon: "images/service/cloud.png",
+    title: t("Hosting"),
     delayAnim: 100,
   },
   {
-    icon: "images/icon/icon_105.svg",
-    title: "E-commerce",
+    // icon: "images/icon/icon_105.svg",
+    icon: "images/service/ecom.png",
+    title: t("E-commerce"),
     delayAnim: 200,
   },
   {
-    icon: "images/icon/icon_107.svg",
-    title: "Email Marketing",
+    // icon: "images/icon/icon_107.svg",
+    icon: "images/service/mail.png",
+    title: t("Email Marketing"),
     delayAnim: 300,
   },
-];
-
-const Service = () => {
+  ];
   return (
     <>
       {services.map((service, index) => (
@@ -35,7 +40,7 @@ const Service = () => {
         >
           <div className="card-style-sixteen tran3s text-center position-relative mt-30">
             <div className="icon">
-              <img src={service.icon} alt="" className="lazy-img m-auto" />
+              <img src={service.icon} alt="" className="lazy-img m-auto " />
             </div>
             <h4 className="tx-dark pt-20">{service.title}</h4>
             <Link

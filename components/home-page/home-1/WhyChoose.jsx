@@ -1,28 +1,30 @@
-const accordionItems = [
+import { useTranslation } from 'next-i18next';
+const WhyChoose = () => {
+  const { t } = useTranslation();
+  const accordionItems = [
   {
     id: 1,
     icon: "/images/icon/icon_108.svg",
-    title: "Best Price.",
+    title: t("Best Price"),
     content:
       "Practice what you learned on realistic lorem quis test questions testing.",
   },
   {
     id: 2,
     icon: "/images/icon/icon_109.svg",
-    title: "Fast Process & Loan",
+    title: t("Fast Process"),
     content:
       "Practice what you learned on realistic lorem quis test questions testing.",
   },
   {
     id: 3,
     icon: "/images/icon/icon_110.svg",
-    title: "Guaranteed Return & Claim",
+    title: t("Guaranteed Return & Claim"),
     content:
       "Practice what you learned on realistic lorem quis test questions testing.",
   },
 ];
 
-const WhyChoose = () => {
   return (
     <div className="accordion accordion-style-five md-mb-70" id="accordionOne">
       {accordionItems.map((item) => (

@@ -1,27 +1,29 @@
 import Image from "next/image";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
+import { useTranslation } from 'next-i18next';
 
 const IntroAbout = () => {
+  const { t } = useTranslation();
   const [isOpen, setOpen] = useState(false);
   const cardsData = [
     {
       id: 1,
       cardNo: "card-one",
-      title: "Happier",
-      subtitle: "Customers",
+      title: t("Happier"),
+      subtitle: t("Customers"),
     },
     {
       id: 2,
-      title: "10+",
       cardNo: "card-two",
-      subtitle: "Developpers",
+      title: "10+",
+      subtitle: t("Developpers"),
     },
     {
       id: 3,
-      title: "Saller Leads",
       cardNo: "card-three",
-      subtitle: "Who are listing soon",
+      title: t("Saller Leads"),
+      subtitle: t("Who are listing soon"),
     },
   ];
 
@@ -47,8 +49,7 @@ const IntroAbout = () => {
               onClick={() => setOpen(true)}
             />
             <p className="tx-dark pt-30 pb-30 md-pb-15" data-aos="fade-up">
-              The team signed <span className="fw-500">~$1,000,000</span> in new
-              business in July. Accelerator has been a large part of that.
+              {t('The team signed')} <span className="fw-500">~$1,000,000</span> {t('in new business in July. Accelerator has been a large part of that.')}
             </p>
             <h6
               className="fs-20 tx-dark d-inline-block fst-italic position-relative ps-4"

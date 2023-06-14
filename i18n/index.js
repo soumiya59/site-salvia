@@ -1,14 +1,14 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import translationsInEng from '../locales/en.json';
-import translationsInFrn from '../locales/fr.json'
+import translationsInEng from '../locales/English.json';
+import translationsInFrn from '../locales/Francais.json'
 
 // the translations
 const resources = {
-  en: {
+  English: {
     translation: translationsInEng
   },
-  fr: {
+  Francais: {
     translation: translationsInFrn
   },
 };
@@ -17,9 +17,9 @@ i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     resources, // resources are important to load translations for the languages.
-    lng: "fr", // It acts as default language. When the site loads, content is shown in this language.  
+    lng: "English", // It acts as default language. When the site loads, content is shown in this language.  
     debug: true,
-    fallbackLng: "en", // use de if selected language is not available
+    fallbackLng: "English", // use de if selected language is not available
     interpolation: {
       escapeValue: false
     },

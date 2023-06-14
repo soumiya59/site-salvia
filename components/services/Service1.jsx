@@ -1,69 +1,71 @@
 import Link from "next/link";
+import { useTranslation } from 'next-i18next';
 
-const services = [
+const Service1 = () => {
+  const { t } = useTranslation();
+  const services = [
   {
-    iconSrc: "/images/icon/icon_104.svg",
-    title: "web Application ",
+    iconSrc: "/images/service/web.png",
+    title: t("Web development"),
     delay: "100",
   },
   {
-    iconSrc: "/images/icon/icon_105.svg",
-    title: "mobile Application ",
+    iconSrc: "/images/service/cloud.png",
+    title: t("Hosting"),
     delay: "200",
   },
   {
-    iconSrc: "/images/icon/icon_106.svg",
-    title: "Advertisement ",
+    iconSrc: "/images/service/adds.png",
+    title: t("Advertisement"),
     delay: "300",
   },
   {
-    iconSrc: "/images/icon/icon_107.svg",
-    title: "Social media",
+    iconSrc: "/images/service/media.png",
+    title: t("Social media"),
     delay: "100",
   },
   {
-    iconSrc: "/images/icon/icon_141.svg",
-    title: "Digital strategy",
+    iconSrc: "/images/service/digi.png",
+    title: t("Digital strategy"),
     delay: "200",
   },
   {
-    iconSrc: "/images/icon/icon_142.svg",
-    title: "Data Consulting",
+    iconSrc: "/images/service/data.png",
+    title: t("Data Consulting"),
     delay: "300",
   },
   {
-    iconSrc: "/images/icon/icon_107.svg",
-    title: "E-commerce",
+    iconSrc: "/images/service/ecom.png",
+    title: t("E-commerce"),
     delay: "100",
   },
   {
-    iconSrc: "/images/icon/icon_141.svg",
-    title: "Artificial intelligence",
+    iconSrc: "/images/service/ai.png",
+    title: t("Artificial intelligence"),
     delay: "200",
   },
   {
-    iconSrc: "/images/icon/icon_142.svg",
-    title: "Référencement naturel ",
+    iconSrc: "/images/service/ref.png",
+    title: t("Natural reference"),
     delay: "300",
   },
   {
-    iconSrc: "/images/icon/icon_107.svg",
-    title: "Design & graphisme",
+    iconSrc: "/images/service/des.png",
+    title: t("Design & graphisme"),
     delay: "100",
   },
   {
-    iconSrc: "/images/icon/icon_141.svg",
-    title: "Image de marque & branding",
+    iconSrc: "/images/service/brand.png",
+    title: t("Image de marque & branding"),
     delay: "200",
   },
   {
-    iconSrc: "/images/icon/icon_142.svg",
-    title: "Email Marketing",
+    iconSrc: "/images/service/mail.png",
+    title: t("Email Marketing"),
     delay: "300",
   },
 ];
 
-const Service1 = () => {
   return (
     <>
       {services.map((service, index) => (

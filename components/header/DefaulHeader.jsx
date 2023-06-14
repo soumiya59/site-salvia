@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import MainMenu from "./MainMenu";
 import Link from "next/link";
 import Image from "next/image";
+import i18n from "../../i18n/index";
+import { useTranslation } from 'next-i18next';
 import { Dropdown } from 'react-bootstrap';
-import useLocalStorage from '../../utils/useLocalstorage';
+// import useLocalStorage from '../../utils/useLocalstorage';
 
 const DefaulHeader = () => {
   const [navbar, setNavbar] = useState(false);
@@ -23,18 +25,14 @@ const DefaulHeader = () => {
     };
   }, []);
 
-  // change the language 
-  const [currentLanguage, setCurrentLanguage] = useState('English');
-  const handleLanguageChange = (language) => {
-    setCurrentLanguage(language);
-    
-  };
-  // console.log("DefaulHeader.jsx:27 ~ DefaulHeader ~ currentLanguage:", currentLanguage)
 
-  const [activeItem, setActiveItem] = useLocalStorage('navItem', 'Home');
-  const handleItemClick = (item) => {
-    setActiveItem(item);
+  const { t } = useTranslation();
+  const [selectedLanguage, setSelectedLanguage] =  useState(i18n.language);
+  const handleChangeLanguage = (eventKey) => {
+        i18n.changeLanguage(eventKey);
+        setSelectedLanguage(eventKey);   
   };
+  // const [activeItem, setActiveItem] = useLocalStorage('navItem', 'Home');
   const name = 'Home';
   const handleClick = () => {
     onItemClick(name);
@@ -58,41 +56,34 @@ const DefaulHeader = () => {
                 height={35}
               />
             </Link>
-            {/* <Link href="/" className="d-block" onClick={()=>localStorage.setItem('navItem', 'Home');}>
-              <Image
-                src="/images/logo/salvia1.svg"
-                alt="logo"
-                width={120}
-                height={35}
-              />
-            </Link> */}
           </div>
-          <div className="ight-widget ms-auto d-flex align-items-center order-lg-3">
+          <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
             {/* <select className="login-btn-three rounded-circle tran3s me-3" >
               <option value="English">English</option>
               <option value="francais">francais</option>
               <i className="bi bi-person" />
             </select> */}
-          <Dropdown>
+
+          <Dropdown onSelect={handleChangeLanguage} >
             <Dropdown.Toggle variant="" id="language-dropdown">
-              {currentLanguage}
+              {selectedLanguage}
             </Dropdown.Toggle>
       
-            <Dropdown.Menu>
-              <Dropdown.Item onClick={() => handleLanguageChange('English')}>
+            <Dropdown.Menu defaultValue={selectedLanguage}>
+              <Dropdown.Item  eventKey="English">
                 English
               </Dropdown.Item>
-              <Dropdown.Item onClick={() => handleLanguageChange('French')}>
-                French
+              <Dropdown.Item  eventKey="Francais">
+                Francais
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
- 
+
             <Link
               href="/contact"
               className="btn-twentyOne fw-500 tran3s d-none d-lg-block ms-3"
             >
-              Contact us
+              {t('Contact us')}
             </Link>
           </div>{" "}
           {/* /.right-widget */}

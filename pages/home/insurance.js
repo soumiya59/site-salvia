@@ -5,7 +5,6 @@ import DefaulHeader from "../../components/header/DefaulHeader";
 import AppBanner from "../../components/home-page/home-1/AppBanner";
 import Banner from "../../components/home-page/home-1/Banner";
 import Block from "../../components/home-page/home-1/Block";
-import Blog from "../../components/home-page/home-1/Blog";
 import ContactForm from "../../components/home-page/home-1/ContactForm";
 import Feature from "../../components/home-page/home-1/Feature";
 import Hero from "../../components/home-page/home-1/Hero";
@@ -13,10 +12,10 @@ import IntroAbout from "../../components/home-page/home-1/IntroAbout";
 import Service from "../../components/home-page/home-1/Service";
 import Testimonial from "../../components/home-page/home-1/Testimonial";
 import WhyChoose from "../../components/home-page/home-1/WhyChoose";
-
 import { useTranslation } from 'next-i18next';
 
 const Insurance = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Seo pageTitle="SALVIA" />
@@ -81,7 +80,7 @@ const Insurance = () => {
                   data-aos="fade-right"
                 >
                   <h2 className="main-title fw-500 tx-dark m0">
-                    Discover all our Services.
+                    {t('Discover all our Services.')}
                   </h2>
                 </div>
               </div>
@@ -97,7 +96,7 @@ const Insurance = () => {
                 className="btn-twentyTwo fw-500 tran3s"
                 data-aos="fade-left"
               >
-                View all Services
+                {t('View all services')}
               </Link>
             </div>
           </div>
@@ -119,9 +118,10 @@ const Insurance = () => {
             >
               <div className="ps-lg-5 ms-xxl-3">
                 <div className="title-style-one mb-40">
-                  <div className="sc-title text-uppercase">Why Choose Us</div>
+                  <div className="sc-title text-uppercase">
+                    {t('Why Choose Us')}</div>
                   <h2 className="main-title fw-500 tx-dark m0">
-                    What makes us the best.
+                    {t('What makes us the best.')}
                   </h2>
                 </div>
                 <WhyChoose />
@@ -148,7 +148,7 @@ const Insurance = () => {
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
-            <h2 className="main-title fw-500 tx-dark m0">Client Feedback</h2>
+            <h2 className="main-title fw-500 tx-dark m0">{t('Client Feedback')}</h2>
           </div>
         </div>
         <div className="inner-content">
@@ -195,7 +195,7 @@ const Insurance = () => {
                       />
                       <div className="title-style-one">
                         <h2 className="main-title fw-500 tx-dark m0">
-                          Talk to experienced advisors.
+                          {t('Talk to experienced advisors')}.
                         </h2>
                       </div>
                       <p className="fs-20 tx-dark pt-20 m0">
@@ -214,7 +214,7 @@ const Insurance = () => {
             {/* End .row */}
 
             <div className="shapes shape-text fw-500 fs-20 tx-dark text-center">
-              Fill the <br />
+              {t('Fill the')} <br />
               form
             </div>
             <img
@@ -280,7 +280,7 @@ const Insurance = () => {
                   </Link>
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
-                  Best Digital Company.
+                  {t('Best Digital Company')}.
                 </p>
                 <p className="text-white opacity-50 fs-15 m0 d-none d-lg-block">
                   © {new Date().getFullYear()} - {new Date().getFullYear() + 1}{" "}

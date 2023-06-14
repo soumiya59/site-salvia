@@ -1,7 +1,9 @@
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from 'next-i18next';
 
 const Hero1 = () => {
+  const { t } = useTranslation();
   const options = [
     { value: 0, display: "Select insurance type.." },
     { value: 1, display: "Life Insurance" },
@@ -26,15 +28,15 @@ const Hero1 = () => {
             <h1 className="fw-light tx-dark">
               {/* Everything for your <span>Home</span> &amp; Future. */}
               {/* Société de Services et d'Ingénierie Informatique */}
-              Increase your web traffic with our experts.
+              {t('Increase your web traffic with our experts.')}
             </h1>
             {/* <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40"> */}
             <p className="text-lg mb-75 pt-60 lg-mb-40 lg-pt-40">
               {/* Instant everything. Incredible prices. Big heart. */}
               {/* Tout instantané. Des prix incroyables. Grand coeur. */}
-              Digital company with top rated talented people that provides quality services.
+              {t('Digital company with top rated talented people that provides quality services.')}
             </p>
-            <form
+            {/* <form
               className="search-area d-md-inline-flex m-auto"
               onSubmit={handleSubmit}
             >
@@ -46,7 +48,7 @@ const Hero1 = () => {
               <button className="fw-500 text-white tran3s" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
             {/* End form */}
 
             {/* <div>

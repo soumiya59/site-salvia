@@ -1,27 +1,28 @@
 import React from "react";
-
+import { useTranslation } from 'next-i18next';
 const Footer = () => {
+  const { t } = useTranslation();
   const links = [
     {
       id: 1,
       title: "Links",
       column: "col-lg-2 col-md-3 col-sm-6 mb-30",
       items: [
-      { label: "Home", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Services", url: "/" },
-      { label: "Contact", url: "/" },
+      { label: t("Home"), url: "/" },
+      { label: t("About us"), url: "/" },
+      { label: t("Services"), url: "/" },
+      { label: t("Contact"), url: "/" },
       ],
     },
     {
       id: 2,
-      title: "Services",
+      title: t("Services"),
       column: "col-lg-3 col-md-4 col-sm-6 mb-30",
       items: [
-      { label: "Web development", href: "/pages-menu/service-v1" },
-      { label: "hosting", href: "/pages-menu/service-v1" },
-      { label: "Data Consulting", href: "/pages-menu/service-v1" },
-      { label: "Design & graphisme", href: "/pages-menu/service-v1" },
+      { label: t("Web development"), href: "/pages-menu/service-v1" },
+      { label: t("Hosting"), href: "/pages-menu/service-v1" },
+      { label: t("Data Consulting"), href: "/pages-menu/service-v1" },
+      { label: t("Design & graphisme"), href: "/pages-menu/service-v1" },
       ],
     },
   ];

@@ -7,8 +7,9 @@ import Testimonial from "../../components/home-page/home-3/Testimonial";
 import Faq from "../../components/services/Faq";
 import Partners from "../../components/services/Partners";
 import Link from "next/link";
-
+import { useTranslation } from 'next-i18next';
 const ServiceV1 = () => {
+  const { t } = useTranslation();
   const features = [
     { text: "Amazing communication." },
     { text: "Best trending designing experience." },
@@ -43,10 +44,10 @@ const ServiceV1 = () => {
             <div className="col-xxl-7 col-lg-6" data-aos="fade-right">
               <div className="title-style-five mb-45 md-mb-10">
                 <div className="sc-title-two fst-italic position-relative">
-                  Our Services
+                  {t('Our Services')}
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  Our Provided Services.
+                  {t('Our Provided Services')}.
                 </h2>
               </div>
             </div>
@@ -125,7 +126,7 @@ const ServiceV1 = () => {
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
-            <h2 className="main-title fw-500 tx-dark m0">Client Feedback</h2>
+            <h2 className="main-title fw-500 tx-dark m0">{t('Client Feedback')}</h2>
           </div>
         </div>
         {/* End .container */}
@@ -153,19 +154,18 @@ const ServiceV1 = () => {
             <div className="col-lg-5">
               <div className="block-style-seven" data-aos="fade-right">
                 <div className="title-style-six pt-3">
-                  <div className="sc-title-two text-uppercase">SOLUTION</div>
+                  <div className="sc-title-two text-uppercase">{t('SOLUTION')}</div>
                   <h2 className="main-title fw-500 tx-dark">
-                    Digital solutions for businss.
+                    {t('Digital solutions for businss')}.
                   </h2>
                 </div>
                 {/* /.title-style-ten */}
                 <p className="fs-20 pt-10 pb-30 lg-pb-20">
-                  Do you have more question about our solution? Just send us a
-                  message for help
+                  {t('Do you have more question about our solution? Just send us a message for help')}
                 </p>
                 <div className="btn-eighteen position-relative d-inline-block tx-dark">
                   <Link href="/page-menu/about-us-v1" className="fw-500 tran3s">
-                    More About solution
+                    {t('More About solution')}
                     <i className="fa-solid fa-angle-right" />
                   </Link>
                 </div>
@@ -185,7 +185,7 @@ const ServiceV1 = () => {
             <div className="row align-items-center">
               <div className="col-lg-5">
                 <h3 className="title tx-dark text-center text-lg-start md-pb-10 m0">
-                  <span>100+</span> Trusted Partners
+                  <span>100+</span> {t('Trusted Partners')}
                 </h3>
               </div>
               <div className="col-xl-6 col-lg-7 ms-auto">
@@ -218,10 +218,10 @@ const ServiceV1 = () => {
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
                       <div className="sc-title fs-18 pb-10">
-                        Have Any Project?
+                        {t('Have Any Project?')}
                       </div>
                       <h2 className="main-title fw-500 text-white m0">
-                        Don’t hesitate to send us message.
+                       {t('Don’t hesitate to send us message')}.
                       </h2>
                     </div>
                   </div>
@@ -232,7 +232,7 @@ const ServiceV1 = () => {
                       href="/contact"
                       className="btn-twentyOne fw-500 tran3s"
                     >
-                      Get Started Today!
+                      {t('Get Started Today')}!
                     </Link>
                   </div>
                 </div>

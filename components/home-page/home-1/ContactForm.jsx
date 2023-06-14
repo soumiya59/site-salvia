@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useTranslation } from 'next-i18next';
 
 const ContactForm = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -29,7 +31,7 @@ const ContactForm = () => {
           <div className="input-group-meta form-group mb-20">
             <input
               type="text"
-              placeholder="Your name*"
+              placeholder={t("Your name")}
               name="name"
               value={formData.name}
               onChange={handleChange}
@@ -44,7 +46,7 @@ const ContactForm = () => {
           <div className="input-group-meta form-group mb-20">
             <input
               type="email"
-              placeholder="Email*"
+              placeholder={t("Email")}
               name="email"
               value={formData.email}
               onChange={handleChange}
@@ -58,7 +60,7 @@ const ContactForm = () => {
         <div className="col-12">
           <div className="input-group-meta form-group mb-15">
             <textarea
-              placeholder="Your message*"
+              placeholder={t("Your message")}
               name="message"
               value={formData.message}
               onChange={handleChange}
@@ -74,7 +76,7 @@ const ContactForm = () => {
             type="submit"
             className="btn-twentyTwo w-100 fw-500 tran3s text-uppercase"
           >
-            SEND MESSAGE
+            {t('SEND MESSAGE')}
           </button>
         </div>
         {/* End .col-12 */}
@@ -82,9 +84,9 @@ const ContactForm = () => {
       {/* End .row */}
 
       <div className="fs-16 text-center mt-25">
-        <span className="opacity-75">Been here before?</span>{" "}
+        <span className="opacity-75">{t('Been here before?')}</span>{" "}
         <a href="#" className="tx-dark fw-500">
-          Check your query
+          {t('Check your query')}
         </a>
       </div>
     </form>

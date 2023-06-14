@@ -1,17 +1,18 @@
 import Image from "next/image";
+import { useTranslation } from 'next-i18next';
 
 const Feature = () => {
+  const { t } = useTranslation();
   const features = [
     {
       background: "#fffee7",
       title: (
         <>
-          {/* Regulated by <br /> WICO. */}
-          Quality Design
+         {t('Quality Design')} 
         </>
       ),
       // description: "100% Reliable",
-      description:"Design from Worldclass UI/UX designer." ,
+      description:t("Design from Worldclass UI/UX designers.") ,
       icon: "images/icon/icon_100.svg",
       width: "169",
       height: "165",
@@ -21,14 +22,12 @@ const Feature = () => {
       background: "#FBF1FF",
       title: (
         <>
-          {/* Get Instant support <br /> all day. */}
-          Marketing
+         {t('Marketing')} 
         </>
       ),
       width: "202",
       height: "170",
-      // description: "Claim Support",
-      description: "Provide SEO & SMM Services.",
+      description:t("Provide SEO & SMM Services.") ,
       icon: "images/icon/icon_101.svg",
       delay: "200",
     },
@@ -37,13 +36,12 @@ const Feature = () => {
       title: (
         <>
           {/* Unbiased advice <br /> from expert. */}
-          Development
+         {t('Development')} 
         </>
       ),
       width: "175",
       height: "175",
-      // description: "Consultation",
-      description: "Mobile App & Website Development.",
+      description:t("Mobile App & Website Development.") ,
       icon: "images/icon/icon_102.svg",
       delay: "300",
     },
@@ -62,7 +60,7 @@ const Feature = () => {
             className={`card-style-fifteen tran3s position-relative mt-35`}
             style={{ background: feature.background }}
           >
-            <h4>{feature.title}</h4>
+            <h4>{feature.title}</h4> 
             <p>{feature.description}</p>
             <Image
               width={feature.width}
