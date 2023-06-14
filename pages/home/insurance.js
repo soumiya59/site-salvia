@@ -14,6 +14,8 @@ import Service from "../../components/home-page/home-1/Service";
 import Testimonial from "../../components/home-page/home-1/Testimonial";
 import WhyChoose from "../../components/home-page/home-1/WhyChoose";
 
+import { useTranslation } from 'next-i18next';
+
 const Insurance = () => {
   return (
     <>

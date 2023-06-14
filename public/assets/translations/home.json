@@ -1,0 +1,14 @@
+{
+  "home": [
+    {   
+      "locale": "en-US",
+      "title": "This is a simple site",
+      "body": "This site demonstrates how to use translations"
+    },  
+    {   
+      "locale": "ja-JP",
+      "title": "これはシンプルなサイトです",
+      "body": "このサイトは翻訳の使い方の例です"
+    }   
+  ]
+}

@@ -32,7 +32,7 @@ const Hero1 = () => {
             <p className="text-lg mb-75 pt-60 lg-mb-40 lg-pt-40">
               {/* Instant everything. Incredible prices. Big heart. */}
               {/* Tout instantané. Des prix incroyables. Grand coeur. */}
-              Digital company with top rated talented people provide qulaity services.
+              Digital company with top rated talented people that provides quality services.
             </p>
             <form
               className="search-area d-md-inline-flex m-auto"
