@@ -5,7 +5,7 @@ import Image from "next/image";
 import i18n from "../../i18n/index";
 import { useTranslation } from 'next-i18next';
 import { Dropdown } from 'react-bootstrap';
-// import useLocalStorage from '../../utils/useLocalstorage';
+import useLocalStorage from '../../utils/useLocalstorage';
 
 const DefaulHeader = () => {
   const [navbar, setNavbar] = useState(false);
@@ -32,13 +32,14 @@ const DefaulHeader = () => {
         i18n.changeLanguage(eventKey);
         setSelectedLanguage(eventKey);   
   };
-  // const [activeItem, setActiveItem] = useLocalStorage('navItem', 'Home');
-  const name = 'Home';
-  const handleClick = () => {
-    onItemClick(name);
-    localStorage.setItem('navItem', name);
-  };
 
+  const [activeItem, setActiveItem] = useLocalStorage('navItem', 'Home');
+  const handleItemClick = () => {
+    setActiveItem('Home');
+  };
+  const handleItemClickContact = () => {
+    setActiveItem('Contact');
+  };
   return (
     <header
       className={`theme-main-menu sticky-menu theme-menu-eight border-bottom ${
@@ -48,7 +49,7 @@ const DefaulHeader = () => {
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
-            <Link href='/' className='d-block' onClick={handleClick}>
+            <Link href='/' className='d-block' onClick={handleItemClick}>
               <Image
                 src="/images/logo/salvia1.svg"
                 alt="logo"
@@ -58,12 +59,6 @@ const DefaulHeader = () => {
             </Link>
           </div>
           <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
-            {/* <select className="login-btn-three rounded-circle tran3s me-3" >
-              <option value="English">English</option>
-              <option value="francais">francais</option>
-              <i className="bi bi-person" />
-            </select> */}
-
           <Dropdown onSelect={handleChangeLanguage} >
             <Dropdown.Toggle variant="" id="language-dropdown">
               {selectedLanguage}
@@ -81,6 +76,7 @@ const DefaulHeader = () => {
 
             <Link
               href="/contact"
+              onClick={handleItemClickContact}
               className="btn-twentyOne fw-500 tran3s d-none d-lg-block ms-3"
             >
               {t('Contact us')}

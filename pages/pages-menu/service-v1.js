@@ -218,7 +218,7 @@ const ServiceV1 = () => {
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
                       <div className="sc-title fs-18 pb-10">
-                        {t('Have Any Project?')}
+                        {t('Have Any Project')}
                       </div>
                       <h2 className="main-title fw-500 text-white m0">
                        {t('Don’t hesitate to send us message')}.

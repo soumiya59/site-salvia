@@ -56,7 +56,7 @@ const Service1 = () => {
   },
   {
     iconSrc: "/images/service/brand.png",
-    title: t("Image de marque & branding"),
+    title: t("Branding"),
     delay: "200",
   },
   {

@@ -13,9 +13,15 @@ import Service from "../../components/home-page/home-1/Service";
 import Testimonial from "../../components/home-page/home-1/Testimonial";
 import WhyChoose from "../../components/home-page/home-1/WhyChoose";
 import { useTranslation } from 'next-i18next';
+import useLocalStorage from "../../utils/useLocalstorage";
 
 const Insurance = () => {
   const { t } = useTranslation();
+  const [activeItem, setActiveItem] = useLocalStorage('navItem', 'Home');
+  const handleClick = () => {
+    setActiveItem('Services');
+    localStorage.setItem('navItem', 'Services');
+  };
   return (
     <>
       <Seo pageTitle="SALVIA" />
@@ -95,6 +101,7 @@ const Insurance = () => {
                 href="/pages-menu/service-v1"
                 className="btn-twentyTwo fw-500 tran3s"
                 data-aos="fade-left"
+                onClick={handleClick}
               >
                 {t('View all services')}
               </Link>
