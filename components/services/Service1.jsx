@@ -57,7 +57,7 @@ const Service1 = () => {
   {
     id: 9,
     iconSrc: "/images/service/ref.png",
-    title: t("Natural reference"),
+    title: t("SEO"),
     delay: "300",
   },
   {

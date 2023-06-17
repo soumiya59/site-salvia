@@ -35,10 +35,15 @@ const DefaulHeader = () => {
 
   const [activeItem, setActiveItem] = useLocalStorage('navItem', 'Home');
   const handleItemClick = () => {
-    setActiveItem('Home');
+    if( activeItem !== 'Home') {
+      setActiveItem('Home');
+    }
+
   };
   const handleItemClickContact = () => {
+    if( activeItem !== 'Contact') {
     setActiveItem('Contact');
+    }
   };
   return (
     <header

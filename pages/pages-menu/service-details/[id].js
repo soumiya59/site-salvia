@@ -14,12 +14,12 @@ const PortfolioV1 = () => {
   const router = useRouter();
   const [service, setServiceItem] = useState({});
   const id = router.query.id;
-
+  
   const { t } = useTranslation();
   useEffect(() => {
     if (!id) <h1>Loading...</h1>;
     else setServiceItem(services.find((item) => item.id == id));
-
+    
     return () => {};
   }, [id]);
 
@@ -71,39 +71,27 @@ const PortfolioV1 = () => {
 			*/}
       <div className="service-details position-relative mt-10 mb-170 md-mt-50 lg-mb-120">
         <div className="container">
-          <div className="row">
-            <div className="col-xl-9 col-lg-8 order-lg-1">
-              <div className="service-details-meta ps-lg-5">
+          <div className="row ">
+            <div className="">
+              <div className="service-details-meta ">
                 <h2 className="main-title tx-dark mb-30">{service?.title}</h2>
-                <p className="text-lg tx-dark">
-                  Commonly used in the graphic, prit quis due &amp; publishing
-                  indust for previewing lightly visual mockups.
-                </p>
+                <p className="text-lg"> {service?.description} </p>
                 {/* <img
                   src="/images/media/img_95.jpg"
                   alt="media"
                   className="main-img-meta"
                 /> */}
-                <div className="mt-50 lg-mt-30">
-                  <div className="row gx-xxl-5">
-                    <div className="col-lg-6">
-                      <h4 className="sub-title mb-20 tx-dark">Our Goal</h4>
-                      <ul className="style-none list-item md-mb-40">
-                        <li>Various analysis options.</li>
-                        <li>Page Load (time, number of requests).</li>
-                        <li>Big data analysis.</li>
-                      </ul>
-                    </div>
-                    <div className="col-lg-6">
-                      <h4 className="sub-title mb-20 tx-dark">The Challange</h4>
-                      <p className="pe-xxl-5">
-                        Evernote Web offers a complete lineup of features from
-                        any major Maecena quis interdum, orci at euis dapibus,
-                        mass ante pharetra tellus done.
-                      </p>
-                    </div>
+                  <div className="pt-4">
+                    <ul className="style-none list-item md-mb-40">
+                    {
+                      service.more?.map((item, index) => {
+                        return(
+                            <li key={index}>{item}</li>
+                        )
+                      })
+                    }
+                    </ul>
                   </div>
-                </div>
                 <div className="mt-60 mb-20 lg-mt-30 lg-mb-10">
                   <div className="row gx-xxl-5">
                     {/* <ProgressBar /> */}

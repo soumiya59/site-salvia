@@ -4,8 +4,11 @@ import { useTranslation } from 'next-i18next';
 const NavigationItem = ({ name, active, onItemClick,route}) => {
   const { t } = useTranslation();
   const handleClick = () => {
+    console.log("🚀 ~ file: NavigationItem.jsx:5 ~ NavigationItem ~ active:", active)
+    if( !active) {
     onItemClick(name);
     localStorage.setItem('navItem', name);
+    }
   };
 
   return (
