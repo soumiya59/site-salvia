@@ -6,7 +6,7 @@ const Testimonial = () => {
     {
       imgSrc: "/images/media/img_02.png",
       backgroundColor: "#825EFF",
-      rating: "Very solid, 8.3 out 10",
+      rating: "Very solid 8.3 out 10",
       text: "We’v 9,000 agents across are country, Find agents near your neighborhood.",
       author: "Martin Jonas",
       country: "USA",
