@@ -6,24 +6,28 @@ const Service = () => {
   const services = [
   {
     // icon: "images/icon/icon_104.svg",
+    id:1,
     icon: "images/service/web.png",
     title: t("Web development"),
     delayAnim: 0,
   },
   {
     // icon: "images/icon/icon_141.svg",
+    id: 2,
    icon: "images/service/cloud.png",
     title: t("Hosting"),
     delayAnim: 100,
   },
   {
     // icon: "images/icon/icon_105.svg",
+    id: 7,
     icon: "images/service/ecom.png",
     title: t("E-commerce"),
     delayAnim: 200,
   },
   {
     // icon: "images/icon/icon_107.svg",
+    id: 12,
     icon: "images/service/mail.png",
     title: t("Email Marketing"),
     delayAnim: 300,
@@ -44,7 +48,8 @@ const Service = () => {
             </div>
             <h4 className="tx-dark pt-20">{service.title}</h4>
             <Link
-              href="/pages-menu/service-details"
+              // href="/pages-menu/service-details"
+              href={`/pages-menu/service-details/${service.id}`}
               className="read-more rounded-circle text-start tran3s"
             >
               <i className="bi bi-arrow-right" />

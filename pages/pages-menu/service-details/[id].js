@@ -85,7 +85,7 @@ const PortfolioV1 = () => {
                   <div className="pt-4">
                     <ul className="style-none list-item md-mb-40">
                     {
-                      service.more?.map((item, index) => {
+                      service?.more?.map((item, index) => {
                         return(
                             // <li key={index}>{t(item)}</li>
                             <li key={index}>{t(item)}</li>
