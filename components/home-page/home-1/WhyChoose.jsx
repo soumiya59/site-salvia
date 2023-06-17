@@ -26,32 +26,11 @@ const WhyChoose = () => {
 ];
 
   return (
-    <div className="accordion accordion-style-five md-mb-70" id="accordionOne">
+    <div className="accordion-style-five md-mb-70">
       {accordionItems.map((item) => (
-        <div className="accordion-item" key={item.id}>
-          <div className="accordion-header" id={`heading${item.id}`}>
-            <button
-              className={`accordion-button ${item.id === 2 ? "" : "collapsed"}`}
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target={`#collapse${item.id}`}
-              aria-expanded={item.id === 2 ? "true" : "false"}
-              aria-controls={`collapse${item.id}`}
-            >
-              <img src={item.icon} alt="" className="me-3" /> {item.title}
-            </button>
-          </div>
-          <div
-            id={`collapse${item.id}`}
-            className={`accordion-collapse collapse${
-              item.id === 2 ? " show" : ""
-            }`}
-            aria-labelledby={`heading${item.id}`}
-            data-bs-parent="#accordionOne"
-          >
-            <div className="accordion-body">
-              <p>{item.content}</p>
-            </div>
+        <div key={item.id}>
+          <div className={`accordion-button cursor-na`} >
+            <img src={item.icon} alt="" className="me-3" /> {item.title}
           </div>
         </div>
       ))}

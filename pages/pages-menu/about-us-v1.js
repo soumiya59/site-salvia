@@ -51,7 +51,7 @@ const AboutUsV1 = () => {
                   {t('More About us')}.
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  {t('Our History and goal')}.
+                  {t('Our History & Goals')}.
                 </h2>
               </div>
             </div>
