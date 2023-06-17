@@ -4,8 +4,10 @@ import ContactForm from "../components/contact/ContactForm";
 import Map from "../components/contact/Map";
 import DefaultFooter from "../components/footer/DefaultFooter";
 import DefaulHeader from "../components/header/DefaulHeader";
+import { useTranslation } from 'next-i18next';
 
-const contact = () => {
+const Contact = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Seo pageTitle="Contact" />
@@ -27,9 +29,9 @@ const contact = () => {
             <div className="col-lg-7 text-center m-auto wow fadeInUp">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative d-inline-block">
-                  Contact info
+                  {t('Contact info')}
                 </div>
-                <h2 className="main-title fw-500 tx-dark">Get in Touch.</h2>
+                <h2 className="main-title fw-500 tx-dark">{t('Get in Touch')}.</h2>
               </div>
             </div>
           </div>
@@ -59,7 +61,7 @@ const contact = () => {
           <div className="row">
             <div className="col-lg-8 col-md-9 m-auto">
               <h2 className="tx-dark text-center mt-100 mb-80 lg-mt-40 lg-mb-40 wow fadeInUp">
-                Any question? Send us message.
+                {t('Any question? Send us message')}.
               </h2>
             </div>
             <div className="col-xl-11 m-auto">
@@ -82,4 +84,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

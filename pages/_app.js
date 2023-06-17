@@ -7,7 +7,6 @@ import ScrollToTop from "../components/common/ScrollTop";
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
-
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     Aos.init({

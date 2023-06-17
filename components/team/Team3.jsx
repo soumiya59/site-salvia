@@ -1,10 +1,13 @@
 import Image from "next/image";
+import { useTranslation } from 'next-i18next';
 
-const teamMembers = [
+const Team3 = () => {
+  const { t } = useTranslation();
+  const teamMembers = [
   {
     id: 1,
     name: "Zubayer Al Hasan",
-    role: "Developer",
+    role: t("Developer"),
     imgSrc: "/images/team/img_04.jpg",
   },
   {
@@ -16,18 +19,17 @@ const teamMembers = [
   {
     id: 3,
     name: "Rashed Kabir",
-    role: "Designer",
+    role: t("Designer"),
     imgSrc: "/images/team/img_06.jpg",
   },
   {
     id: 4,
     name: "Angelina Shelly",
-    role: "Analyst",
+    role: t("Analyst"),
     imgSrc: "/images/team/img_07.jpg",
   },
 ];
 
-const Team3 = () => {
   return (
     <>
       {teamMembers.map((member) => (

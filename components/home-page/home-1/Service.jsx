@@ -12,7 +12,7 @@ const Service = () => {
   },
   {
     // icon: "images/icon/icon_141.svg",
-    icon: "images/service/cloud.png",
+   icon: "images/service/cloud.png",
     title: t("Hosting"),
     delayAnim: 100,
   },

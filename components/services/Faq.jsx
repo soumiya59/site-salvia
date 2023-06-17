@@ -1,25 +1,27 @@
-const accordionItems = [
+import { useTranslation } from 'next-i18next';
+const Faq = () => {
+  const { t } = useTranslation();
+  const accordionItems = [
   {
     id: 1,
-    title: "Google ads setup & management",
+    title: t("Google ads setup & management"),
     content:
       "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook.",
   },
   {
     id: 2,
-    title: "Web Design & Development",
+    title: t("Web Design & Development"),
     content:
       "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook.",
   },
   {
     id: 3,
-    title: "Reputation management",
+    title: t("Reputation management"),
     content:
       "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook.",
   },
 ];
 
-const Faq = () => {
   return (
     <div className="accordion accordion-style-two md-mt-60" id="accordionOne">
       {accordionItems.map((item) => (

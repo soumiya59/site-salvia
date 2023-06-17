@@ -1,24 +1,26 @@
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from 'next-i18next';
 
-const data = [
+const Counter = () => {
+  const { t } = useTranslation();
+  const data = [
   {
     count: 6,
-    label: "Country Impacted",
+    label: t("Country Impacted"),
     unit: "K",
     colClass: "col-sm-6",
     delay: "100",
   },
   {
     count: 12,
-    label: "Volunteer",
+    label: t("Volunteer"),
     unit: "k+",
     colClass: "col-lg-4 col-sm-6",
     delay: "200",
   },
 ];
 
-const Counter = () => {
   const { ref, inView } = useInView({
     triggerOnce: true,
     rootMargin: "-100px 0px",

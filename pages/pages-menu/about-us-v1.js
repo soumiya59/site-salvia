@@ -7,14 +7,15 @@ import Testimonial from "../../components/home-page/home-3/Testimonial";
 import Block from "../../components/services/Block";
 import Team3 from "../../components/team/Team3";
 import Link from "next/link";
-import VideoBlock from "../../components/about/VideoBlock";
 import Counter from "../../components/about/Counter";
+import { useTranslation } from 'next-i18next';
 
 const AboutUsV1 = () => {
+  const { t } = useTranslation();
   const features = [
-    { text: "Amazing communication." },
-    { text: "Best trending designing experience." },
-    { text: "Email & Live chat." },
+    { text: t("Amazing communication.") },
+    { text: t("Best trending designing experience.") },
+    { text: t("Email & Live chat.") },
   ];
 
   const starRating = Array(5)
@@ -47,10 +48,10 @@ const AboutUsV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 md-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  More About us.
+                  {t('More About us')}.
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  We’re the top rated agency.
+                  {t('Our History and goal')}.
                 </h2>
               </div>
             </div>
@@ -58,7 +59,6 @@ const AboutUsV1 = () => {
           <div className="row">
             <div className="col-xl-8 col-lg-9 ms-auto">
               <div className="ps-xxl-5" data-aos="fade-left">
-                <h6 className="mb-30">Our History &amp; Goal.</h6>
                 <p className="text-lg tx-dark">
                   Our founders Dustin Moskovitz and Justin Rosenstein met while
                   leading Engineering teams at Facebook. As operations scaled,
@@ -111,9 +111,9 @@ const AboutUsV1 = () => {
                 data-aos="fade-right"
               >
                 <div className="title-style-six">
-                  <div className="sc-title-two text-uppercase">WHY US</div>
+                  <div className="sc-title-two text-uppercase">{t('WHY US')}</div>
                   <h2 className="main-title fw-500 tx-dark pb-30">
-                    Everything with Marketing.
+                    {t('Everything with Marketing')}.
                   </h2>
                 </div>
                 {/* /.title-style-ten */}
@@ -131,7 +131,7 @@ const AboutUsV1 = () => {
                   <div className="fs-20 ms-2">
                     <strong className="fw-500 tx-dark">4.8</strong>
                     <span className="tx-dark fs-16 opacity-50">
-                      (30k Reviews)
+                      (30k {t('Reviews')})
                     </span>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ const AboutUsV1 = () => {
             <div className="row align-items-center">
               <div className="col-lg-5" data-aos="fade-right">
                 <div className="title-style-six text-center text-lg-start pb-40 lg-pb-20 md-pb-10">
-                  <h2 className="main-title fw-500 tx-dark">Our Team</h2>
+                  <h2 className="main-title fw-500 tx-dark">{t('Our Team')}</h2>
                 </div>
                 {/* /.title-style-six */}
               </div>
@@ -175,9 +175,9 @@ const AboutUsV1 = () => {
               className="cr-text text-center text-lg tx-dark mt-75 lg-mt-50"
               data-aos="fade-up"
             >
-              Our nearly
+              {t('Our nearly')}
               <span className="text-decoration-underline fw-500">8,000+</span>
-              committed staff members are ready to help.
+              {t('committed staff members are ready to help')}.
             </p>
             <div className="text-center md-mt-20">
               <Link
@@ -185,7 +185,7 @@ const AboutUsV1 = () => {
                 className="btn-twentyTwo fw-500 tran3s"
                 data-aos="fade-left"
               >
-                View full team
+                {t('View full team')}
               </Link>
             </div>
           </div>
@@ -211,7 +211,7 @@ const AboutUsV1 = () => {
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
-            <h2 className="main-title fw-500 tx-dark m0">Client Feedback</h2>
+            <h2 className="main-title fw-500 tx-dark m0">{t('Client Feedback')}</h2>
           </div>
         </div>
         {/* End .container */}
@@ -239,19 +239,18 @@ const AboutUsV1 = () => {
             <div className="col-lg-5">
               <div className="block-style-seven" data-aos="fade-right">
                 <div className="title-style-six">
-                  <div className="sc-title-two text-uppercase">SOLUTION</div>
+                  <div className="sc-title-two text-uppercase">{t('SOLUTION')}</div>
                   <h2 className="main-title fw-500 tx-dark">
-                    Digital solutions for businss.
+                    {t('Digital solutions for business')}.
                   </h2>
                 </div>
                 {/* /.title-style-ten */}
                 <p className="fs-20 pt-10 pb-30 lg-pb-20">
-                  Do you have more question about our solution? Just send us a
-                  message for help
+                  {t('Do you have more question about our solution? Just send us a message for help')}
                 </p>
                 <div className="btn-eighteen position-relative d-inline-block tx-dark">
                   <Link href="/page-menu/about-us-v1" className="fw-500 tran3s">
-                    More About solution
+                    {t('More About solution')}
                     <i className="fa-solid fa-angle-right" />
                   </Link>
                 </div>
@@ -271,7 +270,7 @@ const AboutUsV1 = () => {
             <div className="row align-items-center">
               <div className="col-lg-5">
                 <h3 className="title tx-dark text-center text-lg-start md-pb-10 m0">
-                  <span>100+</span> Trusted Partners
+                  <span>100+</span> {t('Trusted Partners')}
                 </h3>
               </div>
               <div className="col-xl-6 col-lg-7 ms-auto">
@@ -304,10 +303,10 @@ const AboutUsV1 = () => {
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
                       <div className="sc-title fs-18 pb-10">
-                        Have Any Project?
+                        {t('Have Any Project')}?
                       </div>
                       <h2 className="main-title fw-500 text-white m0">
-                        Don’t hesitate to send us message.
+                        {t('Don’t hesitate to send us message')}.
                       </h2>
                     </div>
                   </div>
@@ -318,7 +317,7 @@ const AboutUsV1 = () => {
                       href="/contact"
                       className="btn-twentyOne fw-500 tran3s"
                     >
-                      Get Started Today!
+                      {t('Get Started Today')}!
                     </Link>
                   </div>
                 </div>
