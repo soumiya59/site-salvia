@@ -5,11 +5,8 @@ import ProgressBar from "./service-details/ProgressBar";
 import Faq from "../../components/home-page/home-2/Faq";
 import Social from "./service-details/Social";
 import Link from "next/link";
-import services from "../../data/services";
 
 const PortfolioV1 = () => {
-  const {id}= useParams()
-  const s = services.find((p)=> p.id==id)
   return (
     <>
       <Seo pageTitle="Service Details" />
@@ -61,7 +58,7 @@ const PortfolioV1 = () => {
           <div className="row">
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
-                <h2 className="main-title tx-dark mb-30">{s.title}</h2>
+                <h2 className="main-title tx-dark mb-30">Web Development</h2>
                 <p className="text-lg tx-dark">
                   Commonly used in the graphic, prit quis due &amp; publishing
                   indust for previewing lightly visual mockups.
