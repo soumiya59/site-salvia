@@ -31,7 +31,7 @@ module.exports = [
     title: "Staying Ahead with Technology",
     rating: 5,
     text: "Always up-to-date with the latest technology trends. Great service!",
-    author: "Noah Carter",
+    author: "Noah Carter",  
     location: "Canada",
     image: "/images/media/img_55.jpg",
   },

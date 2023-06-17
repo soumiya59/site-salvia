@@ -11,18 +11,18 @@ const BlockContact = () => {
       delay: "100",
     },
     {
+      icon: "/images/icon/icon_149.svg",
+      title: t("Opening time"),
+      content: t("Monday to Friday : 9 AM to 6 PM"),
+      content2: t("Saturday : 9 AM to 12 PM"),
+      delay: "300",
+    },
+    {
       icon: "/images/icon/icon_148.svg",
       title: t("Contact Info"),
       content: t("give us call at"),
       link: "tel:0523232323",
       delay: "200",
-    },
-    {
-      icon: "/images/icon/icon_149.svg",
-      title: t("Email us"),
-      content: "contact@salvia.ma",
-      // link: "contact@salvia.ma",
-      delay: "300",
     },
   ];
 
@@ -41,7 +41,7 @@ const BlockContact = () => {
             </div>
             <h5 className="title">{block.title}</h5>
             <p>
-              {block.content} <br />
+              {block.content} <br /> {block.content2}
               {block.link && (
                 <a
                   href={block.link}

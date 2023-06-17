@@ -57,14 +57,10 @@ const AboutUsV1 = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-xl-8 col-lg-9 ms-auto">
+            <div className="">
               <div className="ps-xxl-5" data-aos="fade-left">
                 <p className="text-lg tx-dark">
-                  Our founders Dustin Moskovitz and Justin Rosenstein met while
-                  leading Engineering teams at Facebook. As operations scaled,
-                  they grew frustrated by how difficult it was to coordinate.
-                  incidi utl abor et dolor magna aliu. enim ad mim venam, quis
-                  nostru labore lorem dus amet sample text.
+                  {t("Salvia is a web development software company focused on creating innovative solutions to empower businesses in the digital realm . With 15 years expertise in web development technologies, we tailor our services to meet the unique needs of each client. Our team of skilled professionals is dedicated to delivering high-quality , scalable, and user-friendly web applications. At Salvia, we strive to drive digital success for our clients through cutting-edge web development solutions and exceptional customer service.")}
                 </p>
                 <div className="row">
                   <Counter />
@@ -75,11 +71,6 @@ const AboutUsV1 = () => {
         </div>
         {/* /.container */}
 
-        <img
-          src="/images/shape/shape_171.svg"
-          alt="shape"
-          className="lazy-img shapes shape-one"
-        />
         <img
           src="/images/shape/shape_172.svg"
           alt="shape"

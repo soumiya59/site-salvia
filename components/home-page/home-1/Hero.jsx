@@ -28,13 +28,13 @@ const Hero1 = () => {
             <h1 className="fw-light tx-dark">
               {/* Everything for your <span>Home</span> &amp; Future. */}
               {/* Société de Services et d'Ingénierie Informatique */}
-              {t('Increase your web traffic with our experts.')}
+              {t("Building Tomorrow's Digital Solutions Today!")}
             </h1>
             {/* <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40"> */}
             <p className="text-lg mb-75 pt-60 lg-mb-40 lg-pt-40">
               {/* Instant everything. Incredible prices. Big heart. */}
               {/* Tout instantané. Des prix incroyables. Grand coeur. */}
-              {t('Digital company with top rated talented people that provides quality services.')}
+              {t("At salvia we design, develop and deploy custom web applications that provide excellent usability, scalability and universal compatibility. We create unique solutions designed to promote your success.")}
             </p>
             {/* <form
               className="search-area d-md-inline-flex m-auto"
@@ -62,7 +62,7 @@ const Hero1 = () => {
       </div>
       {/* End .container */}
 
-      <Image
+      {/* <Image
         width={487}
         height={649}
         src="/images/assets/ils_11.png"
@@ -79,7 +79,7 @@ const Hero1 = () => {
         className="lazy-img illustration-two"
         data-aos="fade-right"
         layout="intrinsic"
-      />
+      /> */}
     </div>
   );
 };

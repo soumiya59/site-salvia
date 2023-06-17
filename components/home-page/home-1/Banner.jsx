@@ -16,6 +16,7 @@ const Banner = () => {
       <p className="text-lg tx-dark opacity-75 mb-30 lg-mb-20">
         {t('I couldn’t have asked for a better experience with SALVIA!')}
       </p>
+
       <div className="d-inline-flex align-items-center">
         <ul className="d-flex style-none rating">{stars}</ul>
         <div className="fs-20 ms-4">
@@ -23,6 +24,36 @@ const Banner = () => {
           <span className="tx-dark opacity-25">(30k {t('Reviews')})</span>
         </div>
       </div>
+
+        <div className="shapes shape-one rounded-circle" />
+        <img
+          src="/images/shape/shape_83.svg"
+          alt="shape"
+          className="lazy-img shapes shape-two"
+        />
+        <div className="shapes shape-three" />
+        <img
+          src="/images/shape/shape_84.svg"
+          alt="shape"
+          className="lazy-img shapes shape-four"
+        />
+        <img
+          src="/images/shape/shape_85.svg"
+          alt="shape"
+          className="lazy-img shapes shape-five"
+        />
+        <div className="shapes shape-six rounded-circle" />
+        <div className="shapes shape-seven rounded-circle" />
+        <img
+          src="/images/shape/shape_84.svg"
+          alt="shape"
+          className="lazy-img shapes shape-eight"
+        />
+        <img
+          src="/images/shape/shape_83.svg"
+          alt="shape"
+          className="lazy-img shapes shape-nine"
+        />
     </div>
   );
 };

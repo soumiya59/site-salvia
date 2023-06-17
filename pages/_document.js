@@ -5,12 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta
-          name="description"
-          content="Jano - Creative Multipurpose React NextJS Template"
-        />
-        <meta
           name="keywords"
-          content="agency, bootstrap 5, business, business multipurpose, charity, creative, creative template, crypto, education, hosting, insurance, landing page, portfolio, real estate, responsive, react, nextjs"
+          content="agency, salvia, business, business multipurpose, charity, creative, crypto, education, hosting, insurance, real estate, responsive, react, nextjs"
         />
 
         <link rel="icon" href="/favicon1.png" />

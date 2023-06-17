@@ -150,10 +150,9 @@ const Insurance = () => {
 			=====================================================
 			*/}
       <div
-        className="feedback-section-eleven position-relative mt-200 pt-100 pb-70 lg-mt-120 lg-pt-70 lg-pb-50"
-        data-aos="fade-up"
+        className="mt-200  pb-70 lg-mt-120 lg-pt-70 lg-pb-50"
       >
-        <div className="container">
+        {/* <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
             <h2 className="main-title fw-500 tx-dark m0">{t('Client Feedback')}</h2>
           </div>
@@ -162,9 +161,7 @@ const Insurance = () => {
           <div className="feedback_slider_seven">
             <Testimonial />
           </div>
-
-          {/* /.slider-wrapper */}
-        </div>
+        </div> */}
         {/* /.inner-content */}
       </div>
       {/* /.feedback-section-eleven */}
