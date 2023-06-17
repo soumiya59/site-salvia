@@ -43,7 +43,8 @@ export const pagesItems = [
       { title: "Service One", link: "/pages-menu/service-v1" },
       { title: "Service Two", link: "/pages-menu/service-v2" },
       { title: "Service Three", link: "/pages-menu/service-v3" },
-      { title: "Service Details", link: "/pages-menu/service-details" },
+      // { title: "Service Details", link: "/pages-menu/service-details/" },
+      { title: "Service Details", link: "/pages-menu/service-details/:id" },
     ],
   },
   {

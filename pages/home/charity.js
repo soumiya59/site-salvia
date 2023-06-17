@@ -5,7 +5,7 @@ import BrandSlider from "../../components/home-page/home-4/BrandSlider";
 import CallToAction from "../../components/home-page/home-4/CallToAction";
 import CampaignBlock from "../../components/home-page/home-4/CampaignBlock";
 import CampaignBlock2 from "../../components/home-page/home-4/CampaignBlock2";
-import ContactUs from "../../components/home-page/home-4/ContactUs";
+import ContactUs from "../../components/home-page/home-4/contactUs";
 import Counter from "../../components/home-page/home-4/Counter";
 import Features from "../../components/home-page/home-4/Features";
 import Hero from "../../components/home-page/home-4/Hero";

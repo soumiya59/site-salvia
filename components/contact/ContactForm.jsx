@@ -1,4 +1,6 @@
+import { useTranslation } from 'next-i18next';
 const ContactForm = () => {
+  const { t } = useTranslation();
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission
@@ -13,7 +15,7 @@ const ContactForm = () => {
             <div className="input-group-meta form-group mb-30">
               <input
                 type="text"
-                placeholder="Your Name*"
+                placeholder={t("Your name")}
                 name="name"
                 required="required"
                 data-error="Name is required."
@@ -27,7 +29,7 @@ const ContactForm = () => {
             <div className="input-group-meta form-group mb-50">
               <input
                 type="email"
-                placeholder="Email Address*"
+                placeholder={t("Email")}
                 name="email"
                 required="required"
                 data-error="Valid email is required."
@@ -40,7 +42,7 @@ const ContactForm = () => {
           <div className="col-12">
             <div className="input-group-meta form-group mb-30">
               <textarea
-                placeholder="Your message*"
+                placeholder={t("Your message")}
                 name="message"
                 required="required"
                 data-error="Please,leave us a message."
@@ -53,7 +55,7 @@ const ContactForm = () => {
 
           <div className="col-12">
             <button className="btn-twentyOne fw-500 tran3s d-block">
-              Send Message
+              {t('SEND MESSAGE')}
             </button>
           </div>
           {/* End .col-12 */}

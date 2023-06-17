@@ -1,23 +1,25 @@
 import Image from "next/image";
+import { useTranslation } from 'next-i18next';
 
 const BlockContact = () => {
+  const { t } = useTranslation();
   const addressBlocks = [
     {
       icon: "/images/icon/icon_147.svg",
-      title: "Our Address",
+      title: t("Our Address"),
       content: "Appt Rue Bourdeaux N 8 2 Eme Etage Quartier Hopital - Safi",
       delay: "100",
     },
     {
       icon: "/images/icon/icon_148.svg",
-      title: "Contact Info",
-      content: "give us call at",
+      title: t("Contact Info"),
+      content: t("give us call at"),
       link: "tel:0523232323",
       delay: "200",
     },
     {
       icon: "/images/icon/icon_149.svg",
-      title: "Email us",
+      title: t("Email us"),
       content: "contact@salvia.ma",
       // link: "contact@salvia.ma",
       delay: "300",

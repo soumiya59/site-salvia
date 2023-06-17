@@ -96,10 +96,21 @@
   "Contact info": "Informations de Contact",
   "Get in Touch":"Prendre contact",
   "Our Address":"Notre adresse",
+  "give us call at":"appelez-nous",
   "Contact Info": "contact",
   "Email us":"Envoyez-nous un e-mail",
-  "Any question? Send us message":"Une question ? Envoyez-nous un message"
+  "Any question? Send us message":"Une question ? Envoyez-nous un message",
+
+  "Newsletter":"Newsletter",
+  "Join our newsletter":"Rejoindre notre newsletter",
+  "We only send interesting and relevant emails": "Nous n'envoyons que des e-mails intéressants et pertinents",
+  "Item Support":"support d'article",
+  "Forum":"Forum",
+  "Repport Abuse":"Signaler un abus",
+  "Live":"en direct",
 
 
+  "We Provide Quality Services":"Nous fournissons des services de qualité",
+  "Service Details":"Détails des services"
 
 }

@@ -1,34 +1,36 @@
-const columns = [
+import { useTranslation } from 'next-i18next';
+const Footer2 = () => {
+  const { t } = useTranslation();
+  const columns = [
   {
     title: "Links",
     links: [
-      { label: "Home", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Services", url: "/" },
-      { label: "Contact", url: "/" },
+      { label: t("Home"), url: "/" },
+      { label: t("About us"), url: "/" },
+      { label: t("Services"), url: "/" },
+      { label: t("Contact"), url: "/" },
     ],
   },
   {
     title: "Support",
     links: [
-      { label: "Item Support", url: "/" },
-      { label: "Forum", url: "/" },
-      { label: "Report Abuse", url: "/" },
-      { label: "Live", url: "/" },
+      { label: t("Item Support"), url: "/" },
+      { label: t("Forum"), url: "/" },
+      { label: t("Repport Abuse"), url: "/" },
+      { label: t("Live"), url: "/" },
     ],
   },
   {
     title: "Services",
     links: [
-      { label: "Web development", url: "/pages-menu/service-v1" },
-      { label: "hosting", url: "/pages-menu/service-v1" },
-      { label: "Data Consulting", url: "/pages-menu/service-v1" },
-      { label: "Design & graphisme", url: "/pages-menu/service-v1" },
+      { label: t("Web development"), href: "/pages-menu/service-v1" },
+      { label: t("Hosting"), href: "/pages-menu/service-v1" },
+      { label: t("Data Consulting"), href: "/pages-menu/service-v1" },
+      { label: t("Design & graphisme"), href: "/pages-menu/service-v1" },
     ],
   },
 ];
 
-const Footer2 = () => {
   return (
     <>
       {columns.map((column, index) => (

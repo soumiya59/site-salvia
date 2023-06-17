@@ -1,15 +1,28 @@
-import Seo from "../../components/common/Seo";
-import DefaulHeader from "../../components/header/DefaulHeader";
-import DefaultFooter from "../../components/footer/DefaultFooter";
-import ProgressBar from "./service-details/ProgressBar";
-import Faq from "../../components/home-page/home-2/Faq";
-import Social from "./service-details/Social";
+import Seo from "../../../components/common/Seo";
+import DefaulHeader from "../../../components/header/DefaulHeader";
+import DefaultFooter from "../../../components/footer/DefaultFooter";
+import ProgressBar from ".././service-details/ProgressBar";
+import Faq from "../../../components/home-page/home-2/Faq";
+import Social from ".././service-details/Social";
 import Link from "next/link";
-import services from "../../data/services";
+import services from "../../../data/services";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
+import { useTranslation } from 'next-i18next';
 
 const PortfolioV1 = () => {
-  const {id}= useParams()
-  const s = services.find((p)=> p.id==id)
+  const router = useRouter();
+  const [service, setServiceItem] = useState({});
+  const id = router.query.id;
+
+  const { t } = useTranslation();
+  useEffect(() => {
+    if (!id) <h1>Loading...</h1>;
+    else setServiceItem(services.find((item) => item.id == id));
+
+    return () => {};
+  }, [id]);
+
   return (
     <>
       <Seo pageTitle="Service Details" />
@@ -30,10 +43,10 @@ const PortfolioV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  Service Details
+                  {t('Service Details')}
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  We Provide Qulaity Services.
+                  {t('We Provide Quality Services')}.
                 </h2>
               </div>
             </div>
@@ -56,28 +69,21 @@ const PortfolioV1 = () => {
 				Service Details
 			============================================== 
 			*/}
-      <div className="service-details position-relative mt-100 mb-170 md-mt-50 lg-mb-120">
+      <div className="service-details position-relative mt-10 mb-170 md-mt-50 lg-mb-120">
         <div className="container">
           <div className="row">
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
-                <h2 className="main-title tx-dark mb-30">{s.title}</h2>
+                <h2 className="main-title tx-dark mb-30">{service?.title}</h2>
                 <p className="text-lg tx-dark">
                   Commonly used in the graphic, prit quis due &amp; publishing
                   indust for previewing lightly visual mockups.
                 </p>
-                <img
+                {/* <img
                   src="/images/media/img_95.jpg"
                   alt="media"
                   className="main-img-meta"
-                />
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas interdum, orci at dapibus, massa ante pharetra
-                  tellus. Maecenas interdum, orci at euismod dapibus. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-                  interdum.
-                </p>
+                /> */}
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
@@ -100,72 +106,19 @@ const PortfolioV1 = () => {
                 </div>
                 <div className="mt-60 mb-20 lg-mt-30 lg-mb-10">
                   <div className="row gx-xxl-5">
-                    <ProgressBar />
+                    {/* <ProgressBar /> */}
                   </div>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas interdum, orci at dapibus, massa ante pharetra
-                  tellus. Maecenas interdum, orci at euismod dapibus. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-                  interdum.
-                </p>
-                <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
+                {/* <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
                   Any Questions find here.
-                </h3>
-                <Faq />
+                </h3> */}
+                {/* <Faq /> */}
               </div>
               {/* /.service-details-meta */}
             </div>
             {/* End .col-xl-9 */}
 
-            <div className="col-xl-3 col-lg-4 col-md-8 order-lg-0">
-              <div className="service-sidebar pe-xxl-5 md-mt-60">
-                <div className="service-category mb-40">
-                  <h4 className="tx-dark mb-15">Services</h4>
-                  <ul className="style-none">
-                    <li className="current-page">
-                      <a href="#">Web Design</a>
-                    </li>
-                    <li>
-                      <a href="#">Mockup</a>
-                    </li>
-                    <li>
-                      <a href="#">Print Design</a>
-                    </li>
-                    <li>
-                      <a href="#">Logo</a>
-                    </li>
-                    <li>
-                      <a href="#">Mobile Application</a>
-                    </li>
-                    <li>
-                      <a href="#">Branding</a>
-                    </li>
-                    <li>
-                      <a href="#">Illusutration</a>
-                    </li>
-                  </ul>
-                </div>
-                {/* /.service-category */}
-
-                <div className="sidebar-quote mb-50">
-                  <img
-                    src="/images/icon/icon_150.svg"
-                    alt="icon"
-                    className="m-auto"
-                  />
-                  <p className="fw-500">
-                    Evernote Web offers a complete lineup major linup browser
-                  </p>
-                  <div className="name">- Rashed Kabir</div>
-                </div>
-                {/* /.sidebar-quote */}
-                <h4 className="tx-dark mb-15">Share it.</h4>
-                <Social />
-              </div>
               {/* /.service-sidebar */}
-            </div>
           </div>
         </div>
       </div>
