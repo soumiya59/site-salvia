@@ -115,8 +115,14 @@
   "Live":"Live",
 
   "We Provide Quality Services":"We Provide Quality Services",
-  "Service Details":"Service Details"
+  "Service Details":"Service Details",
 
+  "Web development is a dynamic and ever-evolving field that involves the creation and maintenance of websites and web applications. It encompasses a wide range of tasks and technologies, aimed at designing, building, and managing digital experiences on the internet.":"Web development is a dynamic and ever-evolving field that involves the creation and maintenance of websites and web applications. It encompasses a wide range of tasks and technologies, aimed at designing, building, and managing digital experiences on the internet.",
+  "Front-end development involves coding the user interface of a website, which includes designing and implementing layouts, styles, and interactive elements using technologies like NextJs, TailwindCss.":"Front-end development involves coding the user interface of a website, which includes designing and implementing layouts, styles, and interactive elements using technologies like NextJs, TailwindCss.",
+  "Back-end development focuses on the server-side functionality of a website. It involves building the logic and algorithms that power the website's functionality. Common back-end technologies include Python, PHP, or Node.js.":"Back-end development focuses on the server-side functionality of a website. It involves building the logic and algorithms that power the website's functionality. Common back-end technologies include Python, PHP, or Node.js.",
+  "Database management plays a crucial role in web development, as it involves storing, organizing, and retrieving data used by a website. Technologies like MySQL, PostgreSQL, or MongoDB are commonly used to create and manage databases.":"Database management plays a crucial role in web development, as it involves storing, organizing, and retrieving data used by a website. Technologies like MySQL, PostgreSQL, or MongoDB are commonly used to create and manage databases.",
 
+  "Front-end development involves coding the user interface of a website, which includes designing and implementing layouts, styles, and interactive elements using technologies like NextJs, TailwindCss.":"Front-end development involves coding the user interface of a website, which includes designing and implementing layouts, styles, and interactive elements using technologies like NextJs, TailwindCss.",
+  "Back-end development focuses on the server-side functionality of a website. It involves building the logic and algorithms that power the website's functionality. Common back-end technologies include Python, PHP, or Node.js.":"Back-end development focuses on the server-side functionality of a website. It involves building the logic and algorithms that power the website's functionality. Common back-end technologies include Python, PHP, or Node.js."
 
 }

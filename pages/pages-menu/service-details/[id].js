@@ -74,9 +74,9 @@ const PortfolioV1 = () => {
           <div className="row ">
             <div className="">
               <div className="service-details-meta ">
-                <h2 className="main-title tx-dark mb-30">{service?.title}</h2>
-                <p className="text-lg"> {service?.description} </p>
-                <p className="text-lg mt-2"> {service?.description2} </p>
+                <h2 className="main-title tx-dark mb-30">{t(service?.title)}</h2>
+                <p className="text-lg"> {t(service?.description)} </p>
+                <p className="text-lg mt-2"> {t(service?.description2)} </p>
                 {/* <img
                   src="/images/media/img_95.jpg"
                   alt="media"
@@ -87,7 +87,8 @@ const PortfolioV1 = () => {
                     {
                       service.more?.map((item, index) => {
                         return(
-                            <li key={index}>{item}</li>
+                            // <li key={index}>{t(item)}</li>
+                            <li key={index}>{t(item)}</li>
                         )
                       })
                     }
@@ -126,10 +127,10 @@ const PortfolioV1 = () => {
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
                       <div className="sc-title fs-18 pb-10">
-                        Have Any Project?
+                        {t('Have Any Project')}?
                       </div>
                       <h2 className="main-title fw-500 text-white m0">
-                        Don’t hesitate to send us message.
+                        {t('Don’t hesitate to send us message')}.
                       </h2>
                     </div>
                   </div>
@@ -140,7 +141,7 @@ const PortfolioV1 = () => {
                       href="/contact"
                       className="btn-twentyOne fw-500 tran3s"
                     >
-                      Get Started Today!
+                      {t('Get Started Today')}!
                     </Link>
                   </div>
                 </div>

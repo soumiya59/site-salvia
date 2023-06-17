@@ -156,7 +156,7 @@ const ServiceV1 = () => {
                 <div className="title-style-six pt-3">
                   <div className="sc-title-two text-uppercase">{t('SOLUTION')}</div>
                   <h2 className="main-title fw-500 tx-dark">
-                    {t('Digital solutions for businss')}.
+                    {t('Digital solutions for business')}.
                   </h2>
                 </div>
                 {/* /.title-style-ten */}

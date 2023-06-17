@@ -6,7 +6,7 @@ module.exports = [
     more: [
       "Front-end development involves coding the user interface of a website, which includes designing and implementing layouts, styles, and interactive elements using technologies like NextJs, TailwindCss.",
       "Back-end development focuses on the server-side functionality of a website. It involves building the logic and algorithms that power the website's functionality. Common back-end technologies include Python, PHP, or Node.js.",
-      "Database management plays a crucial role in web development, as it involves storing, organizing, and retrieving data used by a website. Technologies like MySQL, PostgreSQL, or MongoDB are commonly used to create and manage databases.",
+      "Database management plays a crucial role in web development, as it involves storing, organizing, and retrieving data used by a website. Technologies like MySQL, PostgreSQL, or MongoDB are commonly used to create and manage databases."
     ]
   },
   {
@@ -28,7 +28,7 @@ module.exports = [
   {
     id: 4,
     title: "Social media",
-    description:"Social media marketing leverages the wide reach and user engagement of platforms such as Facebook, Instagram, Twitter, LinkedIn, and YouTube to connect with potential customers and build relationships. It encompasses various activities, including : ",
+    description:"Social media marketing leverages the wide reach and user engagement of platforms such as Facebook, Instagram, Twitter, LinkedIn, and YouTube to connect with potential customers and build relationships. It encompasses various activities, including :" ,
     more: [
       "Content creation : Developping compelling and relevant content, such as posts, videos, images, and articles, that resonate with the target audience and align with the brand's messaging and values.",
       "Community management : Monitoring and engaging with followers, responding to comments, messages, and inquiries, and fostering a sense of community by actively participating in discussions.",
@@ -41,7 +41,7 @@ module.exports = [
     title: "Digital strategy",
     description:"Digital strategy refers to a comprehensive plan that outlines how an organization will leverage digital technologies, channels, and resources to achieve its goals and objectives. It involves aligning digital initiatives with the overall business strategy to effectively navigate the digital landscape and gain a competitive edge. it encompasses various aspects, including :",
     more: [
-      "Defining clear and measurable objectives that the organization aims to achieve through digital initiatives. ",
+      "Defining clear and measurable objectives that the organization aims to achieve through digital initiatives.",
       "Identifying and understanding the target audience and creating detailed buyer personas.",
       "Ensuring a seamless and user-friendly experience across digital channels.",
     ]
@@ -49,7 +49,7 @@ module.exports = [
   {
     id: 6,
     title: "Data Consulting",
-    description:"Data consulting refers to the process of providing expert guidance and advice on data-related matters to businesses and organizations. Data consultants leverage their knowledge, skills, and experience in data analysis, management, and strategy to help clients make informed decisions and maximize the value of their data assets. it encompasses a wide range of services, including : ",
+    description:"Data consulting refers to the process of providing expert guidance and advice on data-related matters to businesses and organizations. Data consultants leverage their knowledge, skills, and experience in data analysis, management, and strategy to help clients make informed decisions and maximize the value of their data assets. it encompasses a wide range of services, including :",
     more:[
       "Data strategy development",
       "Data visualization and reporting",
@@ -81,7 +81,7 @@ module.exports = [
   {
     id: 9,
     title: "SEO",
-    description:"Search Engine Optimization (SEO) is the practice of optimizing a website to improve its visibility and ranking in search engine results pages (SERPs). The goal of SEO is to increase organic (non-paid) traffic to a website by making it more relevant and authoritative in the eyes of search engines.it involves various techniques and strategies, including : ",
+    description:"Search Engine Optimization (SEO) is the practice of optimizing a website to improve its visibility and ranking in search engine results pages (SERPs). The goal of SEO is to increase organic (non-paid) traffic to a website by making it more relevant and authoritative in the eyes of search engines.it involves various techniques and strategies, including :",
     more:[
       "Keyword research",
       "On-page optimization",
@@ -100,14 +100,14 @@ module.exports = [
     description:"Branding is the process of creating a unique and distinctive identity for a product, service, company, or organization. It involves shaping and managing various elements that contribute to the perception, recognition, and reputation of the brand in the minds of consumers. Branding encompasses a range of elements and activities, including :",
     more:[
       "Brand strategy",
-      "Brand experience",
-      "Brand management"
+      "Brand identity design",
+      "Brand management and monitoring",
     ]
   },
   {
     id: 12,
     title: "Email Marketing",
-    description:"Notre agence RHILLANE Marketing Digital accompagne ses clients en emailing pour leur permettre de promouvoir leurs services efficacement et à moindre coût. Nous avons une grande expertise dans la création de campagnes d'emailing ciblées pour atteindre la clientèle visée. Nous utilisons des outils de suivi et d'analyse de performance pour mesurer les résultats de la campagne et ainsi adapter les stratégies en conséquence",
+    description:"Our agency RHILLANE Marketing Digital supports its clients in emailing to enable them to promote their services efficiently and at a lower cost. We have great expertise in creating targeted email campaigns to reach targeted customers. We use performance monitoring and analysis tools to measure campaign results and adapt strategies accordingly.",
     description2:"Our team of email specialists work closely with our clients to design email campaigns that meet their specific needs. We focus on creating compelling content and segmenting the email list to maximize campaign impact. We also use advanced techniques to maximize open and click rates. Email marketing typically involves activities such as :",
     more:[
       "Building an email list",
