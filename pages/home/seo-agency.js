@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Seo from "../../components/common/Seo";
-import Contact from "../../components/home-page/home-11/contact";
+import Contact from "../../components/home-page/home-11/Contact";
 import Counter from "../../components/home-page/home-11/Counter";
 import FancyFeatures from "../../components/home-page/home-11/FancyFeatures";
 import Header from "../../components/home-page/home-11/Header";
