@@ -107,7 +107,8 @@ module.exports = [
   {
     id: 12,
     title: "Email Marketing",
-    description:"Email marketing is a digital marketing strategy that involves sending targeted emails to a group of subscribers or customers with the goal of promoting products, services, or building relationships. It is a direct and cost-effective way to communicate with a specific audience, delivering personalized content and messages directly to their email inboxes. Email marketing typically involves activities such as :",
+    description:"Notre agence RHILLANE Marketing Digital accompagne ses clients en emailing pour leur permettre de promouvoir leurs services efficacement et à moindre coût. Nous avons une grande expertise dans la création de campagnes d'emailing ciblées pour atteindre la clientèle visée. Nous utilisons des outils de suivi et d'analyse de performance pour mesurer les résultats de la campagne et ainsi adapter les stratégies en conséquence",
+    description2:"Our team of email specialists work closely with our clients to design email campaigns that meet their specific needs. We focus on creating compelling content and segmenting the email list to maximize campaign impact. We also use advanced techniques to maximize open and click rates. Email marketing typically involves activities such as :",
     more:[
       "Building an email list",
       "Personalization and segmentation",

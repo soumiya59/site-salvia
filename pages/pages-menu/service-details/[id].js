@@ -76,6 +76,7 @@ const PortfolioV1 = () => {
               <div className="service-details-meta ">
                 <h2 className="main-title tx-dark mb-30">{service?.title}</h2>
                 <p className="text-lg"> {service?.description} </p>
+                <p className="text-lg mt-2"> {service?.description2} </p>
                 {/* <img
                   src="/images/media/img_95.jpg"
                   alt="media"
