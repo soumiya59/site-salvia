@@ -42,6 +42,7 @@ const Insurance = () => {
 				Feature Section Thirty Four
 			============================================== 
 			--> */}
+
       <div className="fancy-feature-thirtyFour mt-50">
         <div className="container">
           <div className="row gx-xxl-5">
@@ -51,6 +52,51 @@ const Insurance = () => {
         {/* <!-- /.container --> */}
       </div>
       {/* <!-- /.fancy-feature-thirtyFour --> */}
+      
+
+      <div className="pt-150 lg-pt-200 md-pt-170 sm-pt-120">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="">
+              <div
+                className="block-style-two pe-xxl-5 md-mb-50"
+                data-aos="fade-up"
+              >
+                <div className="title-style-one mb-40">
+                  <h2 className="main-title fw-500 tx-dark m0">
+                    {t('About')}
+                    <p className="d-inline-block position-relative">
+                      <span className="ms-4">
+                      SALVIA
+                      </span>
+                      <span
+                        className="mark-bg ms-4"
+                        style={{ backgroundColor: "#ddf1ff" }}
+                      />
+                    </p>
+                  </h2>
+                </div>
+                {/* /.title-style-three */}
+                <div className="text-lg mt-25 mb-60 lg-mb-40 row ms-3 ">
+                  <p className="col-6 px-md-5">{t('Salvia, as a software company dedicated to delivering innovative solutions for businesses and organizations. With a focus on web software development and digital transformation, Salvia helps clients harness the power of technology to achieve their goals and drive success.')}</p>
+                  <p className="col-6 -md-5">{t('Salvia excels in developing custom software solutions tailored to the unique needs and requirements of each client. By collaborating closely with businesses, Salvia understands their challenges, processes, and objectives, allowing them to create software that addresses specific pain points and maximizes efficiency.')}</p>
+                </div>
+              </div>
+              {/* /.block-style-two */}
+            </div>
+            {/* End .col-lg-5 */}
+
+            <div
+              className="col-xl-6 col-lg-7 col-md-6 ms-auto"
+              data-aos="fade-left"
+            >
+            </div>
+            {/* End .col-xl-6 */}
+          </div>
+        </div>
+        </div>
+
+
       {/*
 			=====================================================
 				Feature Section Thirty Five
@@ -58,7 +104,7 @@ const Insurance = () => {
 			*/}
       <div className="fancy-feature-thirtyFive mt-90 md-mt-70">
         <div className="container" data-aos="fade-up">
-          <Banner />
+          {/* <Banner /> */}
           {/* /.top-banner */}
         </div>
         {/* End .container */}

@@ -354,16 +354,17 @@ p {
   position: relative;
   z-index: 1;
 }
-.title-style-one .main-title span:before {
-  content: "";
-  position: absolute;
-  left: 4px;
-  bottom: 10px;
-  width: 98%;
-  height: 12px;
-  background: rgba(255, 139, 37, 0.4);
-  z-index: -1;
-}
+// .title-style-one .main-title span:before {
+//   content: "";
+//   position: absolute;
+//   left: 4px;
+//   bottom: 10px;
+//   width: 98%;
+//   height: 12px;
+//   // background: rgba(255, 139, 37, 0.4);
+//   background: #ddf1ff;
+//   z-index: -1;
+// }
 .title-style-two .sc-title {
   font-size: 20px;
   padding-bottom: 5px;
@@ -372,6 +373,19 @@ p {
 .title-style-two .main-title {
   font-size: 48px;
   line-height: 1.2em;
+}
+.title-style-one .main-title > span {
+  z-index: 1;
+}
+.title-style-one .main-title .mark-bg {
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 98%;
+  background: #ddf1ff;
+  height: 50px;
+  z-index: -1;
 }
 .title-style-three .sc-title {
   font-size: 14px;

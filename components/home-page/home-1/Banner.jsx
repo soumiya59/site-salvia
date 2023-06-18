@@ -25,7 +25,7 @@ const Banner = () => {
         </div>
       </div>
 
-        <div className="shapes shape-one rounded-circle" />
+        {/* <div className="shapes shape-one rounded-circle" />
         <img
           src="/images/shape/shape_83.svg"
           alt="shape"
@@ -53,7 +53,7 @@ const Banner = () => {
           src="/images/shape/shape_83.svg"
           alt="shape"
           className="lazy-img shapes shape-nine"
-        />
+        /> */}
     </div>
   );
 };

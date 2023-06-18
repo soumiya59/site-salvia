@@ -40,14 +40,14 @@ const IntroAbout = () => {
       <div className="row">
         <div className="col-xl-5 col-md-6 order-md-last">
           <div className="text-wrapper md-pb-70">
-            <Image
+            {/* <Image
               width={66}
               height={66}
               src="/images/icon/icon_103.svg"
               alt="icon"
               className="lazy-img cursor-pointer"
               onClick={() => setOpen(true)}
-            />
+            /> */}
             <p className="tx-dark pt-30 pb-30 md-pb-15" data-aos="fade-up">
               {t('The team signed')} <span className="fw-500">~$1,000,000</span> {t('in new business in July. Accelerator has been a large part of that.')}
             </p>

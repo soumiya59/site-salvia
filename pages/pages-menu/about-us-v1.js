@@ -13,9 +13,11 @@ import { useTranslation } from 'next-i18next';
 const AboutUsV1 = () => {
   const { t } = useTranslation();
   const features = [
-    { text: t("Amazing communication.") },
-    { text: t("Best trending designing experience.") },
-    { text: t("Email & Live chat.") },
+    { text: t("Client-Centric Approach.") },
+    { text: t("Value for Investment.") },
+    { text: t("Ongoing Support and Maintenance.") },
+    { text: t("Innovation and Technology.") },
+    { text: t("Quality at a fair price.") },
   ];
 
   const starRating = Array(5)
@@ -51,7 +53,7 @@ const AboutUsV1 = () => {
                   {t('More About us')}.
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  {t('Our History & Goals')}.
+                  {t('Who are we ?')}
                 </h2>
               </div>
             </div>
@@ -62,9 +64,50 @@ const AboutUsV1 = () => {
                 <p className="text-lg tx-dark">
                   {t("Salvia is a web development software company focused on creating innovative solutions to empower businesses in the digital realm . With 15 years expertise in web development technologies, we tailor our services to meet the unique needs of each client. Our team of skilled professionals is dedicated to delivering high-quality , scalable, and user-friendly web applications. At Salvia, we strive to drive digital success for our clients through cutting-edge web development solutions and exceptional customer service.")}
                 </p>
-                <div className="row">
+                {/* <div className="row">
                   <Counter />
-                </div>
+                </div> */}
+              </div>
+            </div>
+          </div>
+          {/* staff */}
+          <div className="row mt-100">
+            <div className="col-lg-7" data-aos="fade-right">
+              <div className="title-style-five mb-65 md-mb-40">
+                <h2 className="main-title fw-500 tx-dark">
+                  {t('Our staff')}.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="">
+              <div className="ps-xxl-5" data-aos="fade-up">
+                <p className="text-lg tx-dark">
+                  {t("At Salvia, we take pride in our exceptional team of talented and passionate professionals who drive our success. Our staff is composed of skilled individuals with diverse backgrounds and expertise , coming together to create a dynamic and collaborative work environment.")}
+                </p>
+                <p className="text-lg tx-dark">
+                  {t('Our team consists of experienced web developers, software engineers , designers , project managers, and quality assurance specialists who are dedicated to delivering top-notch solutions. They stay up-to-date with the latest industry trends and emerging technologies, continuously expanding their knowledge and skills to provide innovative and efficient web development services.')}
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* commitment */}
+          <div className="row mt-100">
+            <div className="col-lg-7" data-aos="fade-up">
+              <div className="title-style-five mb-65 md-mb-40">
+                <h2 className="main-title fw-500 tx-dark">
+                  {t('Commitment to Quality')}.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="">
+              <div className="ps-xxl-5" data-aos="fade-up">
+                <p className="text-lg tx-dark">
+                  {t("Salvia is dedicated to providing high-quality products. We sincerely believe that providing great solutions necessitates a constant commitment to quality in all facets of our work.Our success is a result of our dedication to excellence. We take pride in our capacity to provide outstanding web development solutions that go above and beyond requirements, empower our clients , and help them grow their companies.")}
+                </p>
               </div>
             </div>
           </div>
@@ -102,9 +145,8 @@ const AboutUsV1 = () => {
                 data-aos="fade-right"
               >
                 <div className="title-style-six">
-                  <div className="sc-title-two text-uppercase">{t('WHY US')}</div>
                   <h2 className="main-title fw-500 tx-dark pb-30">
-                    {t('Everything with Marketing')}.
+                    {t('Why choose us?')}
                   </h2>
                 </div>
                 {/* /.title-style-ten */}
@@ -117,15 +159,6 @@ const AboutUsV1 = () => {
                     <li key={index}>{feature.text}</li>
                   ))}
                 </ul>
-                <div className="d-inline-flex align-items-center mt-35 lg-mt-20">
-                  <ul className="d-flex style-none rating">{starRating}</ul>
-                  <div className="fs-20 ms-2">
-                    <strong className="fw-500 tx-dark">4.8</strong>
-                    <span className="tx-dark fs-16 opacity-50">
-                      (30k {t('Reviews')})
-                    </span>
-                  </div>
-                </div>
               </div>
             </div>
             {/* End .col */}
@@ -167,7 +200,7 @@ const AboutUsV1 = () => {
               data-aos="fade-up"
             >
               {t('Our nearly')}
-              <span className="text-decoration-underline fw-500">8,000+</span>
+              <span className="text-decoration-underline fw-500 mx-1">300+</span>
               {t('committed staff members are ready to help')}.
             </p>
             <div className="text-center md-mt-20">
@@ -190,34 +223,6 @@ const AboutUsV1 = () => {
         />
       </div>
       {/* /.team-section-two */}
-
-      {/*
-			=====================================================
-				Feedback Section Eleven
-			=====================================================
-			*/}
-      <div
-        className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50"
-        data-aos="fade-up"
-      >
-        <div className="container">
-          <div className="title-style-one text-center mb-50 lg-mb-20">
-            <h2 className="main-title fw-500 tx-dark m0">{t('Client Feedback')}</h2>
-          </div>
-        </div>
-        {/* End .container */}
-        <div className="inner-content">
-          <div className="slider-wrapper">
-            <div className="feedback_slider_seven">
-              <Testimonial />
-            </div>
-            {/* /.feedback_slider_seven */}
-          </div>
-          {/* /.slider-wrapper */}
-        </div>
-        {/* /.inner-content */}
-      </div>
-      {/* /.feedback-section-eleven */}
 
       {/* 
 			=============================================

@@ -3,7 +3,7 @@ import Link from "next/link";
 const links = [
   {
     title: "Privacy & Terms.",
-    href: "/faq",
+    href: "/pages-menu/faq",
   },
   {
     title: "Contact Us",
