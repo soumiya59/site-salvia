@@ -229,7 +229,7 @@ const AboutUsV1 = () => {
 				Feature Section Thirty Eight
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtyEight mt-180 lg-mt-120">
+      {/* <div className="fancy-feature-thirtyEight mt-180 lg-mt-120">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
@@ -240,7 +240,6 @@ const AboutUsV1 = () => {
                     {t('Digital solutions for business')}.
                   </h2>
                 </div>
-                {/* /.title-style-ten */}
                 <p className="fs-20 pt-10 pb-30 lg-pb-20">
                   {t('Do you have more question about our solution? Just send us a message for help')}
                 </p>
@@ -251,14 +250,12 @@ const AboutUsV1 = () => {
                   </Link>
                 </div>
               </div>
-              {/* /.block-style-seven */}
             </div>
-            {/* End .col-lg-5 */}
             <div className="col-lg-6 ms-auto" data-aos="fade-left">
               <Faq />
             </div>
           </div>
-        </div>
+        </div> */}
         {/* /.container */}
 
         <div className="partner-section-six position-relative mt-130 lg-mt-80">
@@ -279,7 +276,6 @@ const AboutUsV1 = () => {
           </div>
           {/* /.container */}
         </div>
-      </div>
       {/* /.partner-section-six */}
 
       {/*

@@ -106,7 +106,7 @@ const Faq = () => {
             <div className="text-center  mt-80 lg-mt-50" data-aos="fade-up">
               <h3 className="fw-bold tx-dark mb-30">{t('Have any questions ?')}</h3>
               <Link href="/contact" className="btn-twentyOne fw-500 tran3s">
-                Contact us
+                {t('Contact us')}
               </Link>
             </div>
           </div>

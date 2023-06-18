@@ -2,11 +2,13 @@ module.exports = [
   {
     id: 1,
     title: "Web development",
-    description:"Web development is a dynamic and ever-evolving field that involves the creation and maintenance of websites and web applications. It encompasses a wide range of tasks and technologies, aimed at designing, building, and managing digital experiences on the internet.",
+    description:"Transforming your custom business ideas into an innovative next-gen web app is our forte. With proven results and promising qualitative deliverables across multiple tech markets, SALVIA endures the client demands at scale and offers high-quality web development customized business solutions. Upkeeping with changing client's expectations, our team of qualified web app developers delivers an impressive and secure web experience. Our deep domain expertise combined with technology innovation help clients build disruptive user-friendly web applications with superior customer experience and higher business agility. we offer :",
     more: [
-      "Front-end development involves coding the user interface of a website, which includes designing and implementing layouts, styles, and interactive elements using technologies like NextJs, TailwindCss.",
-      "Back-end development focuses on the server-side functionality of a website. It involves building the logic and algorithms that power the website's functionality. Common back-end technologies include Python, PHP, or Node.js.",
-      "Database management plays a crucial role in web development, as it involves storing, organizing, and retrieving data used by a website. Technologies like MySQL, PostgreSQL, or MongoDB are commonly used to create and manage databases."
+      "Front-end development",
+      "Back-end development",
+      "Progressive web apps",
+      "Ecommerce web app development company",
+      "Custom web application development services"
     ]
   },
   {
@@ -115,6 +117,30 @@ module.exports = [
       "Designing visually appealing emails",
       "Automation and scheduling",
       "Tracking and analytics"
+    ]
+  },
+  {
+    id: 13,
+    title: "Custom software",
+    description:"The custom software development process encompasses designing, developing, deploying, and maintaining custom software solutions and services. As a leading custom software development company, our domain experts explicate the client's views and accordingly draft a strategic approach to optimize each process of the Software development life cycle. Our dynamic team of skilled software developers, architects and project managers coupled with industry-driven experience provides a solid foundation to develop custom software solutions with consistently high-quality results, dedicated QA practices that match specific business needs, budget, and time.",
+    description2:"Our tailor-made business software solutions comprehensively offers services to multiple businesses such as :",
+    more:[
+      "Application migration and re-engineering",
+      "Sotware application maintenance",
+      "Application integration",
+      "Application security",
+      "Maintenance and support"
+    ]
+  },
+  {
+    id: 14,
+    title: "Mobile Development",
+    description:"The exponential increase in mobile users globally has made consumption of data quite extensive. It has also opened an opportunity for entrepreneurs to think and implement innovative business ideas for app development. SALVIA comprises a team of mobile app developers who carry years of experience in creating high performing, feature-packed native as well as cross-platform mobile applications. We use a robust development process to create powerful apps to serve millions of users every day for both iOS and Android devices. Being an app development company, our key focus areas include maximizing performance, using attractive and seamless UI/UX designs, mitigating potential security risks by adhering to the best practices. We utilize various APIs and data connectors for creating the optimum mobile experience. Our team ensures that we deliver a robust, reliable, and seamlessly functioning mobile app that meets your business goals.",
+    description2:"we are here to transform your business goals irrespective of the industry, OS, or complexity of the solution. With our talented team of mobile app developers and designers the delivery of a scalable, compelling, and secure app is assured. we offer :",
+    more:[
+      "Design & Prototyping of Apps",
+      "Native App development",
+      "Cross-Platform App development",
     ]
   },
   ];

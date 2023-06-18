@@ -87,8 +87,7 @@ const PortfolioV1 = () => {
                     {
                       service?.more?.map((item, index) => {
                         return(
-                            // <li key={index}>{t(item)}</li>
-                            <li key={index}>{t(item)}</li>
+                            <li className="fs-4" key={index}>{t(item)}</li>
                         )
                       })
                     }

@@ -177,7 +177,47 @@
       "Personalization and segmentation":"Personnalisation et segmentation",
       "Designing visually appealing emails":"Conception d'e-mails visuellement attrayants",
       "Automation and scheduling":"Automatisation et planification",
-      "Tracking and analytics":"Suivi et analyse"
+      "Tracking and analytics":"Suivi et analyse",
+
+
+
+      "Privacy & Terms":"Confidentialité et conditions",
+      "At Salvia, we value the privacy and security of our website visitors. This Privacy & Terms statement outlines how we collect, use, and protect your personal information when you visit our website. By accessing and using our website, you agree to the terms described below.":"Chez Salvia, nous accordons de l'importance à la confidentialité et à la sécurité des visiteurs de notre site Web. Cette déclaration de confidentialité et de conditions décrit comment nous collectons, utilisons et protégeons vos informations personnelles lorsque vous visitez notre site Web. En accédant et en utilisant notre site Web, vous acceptez les conditions décrites ci-dessous.",
+      "Collection of Information :":"Collecte d'informations :",
+      "We may collect personal information, such as your name, email address, and contact details, when you voluntarily provide it through our website's contact forms or subscription options.":"Nous pouvons collecter des informations personnelles, telles que votre nom, votre adresse e-mail et vos coordonnées, lorsque vous les fournissez volontairement via les formulaires de contact ou les options d'abonnement de notre site Web.",
+      "We may also collect non-personal information, such as your IP address, browser type, and operating system, through cookies and similar technologies. This information helps us improve our website's functionality and user experience.":"Nous pouvons également collecter des informations non personnelles, telles que votre adresse IP, le type de navigateur et le système d'exploitation, par le biais de cookies et de technologies similaires. Ces informations nous aident à améliorer la fonctionnalité et l'expérience utilisateur de notre site Web.",
+      "By using our website, you signify your acceptance of these Privacy & Terms.":"En utilisant notre site Web, vous signifiez votre acceptation de ces conditions de confidentialité et de conditions.",
+      "Use of Information :":"Utilisation des informations :",
+      "We use the information collected to respond to your inquiries, provide requested services, and improve our website's content and functionality.":"Nous utilisons les informations collectées pour répondre à vos demandes, fournir les services demandés et améliorer le contenu et la fonctionnalité de notre site Web.",
+      "Personal information may be used to send you promotional emails or newsletters if you have subscribed to them. You can opt out of these communications at any time.":"Les informations personnelles peuvent être utilisées pour vous envoyer des e-mails promotionnels ou des bulletins d'information si vous vous y êtes abonné. Vous pouvez vous désinscrire de ces communications à tout moment.",
+      "We do not sell, trade, or share your personal information with third parties for their marketing purposes without your consent.":"Nous ne vendons, n'échangeons ou ne partageons vos informations personnelles avec des tiers à des fins de marketing sans votre consentement.",
+      "Data Security :":"Sécurité des données :",
+      "We implement industry-standard security measures to protect your personal information from unauthorized access, alteration, or disclosure.":"Nous mettons en œuvre des mesures de sécurité conformes aux normes de l'industrie pour protéger vos informations personnelles contre tout accès, altération ou divulgation non autorisés.",
+      "However, no method of data transmission over the internet or electronic storage is 100% secure. While we strive to protect your information, we cannot guarantee absolute security.":"Cependant, aucune méthode de transmission de données sur Internet ou de stockage électronique n'est 100% sécurisée. Bien que nous nous efforcions de protéger vos informations, nous ne pouvons garantir une sécurité absolue.",
+      "Third-Party Links :" : "Liens vers des tiers :",
+      "Our website may contain links to third-party websites or services. We are not responsible for the privacy practices or content of these websites. We encourage you to review their respective Privacy & Terms policies.":"Notre site Web peut contenir des liens vers des sites Web ou des services de tiers. Nous ne sommes pas responsables des pratiques de confidentialité ou du contenu de ces sites Web. Nous vous encourageons à examiner leurs politiques de confidentialité et de conditions respectives.",
+      "Cookies :":"Cookies :",
+      "We use cookies to enhance your browsing experience, analyze website traffic, and personalize content. You have the option to accept or decline cookies through your browser settings.":"Nous utilisons des cookies pour améliorer votre expérience de navigation, analyser le trafic du site Web et personnaliser le contenu. Vous avez la possibilité d'accepter ou de refuser les cookies via les paramètres de votre navigateur.",
+      "Changes to the Privacy & Terms :" : "Modifications de la confidentialité et des conditions :",
+      "We reserve the right to update or modify this Privacy & Terms statement at any time." : "Nous nous réservons le droit de mettre à jour ou de modifier cette déclaration de confidentialité et de conditions à tout moment.",
+      "If you have any questions or concerns about our Privacy & Terms, please contact us.":"Si vous avez des questions ou des préoccupations concernant notre confidentialité et nos conditions, veuillez nous contacter.",
+      "Have any questions ?":"Avez-vous des questions ?",
+
+
+      "Mobile Development":"Développement mobiles",
+      "Custom software":"Logiciel personnalisé",
+      "Our staff":"Notre personnel",
+      "At Salvia, we take pride in our exceptional team of talented and passionate professionals who drive our success. Our staff is composed of skilled individuals with diverse backgrounds and expertise , coming together to create a dynamic and collaborative work environment.":"Chez Salvia, nous sommes fiers de notre équipe exceptionnelle de professionnels talentueux et passionnés qui font notre succès. Notre personnel est composé de personnes qualifiées aux antécédents et à l'expertise diversifiés, qui se réunissent pour créer un environnement de travail dynamique et collaboratif.",
+      "Our team consists of experienced web developers, software engineers , designers , project managers, and quality assurance specialists who are dedicated to delivering top-notch solutions. They stay up-to-date with the latest industry trends and emerging technologies, continuously expanding their knowledge and skills to provide innovative and efficient web development services.":"Notre équipe est composée de développeurs Web expérimentés, d'ingénieurs logiciels, de concepteurs, de chefs de projet et de spécialistes de l'assurance qualité qui se consacrent à la fourniture de solutions de premier ordre. Ils restent à jour avec les dernières tendances de l'industrie et les technologies émergentes, élargissant continuellement leurs connaissances et leurs compétences pour fournir des services de développement Web innovants et efficaces.",
+      "Commitment to Quality":"Engagement envers la qualité",
+      "Salvia is dedicated to providing high-quality products. We sincerely believe that providing great solutions necessitates a constant commitment to quality in all facets of our work.Our success is a result of our dedication to excellence. We take pride in our capacity to provide outstanding web development solutions that go above and beyond requirements, empower our clients , and help them grow their companies.":"Salvia est dédié à la fourniture de produits de haute qualité. Nous croyons sincèrement que fournir de grandes solutions nécessite un engagement constant envers la qualité dans tous les aspects de notre travail. Notre succès est le résultat de notre dévouement à l'excellence. Nous sommes fiers de notre capacité à fournir des solutions de développement Web exceptionnelles qui dépassent les exigences, autonomisent nos clients et les aident à développer leurs entreprises.",
+      "Why choose us?":"Pourquoi nous choisir ?",
+      "Client-Centric Approach.":"Approche centrée sur le client.",
+      "Value for Investment.":"Valeur pour l'investissement.",
+      "Ongoing Support and Maintenance.":"Support et maintenance continus.",
+      "Innovation and Technology.":"Innovation et technologie.",
+      "Quality at a fair price.":"Qualité à un prix équitable."
+
 
 
 

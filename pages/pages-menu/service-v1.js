@@ -120,27 +120,11 @@ const ServiceV1 = () => {
 				Feedback Section Eleven
 			=====================================================
 			*/}
-      <div
-        className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50"
+      {/* <div
+        className=" position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50"
         data-aos="fade-up"
       >
-        <div className="container">
-          <div className="title-style-one text-center mb-50 lg-mb-20">
-            <h2 className="main-title fw-500 tx-dark m0">{t('Client Feedback')}</h2>
-          </div>
-        </div>
-        {/* End .container */}
-        <div className="inner-content">
-          <div className="slider-wrapper">
-            <div className="feedback_slider_seven">
-              <Testimonial />
-            </div>
-            {/* /.feedback_slider_seven */}
-          </div>
-          {/* /.slider-wrapper */}
-        </div>
-        {/* /.inner-content */}
-      </div>
+      </div> */}
       {/* /.feedback-section-eleven */}
 
       {/* 
@@ -148,41 +132,10 @@ const ServiceV1 = () => {
 				Feature Section Thirty Eight
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtyEight lg-mt-120">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5">
-              <div className="block-style-seven" data-aos="fade-right">
-                <div className="title-style-six pt-3">
-                  <div className="sc-title-two text-uppercase">{t('SOLUTION')}</div>
-                  <h2 className="main-title fw-500 tx-dark">
-                    {t('Digital solutions for business')}.
-                  </h2>
-                </div>
-                {/* /.title-style-ten */}
-                <p className="fs-20 pt-10 pb-30 lg-pb-20">
-                  {t('Do you have more question about our solution? Just send us a message for help')}
-                </p>
-                <div className="btn-eighteen position-relative d-inline-block tx-dark">
-                  <Link href="/page-menu/about-us-v1" className="fw-500 tran3s">
-                    {t('More About solution')}
-                    <i className="fa-solid fa-angle-right" />
-                  </Link>
-                </div>
-              </div>
-              {/* /.block-style-seven */}
-            </div>
-            {/* End .col-lg-5 */}
-            <div className="col-lg-6 ms-auto" data-aos="fade-left">
-              <Faq />
-            </div>
-          </div>
-        </div>
-        {/* /.container */}
-
+      <div className="feedback-section-eleven fancy-feature-thirtyEight lg-mt-120 mt-100 ">
         <div className="partner-section-six position-relative mt-130 lg-mt-80">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center py-5">
               <div className="col-lg-5">
                 <h3 className="title tx-dark text-center text-lg-start md-pb-10 m0">
                   <span>100+</span> {t('Trusted Partners')}
