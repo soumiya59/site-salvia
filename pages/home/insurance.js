@@ -78,7 +78,7 @@ const Insurance = () => {
                 </div>
                 {/* /.title-style-three */}
                 <div className="text-lg mt-25 mb-60 lg-mb-40 row ms-3 ">
-                  <p className="col-6 px-md-5">{t('Salvia, as a software company dedicated to delivering innovative solutions for businesses and organizations. With a focus on web software development and digital transformation, Salvia helps clients harness the power of technology to achieve their goals and drive success.')}</p>
+                  <p className="col-6 px-md-5">{t('As a software company dedicated to delivering innovative solutions for businesses and organizations. With a focus on web software development and digital transformation, Salvia helps clients harness the power of technology to achieve their goals and drive success.')}</p>
                   <p className="col-6 -md-5">{t('Salvia excels in developing custom software solutions tailored to the unique needs and requirements of each client. By collaborating closely with businesses, Salvia understands their challenges, processes, and objectives, allowing them to create software that addresses specific pain points and maximizes efficiency.')}</p>
                 </div>
               </div>
