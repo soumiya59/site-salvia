@@ -77,9 +77,9 @@ const Insurance = () => {
                   </h2>
                 </div>
                 {/* /.title-style-three */}
-                <div className="text-lg mt-25 mb-60 lg-mb-40 row ms-3 ">
-                  <p className="col-6 px-md-5">{t('As a software company dedicated to delivering innovative solutions for businesses and organizations. With a focus on web software development and digital transformation, Salvia helps clients harness the power of technology to achieve their goals and drive success.')}</p>
-                  <p className="col-6 -md-5">{t('Salvia excels in developing custom software solutions tailored to the unique needs and requirements of each client. By collaborating closely with businesses, Salvia understands their challenges, processes, and objectives, allowing them to create software that addresses specific pain points and maximizes efficiency.')}</p>
+                <div className="text-lg mt-25 lg-mb-30 row ms-2 ms-md-3  ">
+                  <p className="col-12 col-md-6 px-md-5">{t('As a software company dedicated to delivering innovative solutions for businesses and organizations. With a focus on web software development and digital transformation, Salvia helps clients harness the power of technology to achieve their goals and drive success.')}</p>
+                  <p className="col-12 col-md-6 -md-5">{t('Salvia excels in developing custom software solutions tailored to the unique needs and requirements of each client. By collaborating closely with businesses, Salvia understands their challenges, processes, and objectives, allowing them to create software that addresses specific pain points and maximizes efficiency.')}</p>
                 </div>
               </div>
               {/* /.block-style-two */}
@@ -162,7 +162,7 @@ const Insurance = () => {
 				Feature Section Thirty Seven
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtySeven mt-225 lg-mt-120">
+      <div className="fancy-feature-thirtySeven mt-225 mb-75 lg-mt-120">
         <div className="container">
           <div className="row">
             <div
@@ -195,21 +195,7 @@ const Insurance = () => {
 				Feedback Section Eleven
 			=====================================================
 			*/}
-      <div
-        className="mt-200  pb-70 lg-mt-120 lg-pt-70 lg-pb-50"
-      >
-        {/* <div className="container">
-          <div className="title-style-one text-center mb-50 lg-mb-20">
-            <h2 className="main-title fw-500 tx-dark m0">{t('Client Feedback')}</h2>
-          </div>
-        </div>
-        <div className="inner-content">
-          <div className="feedback_slider_seven">
-            <Testimonial />
-          </div>
-        </div> */}
-        {/* /.inner-content */}
-      </div>
+
       {/* /.feedback-section-eleven */}
       {/* =============================================
 				Feature Section Thirty Eight
@@ -228,7 +214,7 @@ const Insurance = () => {
 			=====================================================
 			*/}
       <div
-        className="fancy-short-banner-thirteen pb-170  lg-mt-100  lg-pb-80 "
+        className="fancy-short-banner-thirteen pb-170  lg-pb-80  mt-md-5 "
         data-aos="fade-up"
       >
         <div className="container">
@@ -263,24 +249,10 @@ const Insurance = () => {
             </div>
             {/* End .row */}
 
-            <div className="shapes shape-text fw-500 fs-20 tx-dark text-center">
-              {t('Fill the')} <br />
-              form
-            </div>
-            <img
-              src="/images/shape/shape_90.svg"
-              alt="shape"
-              className="lazy-img shapes shape-one"
-            />
-            <img
-              src="/images/shape/shape_91.svg"
-              alt="shape"
-              className="lazy-img shapes shape-two"
-            />
-          </div>
-          {/* /.bg-wrapper */}
-        </div>
+        
       </div>
+        </div>
+        </div>
       {/* /.fancy-short-banner-thirteen */}
       {/* =============================================
 		   Blog Section Three
