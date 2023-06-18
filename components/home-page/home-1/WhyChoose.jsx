@@ -5,21 +5,21 @@ const WhyChoose = () => {
   {
     id: 1,
     icon: "/images/icon/icon_108.svg",
-    title: t("Best Price"),
+    title: t("Client-Centric Approach"),
     content:
       "Practice what you learned on realistic lorem quis test questions testing.",
   },
   {
     id: 2,
     icon: "/images/icon/icon_109.svg",
-    title: t("Fast Process"),
+    title: t("Innovation and Technology"),
     content:
       "Practice what you learned on realistic lorem quis test questions testing.",
   },
   {
     id: 3,
     icon: "/images/icon/icon_110.svg",
-    title: t("Guaranteed Return & Claim"),
+    title: t("Ongoing Support and Maintenance"),
     content:
       "Practice what you learned on realistic lorem quis test questions testing.",
   },
