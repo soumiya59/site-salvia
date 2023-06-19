@@ -343,8 +343,8 @@ const Insurance = () => {
                     <img src="/images/logo/salvia-white.png" alt="logo" width={95} />
                   </Link>
                 </div>
-                <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
-                  {t('Best Digital Company')}.
+                <p className="text-white opacity-75 fs-18 mt-15  ">
+                  {/* {t('Software Development Company')}. */}
                 </p>
                 <p className="text-white opacity-50 fs-15 m0 d-none d-lg-block">
                   © {new Date().getFullYear() + 1}{" "}
