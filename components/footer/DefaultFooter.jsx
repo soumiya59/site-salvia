@@ -33,7 +33,7 @@ const DefaultFooter = () => {
               <h6 className="pt-15 pb-20 md-pt-10">{t('Join our newsletter')}</h6>
               <NewsLetter />
               <div className="fs-14 mt-10">
-                {t('We only send interesting and relevant emails')}.
+                {t('We only send necessary business emails')}.
               </div>
             </div>
             {/* End .col-xl-4 */}

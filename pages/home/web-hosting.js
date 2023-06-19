@@ -303,7 +303,7 @@ const WebHosting = () => {
                   <h6 className="pt-15 pb-20 md-pt-10">Join our newsletter</h6>
                   <NewsLetter />
                   <div className="fs-14 mt-10">
-                    We only send interesting and relevant emails.
+                    We only send necessary business emails.
                   </div>
                 </div>
                 {/* End .col-xl-4 */}

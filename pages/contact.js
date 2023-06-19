@@ -61,7 +61,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-8 col-md-9 m-auto">
               <h2 className="tx-dark text-center mt-100 mb-80 lg-mt-40 lg-mb-40 wow fadeInUp">
-                {t('Any question? Send us message')}.
+                {t('Any questions? Send us a message')}.
               </h2>
             </div>
             <div className="col-xl-11 m-auto">

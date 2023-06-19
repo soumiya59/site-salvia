@@ -297,7 +297,7 @@ const LeadGeneration = () => {
                 <h6 className="pt-15 pb-20 text-white">Join our newsletter</h6>
                 <Subscribe />
                 <div className="fs-14 mt-10 text-white opacity-50">
-                  We only send interesting and relevant emails.
+                  We only send necessary business emails.
                 </div>
               </div>
             </div>

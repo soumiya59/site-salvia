@@ -93,7 +93,7 @@ module.exports = [
   },
   {
     id: 10,
-    title: "Design & graphisme",
+    title: "Design & graphics",
     description:"Web design encompasses both the aesthetic aspects and the user experience (UX) considerations of a website. A well-designed website not only looks visually appealing but also provides a seamless and intuitive user experience, making it easy for visitors to navigate, find information, and interact with the site.",
   },
   {

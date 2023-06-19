@@ -26,7 +26,7 @@ const Footer2 = () => {
       { label: t("Web development"), href: "/pages-menu/service-v1" },
       { label: t("Hosting"), href: "/pages-menu/service-v1" },
       { label: t("Data Consulting"), href: "/pages-menu/service-v1" },
-      { label: t("Design & graphisme"), href: "/pages-menu/service-v1" },
+      { label: t("Design & graphics"), href: "/pages-menu/service-v1" },
     ],
   },
 ];

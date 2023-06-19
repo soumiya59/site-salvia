@@ -22,7 +22,7 @@ const Footer = () => {
       { label: t("Web development"), href: "/pages-menu/service-v1" },
       { label: t("Hosting"), href: "/pages-menu/service-v1" },
       { label: t("Data Consulting"), href: "/pages-menu/service-v1" },
-      { label: t("Design & graphisme"), href: "/pages-menu/service-v1" },
+      { label: t("Design & graphics"), href: "/pages-menu/service-v1" },
       ],
     },
   ];
@@ -62,7 +62,7 @@ const Footer = () => {
         <p className="text-white opacity-75 mb-35">
           Appt Rue Bourdeaux N 8 2 Eme Etage <br /> Quartier Hopital - Safi
         </p>
-        <ul className="d-flex social-icon style-none">
+        {/* <ul className="d-flex social-icon style-none">
           {socialIcons.map((icon, index) => (
             <li key={index}>
               <a href={icon.link} target="_blank" rel="noopener noreferrer">
@@ -70,7 +70,7 @@ const Footer = () => {
               </a>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </>
   );

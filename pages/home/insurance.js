@@ -54,24 +54,24 @@ const Insurance = () => {
       {/* <!-- /.fancy-feature-thirtyFour --> */}
       
 
-      <div className="pt-150 lg-pt-200 md-pt-170 sm-pt-120">
-        <div className="container">
-          <div className="row align-items-center">
+      <div className=" mt-90 md-mt-70 bg-wrapper py-5 " style={{ background:'#F6F9FB' }}>
+        <div className="container ">
+          <div className="row align-items-center ">
             <div className="">
               <div
                 className="block-style-two pe-xxl-5 md-mb-50"
                 data-aos="fade-up"
               >
                 <div className="title-style-one mb-40">
-                  <h2 className="main-title fw-500 tx-dark m0">
+                  <h2 className="main-title fw-500 tx-dark m0" style={{ background:'#F6F9FB' }}>
                     {t('About')}
-                    <p className="d-inline-block position-relative">
-                      <span className="ms-4">
+                    <p className="d-inline-block position-relative" >
+                      <span className="ms-4" >
                       SALVIA
                       </span>
                       <span
                         className="mark-bg ms-4"
-                        style={{ backgroundColor: "#ddf1ff" }}
+                        // style={{ backgroundColor: "#ddf1ff" }}
                       />
                     </p>
                   </h2>
@@ -102,20 +102,15 @@ const Insurance = () => {
 				Feature Section Thirty Five
 			=====================================================
 			*/}
-      <div className="fancy-feature-thirtyFive mt-90 md-mt-70">
+      {/* <div className="fancy-feature-thirtyFive mt-90 md-mt-70">
         <div className="container" data-aos="fade-up">
-          {/* <Banner /> */}
-          {/* /.top-banner */}
         </div>
-        {/* End .container */}
 
         <div className="bg-wrapper mt-150 pt-100 lg-mt-80 lg-pt-70">
           <div className="container">
-            <IntroAbout />
           </div>
         </div>
-        {/* /.bg-wrapper */}
-      </div>
+      </div> */}
       {/* /.fancy-feature-thirtyFive */}
       {/* 
 			=============================================
@@ -213,7 +208,7 @@ const Insurance = () => {
 				Fancy Short Banner Thirteen
 			=====================================================
 			*/}
-      <div
+      {/* <div
         className="fancy-short-banner-thirteen pb-170  lg-pb-80  mt-md-5 "
         data-aos="fade-up"
       >
@@ -242,6 +237,39 @@ const Insurance = () => {
                     <div className="form-style-two md-mb-40">
                       <ContactForm />
                     </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+        </div>
+        </div> */}
+              <div
+        className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 "
+        data-aos="fade-up"
+      >
+        <div className="container">
+          <div className="bg-wrapper zn2 bg-white position-relative">
+            <div className="row">
+              <div className="col-xl-11 m-auto">
+                <div className="row align-items-center">
+                  <div className="col-lg-6 ms-auto order-lg-last">
+                    <div className="text-wrapper">
+                      <img
+                        src="/images/icon/icon_114.svg"
+                        alt="icon"
+                        className="lazy-img mb-30"
+                      />
+                      <div className="title-style-one">
+                        <h2 className="main-title fw-500 tx-dark m0">
+                          {t('Talk to experienced advisors')}.
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-5 col-lg-6 order-lg-first">
+                    <div className="form-style-two md-mb-40">
+                      <ContactForm />
+                    </div>
                     {/* /.form-style-two */}
                   </div>
                 </div>
@@ -249,10 +277,24 @@ const Insurance = () => {
             </div>
             {/* End .row */}
 
-        
+            <div className="shapes shape-text fw-500 fs-20 tx-dark text-center">
+              {t('Fill the')} <br />
+              {t('form')}
+            </div>
+            <img
+              src="/images/shape/shape_90.svg"
+              alt="shape"
+              className="lazy-img shapes shape-one"
+            />
+            <img
+              src="/images/shape/shape_91.svg"
+              alt="shape"
+              className="lazy-img shapes shape-two"
+            />
+          </div>
+          {/* /.bg-wrapper */}
+        </div>
       </div>
-        </div>
-        </div>
       {/* /.fancy-short-banner-thirteen */}
       {/* =============================================
 		   Blog Section Three
@@ -305,7 +347,7 @@ const Insurance = () => {
                   {t('Best Digital Company')}.
                 </p>
                 <p className="text-white opacity-50 fs-15 m0 d-none d-lg-block">
-                  © {new Date().getFullYear()} - {new Date().getFullYear() + 1}{" "}
+                  © {new Date().getFullYear() + 1}{" "}
                   SALVIA inc.
                 </p>
               </div>
