@@ -178,7 +178,7 @@ const AboutUsV1 = () => {
 				Team Section Two
 			=====================================================
 			*/}
-      <div className="team-section-two position-relative pt-200 lg-pt-120">
+      {/* <div className="team-section-two position-relative pt-200 lg-pt-120">
         <div className="container">
           <div className="wrapper position-relative">
             <div className="row align-items-center">
@@ -186,14 +186,11 @@ const AboutUsV1 = () => {
                 <div className="title-style-six text-center text-lg-start pb-40 lg-pb-20 md-pb-10">
                   <h2 className="main-title fw-500 tx-dark">{t('Our Team')}</h2>
                 </div>
-                {/* /.title-style-six */}
               </div>
             </div>
-            {/* /.row */}
             <div className="row">
               <Team3 />
             </div>
-            {/* /.row */}
 
             <p
               className="cr-text text-center text-lg tx-dark mt-75 lg-mt-50"
@@ -213,15 +210,13 @@ const AboutUsV1 = () => {
               </Link>
             </div>
           </div>
-          {/* /.wrapper */}
         </div>
-        {/* /.container */}
         <img
           src="/images/shape/shape_172.svg"
           alt="shape"
           className="lazy-img shapes shape-one d-none d-xl-inline-block"
         />
-      </div>
+      </div> */}
       {/* /.team-section-two */}
 
       {/* 
