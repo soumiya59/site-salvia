@@ -32,11 +32,11 @@ const AgencyModern = () => {
         <div className="bg-wrapper" data-aos="fade">
           <Hero />
           {/* /.container */}
-          <img
+          {/* <img
             src="/images/shape/shape_08.svg"
             alt="illustration"
             className="lazy-img shapes shape-eight"
-          />
+          /> */}
         </div>
       </div>
       {/* /.hero-banner-one */}
@@ -99,11 +99,11 @@ const AgencyModern = () => {
         data-aos="fade-up"
       >
         <div className="bg-wrapper position-relative pt-150 pb-180 lg-pt-100 lg-pb-120">
-          <img
+          {/* <img
             src="/images/shape/shape_14.svg"
             alt="img"
             className="lazy-img shapes shape-one"
-          />
+          /> */}
           <div className="shapes shape-two" />
           <div className="shapes shape-three" />
           <Testimonial />
@@ -147,11 +147,11 @@ const AgencyModern = () => {
       <div className="blog-section-one p-30 mt-180 lg-mt-120">
         <div className="bg-wrapper pt-140 pb-170 lg-pt-100 lg-pb-100 position-relative">
           <div className="shapes shape-one" />
-          <img
+          {/* <img
             src="/images/shape/shape_16.svg"
             alt="icon"
             className="lazy-img shapes shape-two"
-          />
+          /> */}
           <div className="shapes shape-three" />
 
           <div className="container">

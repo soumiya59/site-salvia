@@ -82,7 +82,7 @@ const DesignAgency = () => {
         </div>
         {/* End .container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_143.svg"
           alt="shape"
           className="shapes lazy-img shape-one"
@@ -91,7 +91,7 @@ const DesignAgency = () => {
           src="/images/shape/shape_144.svg"
           alt="shape"
           className="shapes lazy-img shape-two"
-        />
+        /> */}
       </div>
       {/* /.feedback-section-twelve */}
 
@@ -183,7 +183,7 @@ const DesignAgency = () => {
                   data-bs-toggle="modal"
                   data-bs-target="#contactModal"
                 >
-                  <img src="/images/icon/icon_115.svg" alt="icon" />
+                  {/* <img src="/images/icon/icon_115.svg" alt="icon" /> */}
                 </a>
               </div>
             </div>
@@ -203,7 +203,7 @@ const DesignAgency = () => {
             <div className="col-lg-4 mb-30 order-lg-0">
               <div className="logo d-flex justify-content-center justify-content-lg-start">
                 <Link href="/">
-                  <img src="/images/logo/logo_04.png" alt="" width={77} />
+                  {/* <img src="/images/logo/logo_04.png" alt="" width={77} /> */}
                 </Link>
               </div>
             </div>

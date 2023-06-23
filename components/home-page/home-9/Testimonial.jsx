@@ -74,7 +74,7 @@ const Testimonial = () => {
         <div className="item" key={testimonial.id}>
           <div className="feedback-block-four position-relative">
             <div className="icon rounded-circle d-flex align-items-center justify-content-center">
-              <img src={testimonial.icon} alt="icon" />
+              {/* <img src={testimonial.icon} alt="icon" /> */}
             </div>
             <p className="tx-dark">{testimonial.content}</p>
             <div className="d-flex align-items-center justify-content-between">

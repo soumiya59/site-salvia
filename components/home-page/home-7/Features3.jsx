@@ -65,14 +65,14 @@ const Features3 = () => {
 
         <div className="circle-two rounded-circle position-relative">
           <div>
-            {icons.map((icon, index) => (
+            {/* {icons.map((icon, index) => (
               <img
                 key={index}
                 src={icon.src}
                 alt={icon.alt}
                 className={icon.className}
               />
-            ))}
+            ))} */}
           </div>
           <div className="circle-three rounded-circle" />
         </div>
@@ -80,17 +80,17 @@ const Features3 = () => {
       {/* End circle  */}
 
       <div className="mobile-screen">
-        <img
+        {/* <img
           src="/images/media/img_17.png"
           alt="shape"
           className="lazy-img m-auto"
-        />
+        /> */}
       </div>
-      <img
+      {/* <img
         src="/images/shape/shape_47.svg"
         alt="shape"
         className="lazy-img shapes fancy-shape"
-      />
+      /> */}
     </div>
   );
 };

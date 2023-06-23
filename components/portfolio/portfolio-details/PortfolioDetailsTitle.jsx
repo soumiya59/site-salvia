@@ -14,7 +14,7 @@ const PortfolioDetailsTitle = ({ portfolio }) => {
         </div>
       </div>
       {/* /.container */}
-      <img
+      {/* <img
         src="/images/shape/shape_172.svg"
         alt="shap"
         className="lazy-img shapes shape-two"
@@ -23,7 +23,7 @@ const PortfolioDetailsTitle = ({ portfolio }) => {
         src="/images/shape/shape_175.svg"
         alt="shap"
         className="lazy-img shapes shape-three"
-      />
+      /> */}
     </div>
   );
 };

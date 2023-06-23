@@ -47,7 +47,7 @@ const ProductTabs = () => {
       >
         <div className="shapes shape-one rounded-circle" />
         <div className="shapes shape-two rounded-circle" />
-        <img
+        {/* <img
           src="/images/shape/shape_33.svg"
           alt="media"
           className="lazy-img shapes shape-three"
@@ -56,18 +56,18 @@ const ProductTabs = () => {
           src="/images/shape/shape_34.svg"
           alt="media"
           className="lazy-img shapes shape-four"
-        />
+        /> */}
         {tabData.map((tab) => (
           <div
             className={`tab-pane ${tab.id === "sp1" ? "active show" : ""}`}
             id={tab.id}
             key={tab.id}
           >
-            <img
+            {/* <img
               src={tab.image}
               alt="media"
               className="lazy-img main-screen w-100"
-            />
+            /> */}
           </div>
         ))}
       </div>

@@ -52,7 +52,7 @@ const ImgGallery = () => {
           <i className="fas fa-play" />
         </button>
 
-        <img
+        {/* <img
           src="/images/shape/shape_165.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
@@ -61,7 +61,7 @@ const ImgGallery = () => {
           src="/images/shape/shape_163.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
-        />
+        /> */}
         <div className="shapes shape-three" />
       </div>
     </>

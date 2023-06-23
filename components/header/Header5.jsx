@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import MainMenu from "./MainMenu";
 import Link from "next/link";
+import Image from "next/image";
 
-const Header5 = () => {
+const DefaulHeader = () => {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -22,45 +23,34 @@ const Header5 = () => {
 
   return (
     <header
-      className={`theme-main-menu sticky-menu theme-menu-ten ${
+      className={`theme-main-menu sticky-menu theme-menu-six ${
         navbar ? "fixed" : ""
       }`}
     >
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
-            <Link href="/">
-              <img src="/images/logo/logo_07.png" alt="" width={93} />
+            <Link href="/" className="d-block">
+              <Image src="/images/logo/logo_01.png" alt="" layout='fill' />
             </Link>
           </div>
           {/* End logo */}
-          <div className="right-widget d-flex align-items-center order-lg-3">
-            <form
-              action="#"
-              className="header-search-two position-relative me-4 me-xxl-5 d-none d-xl-block"
-            >
-              <input type="text" placeholder="Search Here..." required />
-              <img
-                src="/images/icon/icon_122.svg"
-                alt="icon"
-                className="icon position-absolute"
-              />
-            </form>
+          <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
             <Link
               href="/login"
-              className="login-btn-four rounded-circle tran3s me-3"
+              className="login-btn-two fw-500 d-flex align-items-center me-3 me-xl-5"
             >
-              <i className="bi bi-person" />
+              <Image layout='fill' src="/images/icon/icon_62.svg" alt="" className="me-2" />
+              <span>login</span>
             </Link>
             <Link
-              href="/signup"
-              className="signup-btn-four fw-500 tran3s d-none d-lg-block"
+              href="/contact"
+              className="start-btn-one fs-18 fw-500 tran3s position-relative d-none d-lg-block"
             >
-              Sign Up
+              Get Started
             </Link>
-          </div>
+          </div>{" "}
           {/* /.right-widget */}
-
           <MainMenu />
         </div>
       </div>
@@ -69,4 +59,4 @@ const Header5 = () => {
   );
 };
 
-export default Header5;
+export default DefaulHeader;

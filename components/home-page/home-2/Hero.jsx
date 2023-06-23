@@ -18,7 +18,7 @@ const Hero = () => {
               <h1 className="hero-heading fw-bold tx-dark mt-25">
                 Trust your site to the world’s
                 <span className="position-relative ms-3 d-inline-block">
-                  no. 1 <img src="/images/shape/shape_95.svg" alt="shape" />
+                  {/* no. 1 <img src="/images/shape/shape_95.svg" alt="shape" /> */}
                 </span>
                 web host.
               </h1>
@@ -37,11 +37,11 @@ const Hero = () => {
           {/* End .container */}
 
           <div className="illustration-holder" data-aos="fade-left">
-            <img
+            {/* <img
               src="/images/assets/ils_05.svg"
               alt="illustration"
               className="lazy-img main-illustration"
-            />
+            /> */}
           </div>
           {/* /.illustration-holder */}
         </div>

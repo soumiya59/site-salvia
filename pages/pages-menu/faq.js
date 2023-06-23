@@ -95,11 +95,11 @@ const Faq = () => {
                   <p>{t('By using our website, you signify your acceptance of these Privacy & Terms.')}</p>
                 </div>
               </div>
-              <img
+              {/* <img
                 src="/images/shape/shape_133.svg"
                 alt="shape"
                 className="lazy-img shapes shape-one"
-              />
+              /> */}
             </div>
             {/* /.bg-wrapper */}
 

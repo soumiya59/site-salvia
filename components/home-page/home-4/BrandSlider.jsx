@@ -51,7 +51,7 @@ const BrandSlider = () => {
     <Slider {...settings}>
       {brands.map((brand) => (
         <div className="item" key={brand.id}>
-          <img src={brand.src} alt="brand" className="m-auto" />
+          {/* <img src={brand.src} alt="brand" className="m-auto" /> */}
         </div>
       ))}
     </Slider>

@@ -31,11 +31,11 @@ const Team = () => {
         >
           <div className="team-block-one mt-40">
             <div className="img-meta position-relative">
-              <img
+              {/* <img
                 src={member.imgSrc}
                 alt={member.name}
                 className="lazy-img w-100"
-              />
+              /> */}
               <div className="info position-absolute text-center">
                 <h4 className="text-white mb-5">{member.name}</h4>
                 <div className="text-white fs-18">{member.role}</div>

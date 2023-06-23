@@ -31,7 +31,7 @@ const FancyBlock2 = () => {
         >
           <div className="card-style-two mt-40">
             <div className="icon d-flex align-items-end">
-              <img src={card.icon} alt="" className="lazy-img" />
+              {/* <img src={card.icon} alt="" className="lazy-img" /> */}
             </div>
             <span className="d-inline-block text-uppercase fs-14 opacity-75 mt-30 mb-10">
               {card.title}

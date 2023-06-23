@@ -7,7 +7,7 @@ const Quote = () => {
       <div className="row">
         <div className="col-md-10 m-auto">
           <div className="icon rounded-circle d-flex align-items-center justify-content-center m-auto">
-            <img src="/images/icon/icon_138.svg" alt="" className="lazy-img" />
+            {/* <img src="/images/icon/icon_138.svg" alt="" className="lazy-img" /> */}
           </div>
           <p className="tx-dark mt-25 mb-30 fw-500">
             “Apartment floor will become Bluelofts live-work centers in Dallas

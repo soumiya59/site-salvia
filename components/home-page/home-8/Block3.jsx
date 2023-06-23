@@ -23,7 +23,7 @@ const Block3 = () => {
         <div className="col-xl-4" key={index}>
           <div className="card-style-thirteen position-relative">
             <div className="icon d-flex align-items-end">
-              <img src={data.icon} alt="icon" className="lazy-img" />
+              {/* <img src={data.icon} alt="icon" className="lazy-img" /> */}
             </div>
             <h4 className="text-white mt-20 mb-10">{data.title}</h4>
             <p className="fs-18">{data.description}</p>

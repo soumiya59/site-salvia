@@ -65,7 +65,7 @@ const LeadGeneration = () => {
                   <span className="position-relative">
                     {" "}
                     Quality
-                    <img src="/images/shape/shape_122.svg" alt="icon shape" />
+                    {/* <img src="/images/shape/shape_122.svg" alt="icon shape" /> */}
                   </span>
                   Leads
                 </h2>
@@ -86,7 +86,7 @@ const LeadGeneration = () => {
         </div>
         {/* /.container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_124.svg"
           alt="icon shape"
           className="lazy-img shapes shape-one"
@@ -95,7 +95,7 @@ const LeadGeneration = () => {
           src="/images/shape/shape_125.svg"
           alt="icon shape"
           className="lazy-img shapes shape-two"
-        />
+        /> */}
       </div>
       {/* /.fancy-feature-thirtyOne */}
 
@@ -137,7 +137,7 @@ const LeadGeneration = () => {
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
                   See success
                   <span className="position-relative">
-                    stories <img src="/images/shape/shape_122.svg" alt="img" />
+                    {/* stories <img src="/images/shape/shape_122.svg" alt="img" /> */}
                   </span>
                   of our customers.
                 </h2>
@@ -172,7 +172,7 @@ const LeadGeneration = () => {
                     What
                     <span className="position-relative">
                       {" "}
-                      client <img src="/images/shape/shape_129.svg" alt="" />
+                      {/* client <img src="/images/shape/shape_129.svg" alt="" /> */}
                     </span>
                     think about us.
                   </h2>
@@ -186,7 +186,7 @@ const LeadGeneration = () => {
         </div>
         {/* End .container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_130.svg"
           alt=""
           className="lazy-img shapes shape-one"
@@ -195,7 +195,7 @@ const LeadGeneration = () => {
           src="/images/shape/shape_131.svg"
           alt=""
           className="lazy-img shapes shape-two"
-        />
+        /> */}
       </div>
       {/* /.feedback-section-ten */}
 
@@ -211,7 +211,7 @@ const LeadGeneration = () => {
             <h2 className="main-title font-recoleta fw-normal tx-dark">
               Questions &amp;
               <span className="position-relative">
-                Answers <img src="/images/shape/shape_132.svg" alt="" />
+                {/* Answers <img src="/images/shape/shape_132.svg" alt="" /> */}
               </span>
             </h2>
           </div>
@@ -222,11 +222,11 @@ const LeadGeneration = () => {
             data-aos="fade-up"
           >
             <Faq />
-            <img
+            {/* <img
               src="/images/shape/shape_133.svg"
               alt="shape"
               className="lazy-img shapes shape-one"
-            />
+            /> */}
           </div>
           {/* /.bg-wrapper */}
         </div>
@@ -246,7 +246,7 @@ const LeadGeneration = () => {
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
                   Have Any Project? <br />
                   <span className="position-relative">
-                    Let’s Talk <img src="/images/shape/shape_132.svg" alt="" />
+                    {/* Let’s Talk <img src="/images/shape/shape_132.svg" alt="" /> */}
                   </span>
                   &amp; Grow your Business
                 </h2>
@@ -286,7 +286,7 @@ const LeadGeneration = () => {
               <div className="col-lg-2 footer-intro mb-40">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo/logo_06.png" alt="" width={76} />
+                    {/* <img src="/images/logo/logo_06.png" alt="" width={76} /> */}
                   </Link>
                 </div>
               </div>
@@ -309,11 +309,11 @@ const LeadGeneration = () => {
         <CopyrightFooter />
 
         <div className="shapes shape-one" />
-        <img
+        {/* <img
           src="/images/shape/shape_134.svg"
           alt=""
           className="lazy-img shapes shape-two"
-        />
+        /> */}
       </div>
       {/* /.footer-style-nine */}
     </>

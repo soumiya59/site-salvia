@@ -1,13 +1,16 @@
 import { useTranslation } from 'next-i18next';
+import Image from "next/image";
 const Block = () => {
 const { t } = useTranslation();
   return (
     <>
       <div className="row align-items-end" data-aos="fade-up">
         <div className="col-md-5 col-sm-4">
-          <img
+          <Image
             src="/images/shape/shape_136.svg"
             alt="shape"
+            width={100}
+            height={100}
             className="lazy-img d-none d-sm-inline-block"
           />
         </div>
@@ -31,11 +34,13 @@ const { t } = useTranslation();
             <p>
               {t('Partnered with us so that you can compare easily & transparently')} 
               </p>
-            <img
+            {/* <Image
               src="/images/shape/shape_138.svg"
               alt="sahpe"
+            width={50}
+            height={100}
               className="lazy-img shapes shape-one"
-            />
+            /> */}
           </div>
           {/* /.block-wrapper */}
         </div>
@@ -49,9 +54,11 @@ const { t } = useTranslation();
             <p>{t('Get Support by expert easily.')}</p>
           </div>
           {/* /.block-wrapper */}
-          <img
+          <Image
             src="/images/shape/shape_137.svg"
             alt="shape"
+            width={100}
+            height={100}
             className="lazy-img mt-30 ms-auto me-auto d-none d-sm-inline-block"
           />
         </div>

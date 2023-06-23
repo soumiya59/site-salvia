@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useTranslation } from 'next-i18next';
+import Image from "next/image";
 
 const Service = () => {
   const { t } = useTranslation();
@@ -7,28 +8,28 @@ const Service = () => {
   {
     // icon: "images/icon/icon_104.svg",
     id:1,
-    icon: "images/service/web.png",
+    icon: "/images/service/web.png",
     title: t("Web development"),
     delayAnim: 0,
   },
   {
     // icon: "images/icon/icon_141.svg",
     id: 2,
-   icon: "images/service/cloud.png",
+   icon: "/images/service/cloud.png",
     title: t("Hosting"),
     delayAnim: 100,
   },
   {
     // icon: "images/icon/icon_105.svg",
     id: 7,
-    icon: "images/service/ecom.png",
+    icon: "/images/service/ecom.png",
     title: t("E-commerce"),
     delayAnim: 200,
   },
   {
     // icon: "images/icon/icon_107.svg",
     id: 12,
-    icon: "images/service/mail.png",
+    icon: "/images/service/mail.png",
     title: t("Email Marketing"),
     delayAnim: 300,
   },
@@ -44,7 +45,7 @@ const Service = () => {
         >
           <div className="card-style-sixteen tran3s text-center position-relative mt-30">
             <div className="icon">
-              <img src={service.icon} alt="" className="lazy-img m-auto " />
+              <Image src={service.icon} width={60} height={60} alt="" className="lazy-img m-auto " />
             </div>
             <h4 className="tx-dark pt-20">{service.title}</h4>
             <Link

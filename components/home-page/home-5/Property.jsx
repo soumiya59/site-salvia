@@ -29,11 +29,11 @@ const Property = () => {
           data-aos-delay={property.delay}
         >
           <div className="card-style-twentyOne position-relative mt-35">
-            <img
+            {/* <img
               src={property.image}
               alt={property.title}
               className="lazy-img w-100"
-            />
+            /> */}
             <div className="hover-overlay d-flex flex-column align-items-center position-absolute tran3s">
               <h3 className="tx-dark">{property.title}</h3>
               <Link

@@ -19,12 +19,12 @@ const SuccessStory = () => {
                 </h4>
               </div>
               <div className="col-xl-6 col-lg-5 col-md-6 m-auto order-lg-first">
-                <img
+                {/* <img
                   src="/images/media/img_50.jpg"
                   alt="img"
                   className="lazy-img img-one md-mt-40"
                   data-aos="fade-up"
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ const SuccessStory = () => {
               </div>
               {/* End .col */}
               <div className="col-lg-5">
-                <img
+                {/* <img
                   src="/images/media/img_51.jpg"
                   alt="img"
                   className="lazy-img img-two "
@@ -66,7 +66,7 @@ const SuccessStory = () => {
                   src="/images/shape/shape_128.svg"
                   alt="img"
                   className="lazy-img shapes shape-two"
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const SuccessStory = () => {
         </div>
         {/* /.customer-data */}
 
-        <img
+        {/* <img
           src="/images/media/img_52.jpg"
           alt="img"
           className="lazy-img img-three"
@@ -91,7 +91,7 @@ const SuccessStory = () => {
           src="/images/shape/shape_127.svg"
           alt="img"
           className="lazy-img shapes shape-one"
-        />
+        /> */}
       </div>
     </>
   );

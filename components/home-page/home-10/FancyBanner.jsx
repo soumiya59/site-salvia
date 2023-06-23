@@ -28,7 +28,7 @@ const FancyBanner = () => {
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         src="/images/shape/shape_20.svg"
         alt="shape"
         className="lazy-img shapes shape-one"
@@ -51,7 +51,7 @@ const FancyBanner = () => {
         alt="shape"
         className="lazy-img shapes shape-four"
         style={{ top: "-3%", right: "14%" }}
-      />
+      /> */}
     </div>
   );
 };

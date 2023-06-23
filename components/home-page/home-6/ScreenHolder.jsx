@@ -46,14 +46,14 @@ const ScreenHolder = () => {
           className={`round-bg d-flex align-items-center justify-content-center ${logo.className}`}
           style={{ width: logo.width, height: logo.height }}
         >
-          <img src={logo.src} alt={`logo ${index}`} className="lazy-img" />
+          {/* <img src={logo.src} alt={`logo ${index}`} className="lazy-img" /> */}
         </div>
       ))}
-      <img
+      {/* <img
         src="/images/shape/shape_32.svg"
         alt="shape"
         className="lazy-img shapes shape-one"
-      />
+      /> */}
     </div>
   );
 };

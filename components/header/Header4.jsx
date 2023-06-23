@@ -1,21 +1,10 @@
 import { useEffect, useState } from "react";
 import MainMenu from "./MainMenu";
 import Link from "next/link";
+import Image from "next/image";
 
-const Header4 = () => {
+const DefaulHeader = () => {
   const [navbar, setNavbar] = useState(false);
-  const [selectedLang, setSelectedLang] = useState("En");
-
-  const handleLangSelect = (event) => {
-    event.preventDefault();
-    setSelectedLang(event.target.textContent);
-  };
-
-  const languages = [
-    { code: "Fr", name: "French" },
-    { code: "In", name: "Indian" },
-    { code: "Ru", name: "Russian" },
-  ];
 
   const changeBackground = () => {
     if (window.scrollY >= 10) {
@@ -34,58 +23,33 @@ const Header4 = () => {
 
   return (
     <header
-      className={`theme-main-menu sticky-menu theme-menu-five white-vr ${
+      className={`theme-main-menu sticky-menu theme-menu-six ${
         navbar ? "fixed" : ""
       }`}
     >
       <div className="inner-content position-relative">
-        <div className="d-flex align-items-center">
+        <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
-            <Link href="/">
-              <img src="/images/logo/logo_02.png" alt="" width={95} />
+            <Link href="/" className="d-block">
+              <Image src="/images/logo/logo_01.png" alt="" layout='fill' />
             </Link>
           </div>
           {/* End logo */}
-          <div className="right-widget d-flex align-items-center ms-auto order-lg-3">
+          <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
             <Link
               href="/login"
-              className="call-btn-one d-flex align-items-center me-3"
+              className="login-btn-two fw-500 d-flex align-items-center me-3 me-xl-5"
             >
-              <img src="/images/icon/icon_43.svg" alt="icon" className="me-2" />
-              <span>(479) 421-6814</span>
+              <Image layout='fill' src="/images/icon/icon_62.svg" alt="" className="me-2" />
+              <span>login</span>
             </Link>
-            <div className="lang-dropdown position-relative ms-3 me-3 ms-xl-5 me-xl-5 d-none d-lg-block">
-              <button
-                className="dropdown-toggle"
-                type="button"
-                id="langDropdown"
-                data-bs-toggle="dropdown"
-                data-bs-auto-close="true"
-                aria-expanded="false"
-              >
-                {selectedLang}
-              </button>
-              <ul className="dropdown-menu" aria-labelledby="langDropdown">
-                {languages.map((lang) => (
-                  <li key={lang.code}>
-                    <a
-                      href="#"
-                      className="dropdown-item"
-                      onClick={handleLangSelect}
-                    >
-                      {lang.code}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
             <Link
               href="/contact"
-              className="donate-btn fw-500 tran3s position-relative d-none d-lg-block"
+              className="start-btn-one fs-18 fw-500 tran3s position-relative d-none d-lg-block"
             >
-              Donate Now
+              Get Started
             </Link>
-          </div>
+          </div>{" "}
           {/* /.right-widget */}
           <MainMenu />
         </div>
@@ -95,4 +59,4 @@ const Header4 = () => {
   );
 };
 
-export default Header4;
+export default DefaulHeader;

@@ -21,11 +21,11 @@ const Partners = () => {
         <span className="fw-bold">100+</span>
         <span className="font-recoleta">Trusted Partners</span>
         <span className="ms-4 d-none d-sm-inline-block">
-          <img
+          {/* <img
             src="/images/shape/shape_119.svg"
             alt="img"
             className="lazy-img"
-          />
+          /> */}
         </span>
       </h3>
 

@@ -50,18 +50,18 @@ const Services2 = () => {
         >
           <div className="card-style-ten d-flex flex-column bg-white pe-3 ps-3 pe-xl-5 ps-xl-5 pt-60 pb-45 lg-pt-40 lg-pb-30">
             <div className="icon d-flex align-items-end">
-              <img src={service.icon} alt="icon" className="lazy-img" />
+              {/* <img src={service.icon} alt="icon" className="lazy-img" /> */}
             </div>
             <h4 className="fw-500 mt-20 mb-50">{service.title}</h4>
             <Link
               href="/pages-menu/service-details"
               className="read-btn mt-auto tran3s"
             >
-              <img
+              {/* <img
                 src="/images/icon/icon_12.svg"
                 alt="icon"
                 className="lazy-img"
-              />
+              /> */}
             </Link>
           </div>
           {/* /.card-style-ten */}

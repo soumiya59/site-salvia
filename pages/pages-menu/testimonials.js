@@ -37,11 +37,11 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <img
+        {/* <img
           src="/images/shape/shape_172.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
-        />
+        /> */}
       </div>
 
       {/*
@@ -99,11 +99,11 @@ const Testimonials = () => {
                   className="img-holder position-relative mt-25"
                   data-aos="fade-left"
                 >
-                  <img
+                  {/* <img
                     src="/images/media/img_84.jpg"
                     alt="shape"
                     className="lazy-img ms-auto"
-                  />
+                  /> */}
 
                   <div className="rating-box bg-black text-white d-flex flex-column justify-content-center align-items-center">
                     <strong className="fw-500">4.8</strong>
@@ -111,7 +111,7 @@ const Testimonials = () => {
                   </div>
                   {/* /.rating-box */}
 
-                  <img
+                  {/* <img
                     src="/images/shape/shape_163.svg"
                     alt="shape"
                     className="lazy-img shapes shape-one"
@@ -120,7 +120,7 @@ const Testimonials = () => {
                     src="/images/shape/shape_168.svg"
                     alt="shape"
                     className="lazy-img shapes shape-two"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -129,11 +129,11 @@ const Testimonials = () => {
         </div>
         {/* End .container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_169.svg"
           alt="shape"
           className="lazy-img shapes shape-three"
-        />
+        /> */}
       </div>
 
       {/*
@@ -150,11 +150,11 @@ const Testimonials = () => {
                   className="icon d-flex align-items-center justify-content-center rounded-circle"
                   style={{ background: "#FFC961" }}
                 >
-                  <img
+                  {/* <img
                     src="/images/icon/icon_19.svg"
                     alt="icon"
                     className="lazy-img"
-                  />
+                  /> */}
                 </div>
                 <h2 className="main-title fw-500">
                   Check what’s our
@@ -183,7 +183,7 @@ const Testimonials = () => {
         {/* End .container */}
 
         <div className="circle-bg shapes">
-          <img
+          {/* <img
             src="/images/shape/shape_37.svg"
             alt="shape"
             className="lazy-img main-img m-auto"
@@ -223,7 +223,7 @@ const Testimonials = () => {
             alt="shape"
             className="lazy-img shapes rounded-circle cp-six"
             style={{ width: "55px", height: "55px" }}
-          />
+          /> */}
         </div>
       </div>
 

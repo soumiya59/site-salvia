@@ -95,20 +95,20 @@ const FeedbackSlider = () => {
             </ul>
             <p>{item.feedback}</p>
             <div className="d-flex align-items-center">
-              <img
+              {/* <img
                 src={item.image}
                 alt="media"
                 className="avatar rounded-circle"
-              />
+              /> */}
               <h6 className="name fs-20 fw-500 m0 ps-4">
                 {item.name}{" "}
                 <span className="d-block fw-normal">{item.location}</span>
               </h6>
-              <img
+              {/* <img
                 src="/images/icon/icon_35.svg"
                 alt="media"
                 className="ms-auto"
-              />
+              /> */}
             </div>
           </div>
         </div>

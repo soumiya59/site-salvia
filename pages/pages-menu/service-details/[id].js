@@ -8,6 +8,7 @@ import Link from "next/link";
 import services from "../../../data/services";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 import { useTranslation } from 'next-i18next';
 
 const PortfolioV1 = () => {
@@ -53,12 +54,16 @@ const PortfolioV1 = () => {
           </div>
         </div>
         {/* /.container */}
-        <img
+        <Image
+          width={100}
+          height={100}
           src="/images/shape/shape_172.svg"
           alt="shap"
           className="lazy-img shapes shape-two"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           src="/images/shape/shape_175.svg"
           alt="shap"
           className="lazy-img shapes shape-three"

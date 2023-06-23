@@ -16,7 +16,7 @@ const Hero = () => {
       />
 
       <div className="hero-banner-two position-relative pt-250 lg-pt-200 md-pt-150">
-        <img
+        {/* <img
           src="/images/shape/shape_26.svg"
           alt="shape"
           className="lazy-img shapes shape-left"
@@ -25,7 +25,7 @@ const Hero = () => {
           src="/images/shape/shape_27.svg"
           alt="shape"
           className="lazy-img shapes shape-right"
-        />
+        /> */}
 
         <div className="container">
           <div className="row">
@@ -34,11 +34,11 @@ const Hero = () => {
               data-aos="fade-up"
             >
               <h1 className="hero-heading fw-normal font-recoleta position-relative">
-                <img
+                {/* <img
                   src="/images/shape/shape_25.svg"
                   alt="shape"
                   className="lazy-img shapes line-shape"
-                />
+                /> */}
                 Create your
                 <span className="position-relative d-inline-block">
                   workspace
@@ -78,14 +78,14 @@ const Hero = () => {
             data-aos="fade-up"
           >
             <div className="bg-wrapper">
-              <img
+              {/* <img
                 src="/images/media/img_05.jpg"
                 alt="media"
                 className="lazy-img main-screen w-100"
-              />
+              /> */}
             </div>
             {/* /.bg-wrapper */}
-            <img
+            {/* <img
               src="/images/shape/shape_28.svg"
               alt="media"
               className="lazy-img shapes shape-one"
@@ -104,7 +104,7 @@ const Hero = () => {
               src="/images/shape/shape_31.svg"
               alt="media"
               className="lazy-img shapes shape-four"
-            />
+            /> */}
           </div>
           {/* /.illustration-holder */}
         </div>

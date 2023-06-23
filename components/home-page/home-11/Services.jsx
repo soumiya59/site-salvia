@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Services = () => {
   const servicesData = [
@@ -33,7 +34,7 @@ const Services = () => {
         >
           <div className="card-style-ten d-flex flex-column bg-white pe-3 ps-3 pe-xl-5 ps-xl-5 pt-60 pb-45 lg-pt-40 lg-pb-30">
             <div className="icon d-flex align-items-end">
-              <img src={service.icon} alt="" className="lazy-img" />
+              <Image width={60} height={60} src={service.icon} alt="" className="lazy-img" />
             </div>
             <span className="d-block fs-18 opacity-75 mt-35 mb-10">
               {service.title}
@@ -43,7 +44,7 @@ const Services = () => {
               href="/pages-menu/service-details"
               className="read-btn mt-auto tran3s"
             >
-              <img src="/images/icon/icon_12.svg" alt="" className="lazy-img" />
+              <Image width={10} height={10} src="/images/icon/icon_12.svg" alt="" className="lazy-img" />
             </Link>
           </div>
         </div>

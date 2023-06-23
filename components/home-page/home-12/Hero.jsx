@@ -52,15 +52,15 @@ const Hero = () => {
                 href="/contact"
                 className="btn-twentyThree d-flex align-items-center justify-content-center xs-mt-30"
               >
-                <img src="/images/icon/icon_115.svg" alt="" />
+                {/* <img src="/images/icon/icon_115.svg" alt="" /> */}
               </Link>
             </div>
 
-            <img
+            {/* <img
               src="/images/shape/shape_142.svg"
               alt="shape"
               className="shapes lazy-img shape-one"
-            />
+            /> */}
           </div>
         </div>
       </div>

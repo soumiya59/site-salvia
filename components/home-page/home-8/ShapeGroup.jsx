@@ -1,7 +1,7 @@
 const ShapeGroup = () => {
   return (
     <>
-      <img
+      {/* <img
         src="/images/shape/shape_101.svg"
         alt="shape"
         className="lazy-img shapes oval-shape-one"
@@ -40,7 +40,7 @@ const ShapeGroup = () => {
         src="/images/shape/shape_113.svg"
         alt="shape"
         className="lazy-img shapes oval-shape-eight"
-      />
+      /> */}
     </>
   );
 };

@@ -51,7 +51,7 @@ const Footer = () => {
       <div className="col-lg-4 form-widget mb-30">
         <div className="logo">
           <Link href="/">
-            <img src="/images/logo/logo_05.png" alt="" width={95} />
+            {/* <img src="/images/logo/logo_05.png" alt="" width={95} /> */}
           </Link>
         </div>
         <h6 className="pt-40 pb-10 text-white fw-normal">

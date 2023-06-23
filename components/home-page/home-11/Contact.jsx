@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div className="row align-items-center">
       <div className="col-lg-5" data-aos="fade-right">
-        <img src={contentData.imgSrc} alt="img" className="lazy-img" />
+        {/* <img src={contentData.imgSrc} alt="img" className="lazy-img" /> */}
         <div className="title-style-one mt-35 mb-30">
           <h2 className="main-title fw-normal tx-dark m0">
             {contentData.title}
@@ -42,7 +42,7 @@ const Contact = () => {
             Fill the <br />
             form
           </div>
-          <img
+          {/* <img
             src="/images/shape/shape_90.svg"
             alt="img"
             className="lazy-img shapes shape-one"
@@ -51,7 +51,7 @@ const Contact = () => {
             src="/images/shape/shape_91.svg"
             alt="img"
             className="lazy-img shapes shape-two"
-          />
+          /> */}
         </div>
         {/* /.form-bg-wrapper */}
       </div>

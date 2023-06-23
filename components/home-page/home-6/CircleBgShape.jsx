@@ -40,7 +40,7 @@ const CircleBgShape = () => {
 
   return (
     <div className="circle-bg shapes">
-      <img
+      {/* <img
         src="/images/shape/shape_37.svg"
         alt="media"
         className="lazy-img main-img m-auto"
@@ -53,7 +53,7 @@ const CircleBgShape = () => {
           className={`lazy-img shapes rounded-circle ${img.className}`}
           style={{ width: `${img.width}px`, height: `${img.height}px` }}
         />
-      ))}
+      ))} */}
     </div>
   );
 };

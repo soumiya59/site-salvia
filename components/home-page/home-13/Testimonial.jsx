@@ -85,7 +85,7 @@ const Testimonial = () => {
                   <div className="fw-500 tx-dark fs-18">
                     Qulaity &amp; Cost: 5.00
                   </div>
-                  <img src="/images/icon/icon_98.svg" alt="" />
+                  {/* <img src="/images/icon/icon_98.svg" alt="" /> */}
                 </div>
               </div>
               {/* /.feedback-block-ten */}

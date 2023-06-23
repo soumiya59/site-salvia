@@ -182,11 +182,11 @@ const SassProduct = () => {
 
             <div className="col-md-6 order-md-first" data-data-aos="fade-right">
               <div className="tags-wrapper position-relative">
-                <img
+                {/* <img
                   src="/images/shape/shape_35.svg"
                   alt="shape"
                   className="lazy-img shapes shape-one"
-                />
+                /> */}
                 <div className="h3 m0 fw-normal tx-dark">13+</div>
                 <p className="text-lg opacity-50 pb-25 lg-pb-10">
                   Reason to choose us
@@ -235,11 +235,11 @@ const SassProduct = () => {
         {/* End .container */}
 
         <div className="shapes shape-one rounded-circle" />
-        <img
+        {/* <img
           src="/images/shape/shape_36.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
-        />
+        /> */}
         <div className="shapes shape-three rounded-circle" />
       </div>
       {/* /.fancy-feature-six */}
@@ -261,11 +261,11 @@ const SassProduct = () => {
                   className="icon d-flex align-items-center justify-content-center rounded-circle"
                   style={{ background: "#FFC961" }}
                 >
-                  <img
+                  {/* <img
                     src="/images/icon/icon_19.svg"
                     alt="icon"
                     className="lazy-img"
-                  />
+                  /> */}
                 </div>
                 <h2 className="main-title fw-500">
                   Check what’s our
@@ -337,7 +337,7 @@ const SassProduct = () => {
         </div>
         {/* /.container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_38.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
@@ -346,7 +346,7 @@ const SassProduct = () => {
           src="/images/shape/shape_39.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
-        />
+        /> */}
       </div>
 
       {/*
@@ -384,7 +384,7 @@ const SassProduct = () => {
         {/* End .container */}
 
         <div className="shapes shape-one rounded-circle" />
-        <img
+        {/* <img
           src="/images/shape/shape_40.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
@@ -393,7 +393,7 @@ const SassProduct = () => {
           src="/images/shape/shape_41.svg"
           alt="shape"
           className="lazy-img shapes shape-three"
-        />
+        /> */}
       </div>
 
       {/*
@@ -497,7 +497,7 @@ const SassProduct = () => {
           </div>
           <div className="shapes shape-one rounded-circle" />
           <div className="shapes shape-two rounded-circle" />
-          <img
+          {/* <img
             src="/images/shape/shape_42.svg"
             alt="shape"
             className="lazy-img shapes shape-three"
@@ -506,7 +506,7 @@ const SassProduct = () => {
             src="/images/shape/shape_43.svg"
             alt="shape"
             className="lazy-img shapes shape-four"
-          />
+          /> */}
         </div>
         {/* /.top-footer */}
         <CopyrightFooter2 />

@@ -17,7 +17,7 @@ const CallToAction = () => {
                   Have Any Project? <br />
                   <span className="position-relative">
                     Let’s Talk{" "}
-                    <img src="/images/shape/shape_132.svg" alt="shape" />
+                    {/* <img src="/images/shape/shape_132.svg" alt="shape" /> */}
                   </span>
                   &amp; Grow your Business
                 </h2>

@@ -144,7 +144,7 @@ const Pricing = () => {
               {plans.map((plan, index) => (
                 <div className="col-lg-3 col-sm-6" key={index}>
                   <div className={`pr-column ${plan.className}`}>
-                    <img src={plan.icon} alt="" className="icon" />
+                    {/* <img src={plan.icon} alt="" className="icon" /> */}
                     <div className="plan tx-dark">{plan.plan}</div>
                     <div className="pr-body">
                       <ul className="style-none text-start">
@@ -175,7 +175,7 @@ const Pricing = () => {
               {plans2.map((plan, index) => (
                 <div className="col-lg-3 col-sm-6" key={index}>
                   <div className={`pr-column ${plan.className}`}>
-                    <img src={plan.icon} alt="" className="icon" />
+                    {/* <img src={plan.icon} alt="" className="icon" /> */}
                     <div className="plan tx-dark">{plan.plan}</div>
                     <div className="pr-body">
                       <ul className="style-none text-start">

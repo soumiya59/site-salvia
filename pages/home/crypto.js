@@ -61,11 +61,11 @@ const crypto = () => {
           <div className="shapes shape-one rounded-circle" />
         </div>
         {/* /.illustration-holder */}
-        <img
+        {/* <img
           src="/images/shape/shape_100.svg"
           alt="shape"
           className="lazy-img shapes line-shape"
-        />
+        /> */}
       </div>
 
       {/* 
@@ -162,11 +162,11 @@ const crypto = () => {
             </div>
             <div className="col-lg-6 col-md-8 m-auto" data-aos="fade-left">
               <div className="illustration-holder md-mt-50 position-relative">
-                <img
+                {/* <img
                   src="/images/shape/shape_106.svg"
                   alt="shape"
                   className="lazy-img main-img"
-                />
+                /> */}
                 <Image
                   width={766}
                   height={766}
@@ -310,11 +310,11 @@ const crypto = () => {
 			*/}
       <div className="footer-style-eight theme-basic-footer">
         <div className="top-footer zn2 position-relative">
-          <img
+          {/* <img
             src="/images/shape/shape_107.svg"
             alt="shape"
             className="lazy-img shapes shape-one"
-          />
+          /> */}
           <div className="container">
             <div className="inner-wrapper m-auto">
               <div className="row">

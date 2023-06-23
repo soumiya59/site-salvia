@@ -34,7 +34,7 @@ const CampaignBlock2 = () => {
           data-aos-delay={index * 200}
         >
           <div className="icon d-flex align-items-end">
-            <img src={block.iconUrl} alt="" className="lazy-img" />
+            {/* <img src={block.iconUrl} alt="" className="lazy-img" /> */}
           </div>
           <div
             className={`title mt-25 mb-${block.subtitle ? "15" : "30"} ${

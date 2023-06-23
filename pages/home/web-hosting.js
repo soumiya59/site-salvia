@@ -64,7 +64,7 @@ const WebHosting = () => {
                     Solo, Agency or Team? We’ve got you
                     <span className="position-relative d-inline-block">
                       covered
-                      <img src="/images/shape/shape_96.svg" alt="shape" />
+                      {/* <img src="/images/shape/shape_96.svg" alt="shape" /> */}
                     </span>
                   </h2>
                 </div>
@@ -110,7 +110,7 @@ const WebHosting = () => {
                 All Included
                 <span className="position-relative d-inline-block">
                   Plan
-                  <img src="/images/shape/shape_97.svg" alt="illustration" />
+                  {/* <img src="/images/shape/shape_97.svg" alt="illustration" /> */}
                 </span>
               </h2>
             </div>
@@ -164,11 +164,11 @@ const WebHosting = () => {
               <div className="position-relative inner-wrapper">
                 <div className="row">
                   <div className="col-md-8 m-auto">
-                    <img
+                    {/* <img
                       src="/images/icon/icon_73.svg"
                       alt="icon"
                       className="m-auto"
-                    />
+                    /> */}
                     <div className="title-style-seven text-center pt-30 pb-55">
                       <h2 className="main-title fw-bold text-white">
                         Check what these clients have to say.
@@ -203,7 +203,7 @@ const WebHosting = () => {
                   <h2 className="main-title fw-bold tx-dark">
                     Got questions? <br /> Well, we&lsquo;ve got
                     <span className="position-relative d-inline-block">
-                      answers <img src="/images/shape/shape_99.svg" alt="" />
+                      {/* answers <img src="/images/shape/shape_99.svg" alt="" /> */}
                     </span>
                   </h2>
                 </div>
@@ -288,7 +288,7 @@ const WebHosting = () => {
                 <div className="col-xl-2 footer-intro mb-40">
                   <div className="logo">
                     <Link href="/">
-                      <img src="/images/logo/logo_01.png" alt="brand" />
+                      {/* <img src="/images/logo/logo_01.png" alt="brand" /> */}
                     </Link>
                   </div>
                 </div>

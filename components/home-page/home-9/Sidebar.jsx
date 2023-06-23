@@ -17,7 +17,7 @@ const Sidebar = () => {
       <div className="offcanvas-header">
         <div className="logo">
           <Link href="/" className="d-block">
-            <img src="/images/logo/logo_04.png" alt="" width={90} />
+            {/* <img src="/images/logo/logo_04.png" alt="" width={90} /> */}
           </Link>
         </div>
         <button

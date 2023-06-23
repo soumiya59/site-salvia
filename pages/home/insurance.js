@@ -2,7 +2,6 @@ import Link from "next/link";
 import Seo from "../../components/common/Seo";
 import Footer from "../../components/footer/Footer";
 import DefaulHeader from "../../components/header/DefaulHeader";
-import AppBanner from "../../components/home-page/home-1/AppBanner";
 import Banner from "../../components/home-page/home-1/Banner";
 import Block from "../../components/home-page/home-1/Block";
 import ContactForm from "../../components/home-page/home-1/ContactForm";
@@ -14,6 +13,7 @@ import Testimonial from "../../components/home-page/home-1/Testimonial";
 import WhyChoose from "../../components/home-page/home-1/WhyChoose";
 import { useTranslation } from 'next-i18next';
 import useLocalStorage from "../../utils/useLocalstorage";
+import Image from "next/image";
 
 const Insurance = () => {
   const { t } = useTranslation();
@@ -196,12 +196,6 @@ const Insurance = () => {
 				Feature Section Thirty Eight
 			============================================== 
 			*/}
-      {/* <div className="fancy-feature-thirtyEight mt-140 lg-mt-100">
-        <div className="container">
-          <AppBanner />
-        </div>
-      </div> 
-      */}
         {/* /.container */}
       {/* /.fancy-feature-thirtyEight */}
       {/*=====================================================
@@ -254,7 +248,9 @@ const Insurance = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6 ms-auto order-lg-last">
                     <div className="text-wrapper">
-                      <img
+                      <Image
+                        height={100}
+                        width={100}
                         src="/images/icon/icon_114.svg"
                         alt="icon"
                         className="lazy-img mb-30"
@@ -281,12 +277,16 @@ const Insurance = () => {
               {t('Fill the')} <br />
               {t('form')}
             </div>
-            <img
+            <Image
+              width={100}
+              height={100}
               src="/images/shape/shape_90.svg"
               alt="shape"
               className="lazy-img shapes shape-one"
             />
-            <img
+            <Image
+              width={100}
+              height={100}
               src="/images/shape/shape_91.svg"
               alt="shape"
               className="lazy-img shapes shape-two"
@@ -340,7 +340,7 @@ const Insurance = () => {
               <div className="col-lg-3 footer-intro mb-40">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo/salvia-white.png" alt="logo" width={95} />
+                    <Image width={120} height={20} src="/images/logo/salvia-white.png" alt="logo"  />
                   </Link>
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15  ">
@@ -357,13 +357,17 @@ const Insurance = () => {
           {/* /.inner-wrapper */}
         </div>
         {/* End .container */}
-        <img
+        <Image
+          width={100}
+          height={100}
           src="/images/assets/ils_13.png"
           alt="illustration"
           className="lazy-img illustration-one"
           data-aos="fade-left"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           src="/images/assets/ils_14.png"
           alt="illustration"
           className="lazy-img illustration-two"

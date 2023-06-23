@@ -1,4 +1,5 @@
 import { useTranslation } from 'next-i18next';
+import Image from "next/image";
 const WhyChoose = () => {
   const { t } = useTranslation();
   const accordionItems = [
@@ -30,7 +31,7 @@ const WhyChoose = () => {
       {accordionItems.map((item) => (
         <div key={item.id}>
           <div className={`accordion-button cursor-na`} >
-            <img src={item.icon} alt="" className="me-3" /> {item.title}
+            <Image width={40} height={40} src={item.icon} alt="" className="me-3" /> {item.title}
           </div>
         </div>
       ))}

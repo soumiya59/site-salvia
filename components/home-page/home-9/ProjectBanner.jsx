@@ -1,7 +1,7 @@
 const ProjectBanner = () => {
   return (
     <div className="img-meta d-inline-block position-relative mt-80">
-      <img src="/images/shape/shape_63.svg" alt="shape" className="lazy-img" />
+      {/* <img src="/images/shape/shape_63.svg" alt="shape" className="lazy-img" /> */}
       <div className="text-meta w-100">
         <div className="tm-heading">Catch me</div>
         <h3 className="text-white font-recoleta fw-500">

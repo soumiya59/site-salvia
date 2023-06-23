@@ -94,7 +94,7 @@ const Partners = () => {
         >
           <div className={`img-box ${partner.className}`}>
             <a href="#">
-              <img src={partner.imgSrc} alt="logo" className="lazy-img" />
+              {/* <img src={partner.imgSrc} alt="logo" className="lazy-img" /> */}
             </a>
           </div>
           {/* /.img-box */}

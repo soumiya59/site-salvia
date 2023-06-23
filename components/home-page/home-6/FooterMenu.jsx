@@ -46,7 +46,7 @@ const FooterLinks = () => {
           <div className="col-lg-3 footer-intro mb-40">
             <div className="logo">
               <Link href="/">
-                <img src="/images/logo/logo_01.png" alt="logo" width={95} />
+                {/* <img src="/images/logo/logo_01.png" alt="logo" width={95} /> */}
               </Link>
             </div>
             <a href="#" className="email tran3s fs-18 mt-35 mb-15 md-mt-10">

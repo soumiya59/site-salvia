@@ -4,7 +4,7 @@ const HeroContent = () => {
       <h1 className="hero-heading fw-normal text-white font-recoleta">
         Find your quality{" "}
         <span className="position-relative">
-          leads <img src="/images/shape/shape_114.svg" alt="img" />
+          {/* leads <img src="/images/shape/shape_114.svg" alt="img" /> */}
         </span>
         in single click.
       </h1>
@@ -19,7 +19,7 @@ const HeroContent = () => {
           className="demo-btn fw-500 tran3s d-inline-flex align-items-center mb-25 me-4"
         >
           <span>Request a demo</span>
-          <img src="/images/icon/icon_91.svg" alt="img" className="ms-3" />
+          {/* <img src="/images/icon/icon_91.svg" alt="img" className="ms-3" /> */}
         </a>
         <div className="mb-25 text-white signIn-btn">
           Already using jano? <a href="signin.html">Sign in</a>

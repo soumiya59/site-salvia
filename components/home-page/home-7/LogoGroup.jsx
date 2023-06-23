@@ -16,7 +16,7 @@ const LogoGroup = () => {
           className="logo d-flex align-items-center justify-content-center"
           key={index}
         >
-          <img src={`/images/logo/${image}`} alt="logo" className="lazy-img" />
+          {/* <img src={`/images/logo/${image}`} alt="logo" className="lazy-img" /> */}
         </div>
       ))}
     </>

@@ -85,18 +85,18 @@ const OurAim = () => {
 
       <div className="col-md-6 order-md-first " data-aos="fade-right">
         <div className="img-meta d-inline-block position-relative ps-3 ps-lg-5 pb-50 md-mt-50 sm-mt-80">
-          {imageItems.map((item, index) => (
+          {/* {imageItems.map((item, index) => (
             <img
               key={index}
               src={item.src}
               alt={item.alt}
               className={item.className}
             />
-          ))}
+          ))} */}
 
           <div className="card-one" data-aos="fade-up" data-aos-delay="200">
             <div className="icon d-flex align-items-center justify-content-center rounded-circle">
-              <img src={cardItem.imgSrc} alt="shape" className="lazy-img" />
+              {/* <img src={cardItem.imgSrc} alt="shape" className="lazy-img" /> */}
             </div>
             <div className="name fs-18 fw-500 tx-dark mb-10">
               - {cardItem.name},{" "}

@@ -37,7 +37,7 @@ const Features = () => {
         >
           <div className="card-style-seven mb-30 text-center position-relative tran3s ">
             <div className="icon d-flex align-items-end justify-content-center">
-              <img src={feature.icon} alt="icon" className="lazy-img" />
+              {/* <img src={feature.icon} alt="icon" className="lazy-img" /> */}
             </div>
             <h4 className="mt-25 mb-35">{feature.title}</h4>
             <a href="#" className="read-btn tran3s">

@@ -1,11 +1,11 @@
 const HowCanHelpBlock = () => {
   return (
     <div className="fancy-feature-seventeen position-relative">
-      <img
+      {/* <img
         src="/images/shape/shape_80.svg"
         alt="shape"
         className="lazy-img shapes shape-four"
-      />
+      /> */}
       <div className="container">
         <div className="row align-items-center">
           <div
@@ -31,7 +31,7 @@ const HowCanHelpBlock = () => {
           {/* End .col */}
 
           <div className="col-lg-6 order-lg-first" data-aos="fade-right">
-            <div className="img-meta d-inline-block position-relative">
+            {/* <div className="img-meta d-inline-block position-relative">
               <img
                 src="/images/media/img_34.png"
                 alt="media"
@@ -61,8 +61,7 @@ const HowCanHelpBlock = () => {
                   </div>
                 </div>
               </div>
-              {/* /.shape-three */}
-            </div>
+            </div> */}
             {/* /.img-meta */}
           </div>
           {/* End .col */}

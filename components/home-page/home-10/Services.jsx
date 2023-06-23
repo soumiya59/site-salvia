@@ -46,7 +46,7 @@ const Services = () => {
               className="icon d-flex align-items-center justify-content-center"
               style={{ backgroundColor: service.bgColor }}
             >
-              <img src={service.iconSrc} alt="icon" className="lazy-img" />
+              {/* <img src={service.iconSrc} alt="icon" className="lazy-img" /> */}
             </div>
             <h5 className="fw-500 mt-35 mb-25">
               <Link
@@ -58,11 +58,11 @@ const Services = () => {
             </h5>
             <p className="mb-25">{service.description}</p>
             <Link href="/pages-menu/service-details">
-              <img
+              {/* <img
                 src="/images/icon/icon_05.svg"
                 alt="icon"
                 className="lazy-img"
-              />
+              /> */}
             </Link>
           </div>
           {/* /.card-style-one */}

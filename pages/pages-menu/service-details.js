@@ -5,6 +5,7 @@ import ProgressBar from "./service-details/ProgressBar";
 import Faq from "../../components/home-page/home-2/Faq";
 import Social from "./service-details/Social";
 import Link from "next/link";
+import Image from "next/image";
 
 const PortfolioV1 = () => {
   return (
@@ -37,12 +38,16 @@ const PortfolioV1 = () => {
           </div>
         </div>
         {/* /.container */}
-        <img
+        <Image
+          width={100}
+          height={100}
           src="/images/shape/shape_172.svg"
           alt="shap"
           className="lazy-img shapes shape-two"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           src="/images/shape/shape_175.svg"
           alt="shap"
           className="lazy-img shapes shape-three"
@@ -63,11 +68,11 @@ const PortfolioV1 = () => {
                   Commonly used in the graphic, prit quis due &amp; publishing
                   indust for previewing lightly visual mockups.
                 </p>
-                <img
+                {/* <img
                   src="/images/media/img_95.jpg"
                   alt="media"
                   className="main-img-meta"
-                />
+                /> */}
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Maecenas interdum, orci at dapibus, massa ante pharetra
@@ -147,11 +152,11 @@ const PortfolioV1 = () => {
                 {/* /.service-category */}
 
                 <div className="sidebar-quote mb-50">
-                  <img
+                  {/* <img
                     src="/images/icon/icon_150.svg"
                     alt="icon"
                     className="m-auto"
-                  />
+                  /> */}
                   <p className="fw-500">
                     Evernote Web offers a complete lineup major linup browser
                   </p>

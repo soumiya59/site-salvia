@@ -81,7 +81,7 @@ const PersonalPortfolio = () => {
         id="s3"
         data-aos="fade-up"
       >
-        <img
+        {/* <img
           src="/images/shape/shape_60.svg"
           alt="shape media"
           className="lazy-img shapes shape-one"
@@ -95,7 +95,7 @@ const PersonalPortfolio = () => {
           src="/images/shape/shape_62.svg"
           alt="shape media"
           className="lazy-img shapes shape-three"
-        />
+        /> */}
         <Portfolio />
         {/* /.container */}
       </div>
@@ -198,7 +198,7 @@ const PersonalPortfolio = () => {
 			*/}
       <div className="p-30">
         <div className="counter-section-one position-relative pt-80 pb-100 lg-pt-50 lg-pb-60">
-          <img
+          {/* <img
             src="/images/shape/shape_64.svg"
             alt="shape"
             className="lazy-img shapes shape-one"
@@ -217,7 +217,7 @@ const PersonalPortfolio = () => {
             src="/images/shape/shape_67.svg"
             alt="shape"
             className="lazy-img shapes shape-four"
-          />
+          /> */}
           <div className="container">
             <div className="row">
               <Counter />
@@ -271,7 +271,7 @@ const PersonalPortfolio = () => {
 			*/}
       <div className="fancy-short-banner-five p-30 mt-110" id="s5">
         <div className="bg-wrapper position-relative pt-180 pb-140 lg-pt-80 lg-pb-80">
-          <img
+          {/* <img
             src="/images/shape/shape_68.svg"
             alt="shape"
             className="lazy-img shapes shape-one"
@@ -285,7 +285,7 @@ const PersonalPortfolio = () => {
             src="/images/shape/shape_70.svg"
             alt="shape"
             className="lazy-img shapes shape-three"
-          />
+          /> */}
           <div className="r-shape-one position-absolute" />
           <div className="container">
             <div
@@ -330,7 +330,7 @@ const PersonalPortfolio = () => {
             <div className="col-lg-4 mb-30 order-lg-0">
               <div className="logo d-flex justify-content-center justify-content-lg-start">
                 <Link href="/">
-                  <img src="/images/logo/logo_04.png" alt="" width={77} />
+                  {/* <img src="/images/logo/logo_04.png" alt="" width={77} /> */}
                 </Link>
               </div>
             </div>

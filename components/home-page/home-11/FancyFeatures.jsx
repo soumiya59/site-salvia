@@ -39,11 +39,11 @@ const FancyFeatures = () => {
 
       <div className="col-lg-6 col-md-10 order-lg-first" data-aos="fade-right">
         <div className="img-meta d-inline-block position-relative md-mt-40">
-          <img
+          {/* <img
             src="/images/media/img_40.png"
             alt="media"
             className="lazy-img"
-          />
+          /> */}
         </div>
         {/* /.img-meta */}
       </div>

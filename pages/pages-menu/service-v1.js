@@ -7,6 +7,7 @@ import Testimonial from "../../components/home-page/home-3/Testimonial";
 import Faq from "../../components/services/Faq";
 import Partners from "../../components/services/Partners";
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslation } from 'next-i18next';
 const ServiceV1 = () => {
   const { t } = useTranslation();
@@ -60,7 +61,9 @@ const ServiceV1 = () => {
           {/* /.row */}
         </div>
         {/* /.container */}
-        <img
+        <Image
+          width={100}
+          height={100}
           src="/images/shape/shape_172.svg"
           alt="icon"
           className="lazy-img shapes shape-two"

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useTranslation } from 'next-i18next';
+import Image from "next/image";
 
 const Service1 = () => {
   const { t } = useTranslation();
@@ -103,7 +104,9 @@ const Service1 = () => {
         >
           <div className="card-style-sixteen tran3s text-center position-relative mt-40">
             <div className="icon">
-              <img
+              <Image
+                width={60}
+                height={60}
                 src={service.iconSrc}
                 alt="icon"
                 className="lazy-img m-auto"

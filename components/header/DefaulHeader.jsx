@@ -60,6 +60,7 @@ const DefaulHeader = () => {
                 alt="logo"
                 width={120}
                 height={35}
+                priority={true}
               />
             </Link>
           </div>

@@ -14,11 +14,11 @@ const Blog = () => {
           <article className="blog-meta-one tran3s mt-30">
             <figure className="post-img m0">
               <Link href={`/blog/${blog.id}`} className="w-100 d-block">
-                <img
+                {/* <img
                   src={blog.imageSrc}
                   alt="icon"
                   className="lazy-img w-100 tran4s"
-                />
+                /> */}
               </Link>
             </figure>
             <div className="post-data mt-25">
@@ -33,11 +33,11 @@ const Blog = () => {
                 <h4 className="tran3s">{blog.title}</h4>
               </Link>
               <Link href={`/blog/${blog.id}`} className="read-btn mt-35">
-                <img
+                {/* <img
                   src="/images/icon/icon_12.svg"
                   alt="icon"
                   className="lazy-img"
-                />
+                /> */}
               </Link>
             </div>
             {/* /.post-data */}

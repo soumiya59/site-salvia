@@ -37,7 +37,7 @@ const TeamV1 = () => {
         </div>
         {/* /.container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_172.svg"
           alt="shap"
           className="lazy-img shapes shape-two"
@@ -46,7 +46,7 @@ const TeamV1 = () => {
           src="/images/shape/shape_175.svg"
           alt="shap"
           className="lazy-img shapes shape-three"
-        />
+        /> */}
       </div>
 
       {/*

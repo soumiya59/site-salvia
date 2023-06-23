@@ -69,11 +69,11 @@ const ServiceV2 = () => {
             <Service2 />
           </div>
         </div>
-        <img
+        {/* <img
           src="/images/shape/shape_174.svg"
           alt="shape"
           className="lazy-img shapes shape-one d-none d-md-inline-block"
-        />
+        /> */}
         <div className="shapes shape-two" />
         <div className="shapes shape-three" />
       </div>
@@ -109,11 +109,11 @@ const ServiceV2 = () => {
                   className="img-holder position-relative mt-25"
                   data-aos="fade-left"
                 >
-                  <img
+                  {/* <img
                     src="/images/media/img_84.jpg"
                     alt="shape"
                     className="lazy-img ms-auto"
-                  />
+                  /> */}
 
                   <div className="rating-box bg-black text-white d-flex flex-column justify-content-center align-items-center">
                     <strong className="fw-500">4.8</strong>
@@ -121,7 +121,7 @@ const ServiceV2 = () => {
                   </div>
                   {/* /.rating-box */}
 
-                  <img
+                  {/* <img
                     src="/images/shape/shape_163.svg"
                     alt="shape"
                     className="lazy-img shapes shape-one"
@@ -130,7 +130,7 @@ const ServiceV2 = () => {
                     src="/images/shape/shape_168.svg"
                     alt="shape"
                     className="lazy-img shapes shape-two"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -139,11 +139,11 @@ const ServiceV2 = () => {
         </div>
         {/* End .container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_169.svg"
           alt="shape"
           className="lazy-img shapes shape-three"
-        />
+        /> */}
       </div>
 
       {/*
@@ -189,11 +189,11 @@ const ServiceV2 = () => {
           </div>
           {/* /.line-bg-wrapper */}
         </div>
-        <img
+        {/* <img
           src="/images/shape/shape_162.svg"
           alt="shape"
           className="lazy-img shapes shape-one d-none d-md-inline-block"
-        />
+        /> */}
       </div>
       {/* /.fancy-short-banner-seventeen */}
 

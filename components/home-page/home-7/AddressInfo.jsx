@@ -18,7 +18,7 @@ const AddressInfo = () => {
         <div className="col-md-6 d-flex" key={i}>
           <div className="address-block-one">
             <div className="icon position-absolute">
-              <img src={address.icon} alt="icon" className="lazy-img" />
+              {/* <img src={address.icon} alt="icon" className="lazy-img" /> */}
             </div>
             <div className="text-meta">
               <h4 className="title">{address.title}</h4>

@@ -11,11 +11,11 @@ const Hero = () => {
                 Discover your <br /> home, you&lsquo;ll love to
                 <span className="position-relative">
                   live.
-                  <img
+                  {/* <img
                     src="/images/shape/shape_161.svg"
                     alt="shape"
                     className="lazy-img shapes text-shape"
-                  />
+                  /> */}
                 </span>
               </h1>
               <p className="text-lg tx-dark mb-80 pt-35 text-center lg-pt-20 lg-mb-50">
@@ -30,21 +30,21 @@ const Hero = () => {
           <FilterBox />
           {/* /.search-area */}
 
-          <img
+          {/* <img
             src="/images/shape/shape_160.svg"
             alt="shape"
             className="lazy-img shapes shape-two"
-          />
+          /> */}
         </div>
         {/* /.search-form-bg */}
       </div>
       {/* /.container */}
 
-      <img
+      {/* <img
         src="/images/shape/shape_159.svg"
         alt="shape"
         className="lazy-img shapes shape-one"
-      />
+      /> */}
     </div>
   );
 };

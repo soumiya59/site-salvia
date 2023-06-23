@@ -100,14 +100,14 @@ const Testimonial = () => {
               <div className="item" key={index}>
                 <div className="feedback-block-one pt-45 align-items-end d-sm-flex">
                   <div className="img-meta position-relative">
-                    <img src={item.imgSrc} alt="img" className="m-auto" />
+                    {/* <img src={item.imgSrc} alt="img" className="m-auto" /> */}
                   </div>
                   <div className="text-wrapper">
                     <div
                       className="icon d-flex align-items-center justify-content-center rounded-circle mb-15"
                       style={{ backgroundColor: item.backgroundColor }}
                     >
-                      <img src="/images/icon/icon_07.svg" alt="img" />
+                      {/* <img src="/images/icon/icon_07.svg" alt="img" /> */}
                     </div>
                     <div className="rating h3 fw-bold tx-dark">
                       {item.rating}

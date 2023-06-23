@@ -50,16 +50,16 @@ const Features = () => {
         >
           <div className="card-style-three">
             <div className="icon d-flex align-items-end">
-              <img src={feature.iconSrc} alt="icon" className="lazy-img" />
+              {/* <img src={feature.iconSrc} alt="icon" className="lazy-img" /> */}
             </div>
             <h4 className="mt-25 mb-20">{feature.title}</h4>
             <p className="mb-50">{feature.description}</p>
             <Link href="/pages-menu/service-details">
-              <img
+              {/* <img
                 src="/images/icon/icon_18.svg"
                 alt="icon"
                 className="lazy-img"
-              />
+              /> */}
             </Link>
           </div>
         </div>

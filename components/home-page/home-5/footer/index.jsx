@@ -13,7 +13,7 @@ const index = () => {
             <div className="col-lg-4 footer-intro mb-40">
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/logo/logo_02.png" alt="brand" width={95} />
+                  {/* <img src="/images/logo/logo_02.png" alt="brand" width={95} /> */}
                 </Link>
               </div>
               <p className="text-white fs-18 mt-30 mb-40 md-mt-10 md-mb-20 pe-xxl-5">
@@ -34,11 +34,11 @@ const index = () => {
         {/* /.inner-wrapper */}
       </div>
       {/* End .container */}
-      <img
+      {/* <img
         src="/images/shape/shape_170.svg"
         alt="shape"
         className="lazy-img shapes shape-one"
-      />
+      /> */}
     </div>
   );
 };

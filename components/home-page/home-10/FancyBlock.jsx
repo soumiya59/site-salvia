@@ -71,18 +71,18 @@ const FancyBlock = () => {
         data-aos="fade-right"
       >
         <div className="img-meta-two d-inline-block position-relative pb-50">
-          {images.map((image, index) => (
+          {/* {images.map((image, index) => (
             <img
               key={index}
               src={image.src}
               alt={image.alt}
               className={image.className}
             />
-          ))}
+          ))} */}
           <div className="card-one" data-aos="fade-up" data-aos-delay="250">
-            <div className="icon d-flex align-items-center justify-content-center rounded-circle">
+            {/* <div className="icon d-flex align-items-center justify-content-center rounded-circle">
               <img src="/images/icon/icon_08.svg" alt="" className="lazy-img" />
-            </div>
+            </div> */}
             <h5 className="fw-500 m0">Expert talkign with cusomter.</h5>
           </div>
           {/* /.card-one */}

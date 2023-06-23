@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import MainMenu from "./MainMenu";
 import Link from "next/link";
+import Image from "next/image";
 
 const DefaulHeader = () => {
   const [navbar, setNavbar] = useState(false);
@@ -30,7 +31,7 @@ const DefaulHeader = () => {
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
             <Link href="/" className="d-block">
-              <img src="/images/logo/logo_01.png" alt="" width={95} />
+              <Image src="/images/logo/logo_01.png" alt="" layout='fill' />
             </Link>
           </div>
           {/* End logo */}
@@ -39,7 +40,7 @@ const DefaulHeader = () => {
               href="/login"
               className="login-btn-two fw-500 d-flex align-items-center me-3 me-xl-5"
             >
-              <img src="/images/icon/icon_62.svg" alt="" className="me-2" />
+              <Image layout='fill' src="/images/icon/icon_62.svg" alt="" className="me-2" />
               <span>login</span>
             </Link>
             <Link

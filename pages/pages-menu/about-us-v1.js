@@ -9,6 +9,7 @@ import Team3 from "../../components/team/Team3";
 import Link from "next/link";
 import Counter from "../../components/about/Counter";
 import { useTranslation } from 'next-i18next';
+import Image from "next/image";
 
 const AboutUsV1 = () => {
   const { t } = useTranslation();
@@ -114,7 +115,9 @@ const AboutUsV1 = () => {
         </div>
         {/* /.container */}
 
-        <img
+        <Image
+          width={100}
+          height={100}
           src="/images/shape/shape_172.svg"
           alt="shape"
           className="lazy-img shapes shape-two"

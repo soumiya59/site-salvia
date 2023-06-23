@@ -11,7 +11,7 @@ const Illustration = () => {
 
   return (
     <div className="illustration-holder">
-      <img
+      {/* <img
         src="/images/assets/ils_01.png"
         alt="illustration"
         className="lazy-img main-illustration w-100"
@@ -23,7 +23,7 @@ const Illustration = () => {
           alt="illustration"
           className={`lazy-img ${shape.className}`}
         />
-      ))}
+      ))} */}
     </div>
   );
 };

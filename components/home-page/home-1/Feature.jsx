@@ -65,7 +65,6 @@ const Feature = () => {
             <Image
               width={feature.width}
               height={feature.height}
-              layout="intrinsic"
               src={feature.icon}
               alt="icon"
               className="position-absolute"

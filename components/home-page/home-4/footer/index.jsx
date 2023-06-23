@@ -13,7 +13,7 @@ const index = () => {
             <div className="col-lg-3 footer-intro mb-50">
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/logo/logo_02.png" alt="brand" width={95} />
+                  {/* <img src="/images/logo/logo_02.png" alt="brand" width={95} /> */}
                 </Link>
               </div>
               <p className="text-white fs-18 mt-30 mb-40 md-mt-10 md-mb-20 pe-xxl-5">

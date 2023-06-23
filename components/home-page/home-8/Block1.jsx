@@ -67,11 +67,11 @@ const Block1 = () => {
               {/* /.meta-point */}
             </div>
             <div className="mt-15 d-sm-flex justify-content-between align-items-center">
-              <img
+              {/* <img
                 src={block.shape}
                 alt="shape"
                 className="wow fadeInUp order-sm-last"
-              />
+              /> */}
               <div className="btc-balance xs-mt-10 text-white fw-500">
                 $<span className="counter">{block.balance}</span>
               </div>

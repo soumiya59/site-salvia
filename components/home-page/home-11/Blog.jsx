@@ -14,12 +14,12 @@ const Blog = () => {
           <article className="blog-meta-three mt-40 ">
             <figure className="post-img m0">
               <Link href={`/blog/${post.id}`} className="w-100 d-block">
-                <img
+                {/* <img
                   src={post.imageSrc}
                   alt="blog"
                   className="lazy-img w-100 tran4s"
                   style={{}}
-                />
+                /> */}
               </Link>
             </figure>
             <div className="post-data mt-40 lg-mt-30">

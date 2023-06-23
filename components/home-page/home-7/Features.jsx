@@ -29,7 +29,7 @@ const FeatureCard = ({ icon, title, text, backgroundColor }) => {
         className="icon rounded-circle m-auto d-flex align-items-center justify-content-center"
         style={{ backgroundColor }}
       >
-        <img src={icon} alt="icon" className="lazy-img" />
+        {/* <img src={icon} alt="icon" className="lazy-img" /> */}
       </div>
       <h4 className="fw-500 mt-35 mb-25">
         <a href="#" className="tran3s tx-dark">
@@ -38,7 +38,7 @@ const FeatureCard = ({ icon, title, text, backgroundColor }) => {
       </h4>
       <p className="mb-30">{text}</p>
       <a href="#">
-        <img src="/images/icon/icon_05.svg" alt="icon" className="lazy-img" />
+        {/* <img src="/images/icon/icon_05.svg" alt="icon" className="lazy-img" /> */}
       </a>
     </div>
   );

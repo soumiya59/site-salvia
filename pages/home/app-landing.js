@@ -48,11 +48,11 @@ const AppLanding = () => {
         <div className="mobile-screen" data-aos="fade-right">
           <div className="row gx-xxl-5 justify-content-center align-items-center">
             <div className="col-6">
-              <img
+              {/* <img
                 src="/images/media/img_13.png"
                 alt="media"
                 className="lazy-img screen-one"
-              />
+              /> */}
             </div>
 
             <div className="col-6">
@@ -64,11 +64,11 @@ const AppLanding = () => {
                   Save up to 50% in Yearly plan.
                 </h6>
               </div>
-              <img
+              {/* <img
                 src="/images/media/img_14.png"
                 alt="media"
                 className="lazy-img screen-two"
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@ const AppLanding = () => {
         {/* /.container */}
 
         <div className="illustration-holder">
-          <img
+          {/* <img
             src="/images/media/img_15.jpg"
             alt="media"
             className="lazy-img main-img"
@@ -142,7 +142,7 @@ const AppLanding = () => {
             src="/images/shape/shape_44.svg"
             alt="media"
             className="lazy-img shapes shape-one"
-          />
+          /> */}
         </div>
         {/* /.illustration-holder */}
       </div>
@@ -254,7 +254,7 @@ const AppLanding = () => {
         {/* End .contaier */}
 
         <div className="shape-holder">
-          <img
+          {/* <img
             src="/images/shape/shape_48.svg"
             alt="shape"
             className="lazy-img"
@@ -282,7 +282,7 @@ const AppLanding = () => {
             alt="media"
             className="lazy-img shapes rounded-circle avatar-four"
             style={{ width: "80px", height: "80px" }}
-          />
+          /> */}
         </div>
       </div>
 
@@ -324,7 +324,7 @@ const AppLanding = () => {
         </div>
         {/* /.container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_49.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
@@ -338,7 +338,7 @@ const AppLanding = () => {
           src="/images/shape/shape_51.svg"
           alt="shape"
           className="lazy-img shapes shape-three"
-        />
+        /> */}
       </div>
 
       {/*
@@ -363,7 +363,7 @@ const AppLanding = () => {
           </div>
           <Pricng />
         </div>
-        <img
+        {/* <img
           src="/images/shape/shape_52.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
@@ -382,7 +382,7 @@ const AppLanding = () => {
           src="/images/shape/shape_55.svg"
           alt="shape"
           className="lazy-img shapes shape-four"
-        />
+        /> */}
       </div>
 
       {/* 
@@ -415,7 +415,7 @@ const AppLanding = () => {
         <div className="logo-wrapper d-flex flex-wrap justify-content-center align-items-center">
           <LogoGroup />
         </div>
-        <img
+        {/* <img
           src="/images/shape/shape_49.svg"
           alt="logo"
           className="lazy-img shapes shape-one"
@@ -429,7 +429,7 @@ const AppLanding = () => {
           src="/images/shape/shape_51.svg"
           alt="logo"
           className="lazy-img shapes shape-three"
-        />
+        /> */}
       </div>
 
       {/*
@@ -484,7 +484,7 @@ const AppLanding = () => {
               <div className="col-lg-4">
                 <div className="logo d-flex justify-content-center justify-content-lg-start">
                   <Link href="/">
-                    <img src="/images/logo/logo_03.png" alt="" width={77} />
+                    {/* <img src="/images/logo/logo_03.png" alt="" width={77} /> */}
                   </Link>
                 </div>
               </div>
@@ -507,11 +507,11 @@ const AppLanding = () => {
         </div>
         {/* End button-footer */}
 
-        <img
+        {/* <img
           src="/images/assets/ils_01.svg"
           alt="illustration"
           className="lazy-img bg-illustration w-100 shapes"
-        />
+        /> */}
       </div>
     </>
   );

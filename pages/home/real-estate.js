@@ -63,13 +63,13 @@ const RealEstate = () => {
             <Quote />
             {/* /.quote-wrapper */}
 
-            <img
+            {/* <img
               src="/images/assets/sticker_01.png"
               alt="sticker"
               className="lazy-img shapes shape-one"
-            />
+            /> */}
             <div className="shapes shape-two" />
-            <img
+            {/* <img
               src="/images/shape/shape_162.svg"
               alt="sticker"
               className="lazy-img shapes shape-three"
@@ -78,7 +78,7 @@ const RealEstate = () => {
               src="/images/assets/sticker_02.png"
               alt="sticker"
               className="lazy-img shapes shape-four"
-            />
+            /> */}
             <div className="shapes shape-five" />
             <div className="shapes shape-six" />
           </div>
@@ -98,11 +98,11 @@ const RealEstate = () => {
         </div>
         {/* /.container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_163.svg"
           alt="media"
           className="lazy-img shapes shape-one"
-        />
+        /> */}
       </div>
 
       {/* 
@@ -157,11 +157,11 @@ const RealEstate = () => {
                   className="img-holder position-relative mt-25"
                   data-aos="fade-left"
                 >
-                  <img
+                  {/* <img
                     src="/images/media/img_84.jpg"
                     alt="shape"
                     className="lazy-img ms-auto"
-                  />
+                  /> */}
 
                   <div className="rating-box bg-black text-white d-flex flex-column justify-content-center align-items-center">
                     <strong className="fw-500">4.8</strong>
@@ -169,7 +169,7 @@ const RealEstate = () => {
                   </div>
                   {/* /.rating-box */}
 
-                  <img
+                  {/* <img
                     src="/images/shape/shape_163.svg"
                     alt="shape"
                     className="lazy-img shapes shape-one"
@@ -178,7 +178,7 @@ const RealEstate = () => {
                     src="/images/shape/shape_168.svg"
                     alt="shape"
                     className="lazy-img shapes shape-two"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -187,7 +187,7 @@ const RealEstate = () => {
         </div>
         {/* End .container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_169.svg"
           alt="shape"
           className="lazy-img shapes shape-three"
@@ -197,7 +197,7 @@ const RealEstate = () => {
           alt="shape"
           className="lazy-img shapes shape-four"
           data-aos="fade-up"
-        />
+        /> */}
       </div>
 
       {/* 
@@ -230,11 +230,11 @@ const RealEstate = () => {
         </div>
         {/* End .container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_163.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
-        />
+        /> */}
       </div>
 
       {/* 
@@ -269,11 +269,11 @@ const RealEstate = () => {
           {/* End .row */}
         </div>
         {/* /.container */}
-        <img
+        {/* <img
           src="/images/shape/shape_163.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
-        />
+        /> */}
       </div>
 
       {/*

@@ -46,7 +46,7 @@ const Partner = () => {
     <Slider {...settings} arrows={false}>
       {partnerLogos.map((logo, index) => (
         <div className="item" key={index}>
-          <img src={logo} alt="" className="m-auto" />
+          {/* <img src={logo} alt="" className="m-auto" /> */}
         </div>
       ))}
     </Slider>

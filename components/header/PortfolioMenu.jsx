@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 const navItems = [
   { title: "About me", href: "#s1" },
@@ -34,7 +35,7 @@ const PortfolioMenu = () => {
           <li className="d-block d-lg-none">
             <div className="logo">
               <Link href="/" className="d-block">
-                <img src="/images/logo/logo_04.png" alt="" width={90} />
+                <Image src="/images/logo/logo_04.png" alt="" width={90} height={90} />
               </Link>
             </div>
           </li>

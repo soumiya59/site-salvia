@@ -1,6 +1,7 @@
 import Seo from "../components/common/Seo";
 import BlockContact from "../components/contact/BlockContact";
 import ContactForm from "../components/contact/ContactForm";
+import Image from "next/image";
 import Map from "../components/contact/Map";
 import DefaultFooter from "../components/footer/DefaultFooter";
 import DefaulHeader from "../components/header/DefaulHeader";
@@ -37,7 +38,9 @@ const Contact = () => {
           </div>
         </div>
         {/* /.container */}
-        <img
+        <Image
+          width={100}
+          height={100}
           src="/images/shape/shape_172.svg"
           alt="shape"
           className="lazy-img shapes shape-two"

@@ -60,7 +60,7 @@ const IncludedPlan = () => {
         >
           <div className="card-style-eleven text-center text-lg-start w-100 mt-110 lg-mt-50 xs-mt-40">
             <div className="icon d-flex align-items-center justify-content-center position-relative rounded-circle">
-              <img src={card.icon} alt="illustration" className="lazy-img" />
+              {/* <img src={card.icon} alt="illustration" className="lazy-img" /> */}
             </div>
             <h4 className="mt-30 mb-20 lg-mb-10">{card.title}</h4>
             <p>{card.description}</p>

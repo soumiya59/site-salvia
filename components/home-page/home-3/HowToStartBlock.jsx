@@ -29,11 +29,11 @@ const HowToStartBlock = () => {
           {/* End .col */}
 
           <div className="col-md-6 order-md-first" data-aos="fade-left">
-            <img
+            {/* <img
               src="/images/media/img_67.png"
               alt="media"
               className="lazy-img sm-mt-40"
-            />
+            /> */}
           </div>
           {/* End .col */}
         </div>

@@ -51,7 +51,7 @@ const Testimonial = () => {
                     ))}
                   </ul>
                 </div>
-                <img src="images/icon/icon_112.svg" alt="" width={50} />
+                {/* <img src="images/icon/icon_112.svg" alt="" width={50} /> */}
               </div>
               <p className="tx-dark">{item.text}</p>
               <div className="d-flex align-items-center justify-content-between">

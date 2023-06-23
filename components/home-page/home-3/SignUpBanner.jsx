@@ -49,7 +49,7 @@ const SignUpBanner = () => {
                 <div className="col-xl-10 col-lg-11 m-auto">
                   <div className="row align-items-center">
                     <div className="col-6">
-                      <img
+                      {/* <img
                         src="/images/media/img_69.jpg"
                         alt="media"
                         className="lazy-img img-one mt-30 mb-30 lg-mt-20 lg-mb-20"
@@ -58,23 +58,23 @@ const SignUpBanner = () => {
                         src="/images/media/img_70.jpg"
                         alt="media"
                         className="lazy-img img-two mt-30 mb-30 lg-mt-20 lg-mb-20"
-                      />
+                      /> */}
                     </div>
                     <div className="col-6">
-                      <img
+                      {/* <img
                         src="/images/media/img_71.jpg"
                         alt="media"
                         className="lazy-img img-three mt-30 mb-30 lg-mt-20 lg-mb-20"
-                      />
+                      /> */}
                     </div>
                   </div>
                 </div>
               </div>
-              <img
+              {/* <img
                 src="/images/shape/shape_155.svg"
                 alt="shapes"
                 className="lazy-img shapes shape-one"
-              />
+              /> */}
             </div>{" "}
             {/* /.img-holder */}
           </div>
@@ -82,7 +82,7 @@ const SignUpBanner = () => {
       </div>
       {/* /.container */}
 
-      <img
+      {/* <img
         src="/images/shape/shape_156.svg"
         alt="shapes"
         className="lazy-img shapes shape-two"
@@ -91,7 +91,7 @@ const SignUpBanner = () => {
         src="/images/shape/shape_157.svg"
         alt="shapes"
         className="lazy-img shapes shape-three"
-      />
+      /> */}
     </div>
   );
 };

@@ -44,7 +44,7 @@ const Header = () => {
               href="/login"
               className="login-btn-two fw-500 d-flex align-items-center me-3 me-xl-5"
             >
-              <img src="/images/icon/icon_20.svg" alt="logo" className="me-2" />
+              {/* <img src="/images/icon/icon_20.svg" alt="logo" className="me-2" /> */}
               <span>login</span>
             </Link>
             <Link

@@ -47,11 +47,11 @@ const SeoAgency = () => {
             data-aos="fade-up"
           >
             <div className="d-lg-block">
-              <img
+              {/* <img
                 src="/images/assets/ils_02.svg"
                 alt="shape"
                 className="lazy-img m-auto"
-              />
+              /> */}
             </div>
           </div>
           {/* End .illustration-holder */}
@@ -59,7 +59,7 @@ const SeoAgency = () => {
         {/* /.container */}
 
         <div className="shapes shape-one rounded-circle" />
-        <img
+        {/* <img
           src="/images/shape/shape_83.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
@@ -74,10 +74,10 @@ const SeoAgency = () => {
           src="/images/shape/shape_85.svg"
           alt="shape"
           className="lazy-img shapes shape-five"
-        />
+        /> */}
         <div className="shapes shape-six rounded-circle" />
         <div className="shapes shape-seven rounded-circle" />
-        <img
+        {/* <img
           src="/images/shape/shape_84.svg"
           alt="shape"
           className="lazy-img shapes shape-eight"
@@ -86,7 +86,7 @@ const SeoAgency = () => {
           src="/images/shape/shape_83.svg"
           alt="shape"
           className="lazy-img shapes shape-nine"
-        />
+        /> */}
       </div>
       {/* /.hero-banner-six */}
 
@@ -167,7 +167,7 @@ const SeoAgency = () => {
         <div className="shapes shape-one rounded-circle" />
         <div className="shapes shape-two rounded-circle" />
         <div className="shapes shape-three rounded-circle" />
-        <img
+        {/* <img
           src="/images/shape/shape_88.svg"
           alt="shape"
           className="lazy-img shapes shape-four"
@@ -176,7 +176,7 @@ const SeoAgency = () => {
           src="/images/shape/shape_89.svg"
           alt="shape"
           className="lazy-img shapes shape-five"
-        />
+        /> */}
       </div>
       {/* /.fancy-feature-twentyOne */}
 
@@ -250,7 +250,7 @@ const SeoAgency = () => {
         <div className="shapes shape-four rounded-circle" />
         <div className="shapes shape-five rounded-circle" />
         <div className="shapes shape-six rounded-circle" />
-        <img
+        {/* <img
           src="/images/shape/shape_92.svg"
           alt="shape"
           className="lazy-img shapes shape-seven"
@@ -259,7 +259,7 @@ const SeoAgency = () => {
           src="/images/shape/shape_93.svg"
           alt="shape"
           className="lazy-img shapes shape-eight"
-        />
+        /> */}
       </div>
       {/* /.fancy-feature-twentyTwo */}
 
@@ -308,7 +308,7 @@ const SeoAgency = () => {
         <div className="shapes shape-one rounded-circle" />
         <div className="shapes shape-two rounded-circle" />
         <div className="shapes shape-three rounded-circle" />
-        <img
+        {/* <img
           src="/images/assets/ils_03.svg"
           alt="illustration"
           className="lazy-img shapes shape-four"
@@ -317,7 +317,7 @@ const SeoAgency = () => {
           src="/images/assets/ils_04.svg"
           alt="illustration"
           className="lazy-img shapes shape-five"
-        />
+        /> */}
       </div>
       {/* /.fancy-short-banner-three */}
 
@@ -333,7 +333,7 @@ const SeoAgency = () => {
               <div className="col-lg-2 footer-intro mb-40">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo/logo_01.png" alt="" width={95} />
+                    {/* <img src="/images/logo/logo_01.png" alt="" width={95} /> */}
                   </Link>
                 </div>
               </div>

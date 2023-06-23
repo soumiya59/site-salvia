@@ -15,11 +15,11 @@ const Leads = () => {
             data-aos-delay={index * 100}
           >
             <div className="icon">
-              <img
+              {/* <img
                 src={item.icon}
                 alt="icon shape"
                 className="lazy-img m-auto"
-              />
+              /> */}
             </div>
             <p className="text-uppercase fs-18 mt-60 lg-mt-30">{item.text}</p>
           </div>

@@ -39,7 +39,7 @@ const CallToAction = () => {
             data-aos={button.aos}
             key={index}
           >
-            <img src={button.icon} alt="icon" className="lazy-img icon" />
+            {/* <img src={button.icon} alt="icon" className="lazy-img icon" /> */}
             <div>
               <span>{button.text1}</span>
               <strong>{button.text2}</strong>

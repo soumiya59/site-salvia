@@ -51,11 +51,11 @@ const charity = () => {
         ============================================== 
         */}
       <div className="fancy-feature-fifteen  mt-140 lg-mt-70">
-        <img
+        {/* <img
           src="/images/shape/shape_76.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
-        />
+        /> */}
         <div className="container">
           <IntroAction />
           <IntroVideo />
@@ -134,7 +134,7 @@ const charity = () => {
         =====================================================
         */}
       <div className="team-section-one position-relative mt-150 pb-200 lg-mt-100 lg-pb-100">
-        <img
+        {/* <img
           src="/images/shape/shape_81.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
@@ -143,7 +143,7 @@ const charity = () => {
           src="/images/shape/shape_82.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
-        />
+        /> */}
 
         <div className="container">
           <div className="row align-items-center">

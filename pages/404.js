@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Seo from "../components/common/Seo";
+import Image from "next/image";
 import DefaulHeader from "../components/header/DefaulHeader";
 
 const Pricing = () => {
@@ -33,15 +34,15 @@ const Pricing = () => {
               </Link>
             </div>
           </div>
-          <img src="/images/assets/ils_06.svg" alt="" className="m-auto" />
+          <Image width={600} height={600} src="/images/assets/ils_06.svg" alt="" className="m-auto" />
         </div>
         {/* End .container */}
 
-        <img
+        {/* <img
           src="/images/shape/shape_178.svg"
           alt="shape"
           className="shapes shape-one w-100"
-        />
+        /> */}
       </div>
       {/* /.error-page-content */}
     </>

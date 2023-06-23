@@ -93,15 +93,15 @@ const Testimonial = () => {
                   className="icon p-3 d-flex align-items-center justify-content-center rounded-circle"
                   style={{ background: testimonial.background }}
                 >
-                  <img src={testimonial.imgSrc} alt="img" />
+                  {/* <img src={testimonial.imgSrc} alt="img" /> */}
                 </div>
                 <p className="tx-dark mt-20 pb-30">{testimonial.content}</p>
                 <div className="d-flex align-items-center">
-                  <img
+                  {/* <img
                     src={testimonial.avatarSrc}
                     alt="img"
                     className="avatar rounded-circle"
-                  />
+                  /> */}
                   <h6 className="name fs-20 fw-500 m0 ps-4">
                     {testimonial.name}
                     <span className="d-block fw-normal">

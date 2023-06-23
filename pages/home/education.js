@@ -41,7 +41,7 @@ const education = () => {
             <FeatureBlock />
           </div>
         </div>
-        <img
+        {/* <img
           src="/images/shape/shape_148.svg"
           alt="shape"
           className="shapes shape-one lazy-img"
@@ -60,7 +60,7 @@ const education = () => {
           src="/images/shape/shape_151.svg"
           alt="shape"
           className="shapes shape-four lazy-img"
-        />
+        /> */}
       </div>
       {/*
         =====================================================
@@ -123,7 +123,7 @@ const education = () => {
                 <div className="row">
                   <CourseFeatured />
                 </div>
-                <img
+                {/* <img
                   src="/images/shape/shape_152.svg"
                   alt="shape"
                   className="lazy-img shapes shape-one"
@@ -132,7 +132,7 @@ const education = () => {
                   src="/images/shape/shape_153.svg"
                   alt="shape"
                   className="lazy-img shapes shape-two"
-                />
+                /> */}
               </div>
               {/* /.wrapper */}
             </div>
@@ -149,7 +149,7 @@ const education = () => {
 		*/}
       <div className="fancy-feature-fortyTwo position-relative pt-130 pb-180 mt-180 lg-pt-80 lg-pb-80 xs-mt-120">
         <div className="rating-box">
-          <img src="/images/shape/shape_154.svg" alt="media" />
+          {/* <img src="/images/shape/shape_154.svg" alt="media" /> */}
           <div className="rate fw-500 tx-dark">
             A+ <br />
             <span>Courses</span>
@@ -237,7 +237,7 @@ const education = () => {
               <div className="col-xl-2 footer-intro mb-40">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo/logo_01.png" alt="brand" />
+                    {/* <img src="/images/logo/logo_01.png" alt="brand" /> */}
                   </Link>
                 </div>
               </div>
@@ -262,11 +262,11 @@ const education = () => {
         {/* /.bg-wrapper */}
         <CopyrightFooter2 />
         {/* /.bottom-footer */}
-        <img
+        {/* <img
           src="/images/shape/shape_158.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
-        />
+        /> */}
       </div>
       {/* /.footer-style-eleven */}
     </>

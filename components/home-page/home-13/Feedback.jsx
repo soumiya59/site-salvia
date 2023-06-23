@@ -38,12 +38,12 @@ const Feedback = () => {
       data-aos="fade-up"
     >
       <div className="container">
-        <img
+        {/* <img
           src="/images/icon/icon_92.svg"
           alt="shape"
           className="icon lazy-img m-auto"
           width={75}
-        />
+        /> */}
         <div className="row">
           <div className="col-xxl-11 col-lg-10 col-md-9 m-auto">
             <div className="feedback_slider_eight">
@@ -65,14 +65,14 @@ const Feedback = () => {
         </div>
       </div>{" "}
       {/* /.container */}
-      {images.map((image, index) => (
+      {/* {images.map((image, index) => (
         <img
           key={index}
           src={image.src}
           alt={image.alt}
           className={image.className}
         />
-      ))}
+      ))} */}
     </div>
   );
 };

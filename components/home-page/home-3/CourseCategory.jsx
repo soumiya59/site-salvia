@@ -70,7 +70,7 @@ const CourseCategory = () => {
         >
           <h3>20</h3>
           <p className="pb-20">More Category</p>
-          <img src="/images/icon/icon_134.svg" alt="" className="m-auto" />
+          {/* <img src="/images/icon/icon_134.svg" alt="" className="m-auto" /> */}
         </a>
         {/* /.card-style-eighteen */}
       </div>
